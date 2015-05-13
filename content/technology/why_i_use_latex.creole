@@ -31,11 +31,15 @@ I grew tired of that some time ago!
 
 LaTeX content is stored as simple text files - just about the oldest file format of them all! I'm guaranteed to be able to access it long into the future on any machine I'm likely to own in my lifetime.
 
-== Tools and Licence Fees
+== Tools and Tasks
 
 Since LaTeX content is stored as simple text, I can use any text editor I like to manipulate it. I can change my mind at will and not have to worry about converting anything if I move from one editor to another.
 
 Some of the best text editors out there at the moment are either free or very low cost and several have plugins that allow me to complile my LaTeX documents to PDF files with simple keystrokes within the editor itself.
+
+I use the same editor for all my technical work, so I only have to be familiar with one set of tools.
+
+LaTeX allows me to produce all kinds of documents, including presentations, so there's no additional software required when I want to throw a few slides together for a talk.
 
 == Collaboration and Version Control
 
