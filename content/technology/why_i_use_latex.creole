@@ -13,7 +13,7 @@ I don't!
 
 In fact, I don't use any kind of conventional word processor. Instead, I use what's known as a 'typesetting system' called LaTeX.
 
-You can read all about the LaTeX project on their website (http://www.latex-project.org/) and there's a fairly comprehensive description on Wikipedia (https://en.wikipedia.org/wiki/LaTeX). I thought I'd write a few simple words on why it works for me.
+You can read all about the LaTeX project on their website ([[http://www.latex-project.org/]]) and there's a fairly comprehensive description on Wikipedia ([[https://en.wikipedia.org/wiki/LaTeX]]). I thought I'd write a few simple words on why it works for me.
 
 == Style and Content
 
