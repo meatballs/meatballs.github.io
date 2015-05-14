@@ -3,6 +3,7 @@ title: Reverse Proxy for Exchange Server 2007
 slug: exchange-proxy
 tags: exchange, squid, email
 date: 2008-09-15
+status: draft
 <</header>>
 
 This article describes how to create a linux based reverse proxy for Exchange 2007 with support for Outlook Web Access (OWA), the Outlook client and ActiveSync.
