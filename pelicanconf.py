@@ -22,6 +22,7 @@ PLUGIN_PATHS = ('plugins',)
 PLUGINS = ['creole_reader', ]
 
 THEME = 'themes/pelican-bootstrap3/'
+FAVICON = 'images/favicon/favicon.ico'
 BOOTSTRAP_THEME = 'cerulean'
 DISPLAY_TAGS_ON_SIDEBAR = False
 ABOUT_ME = ("""
@@ -35,7 +36,7 @@ ABOUT_ME = ("""
     <a href='http://www.merseyweaverscouts.org.uk' target='_blank'>
     Mersey Weaver Scout District</a></li>
   </ul>""")
-AVATAR = 'images/owencampbell.jpg'
+AVATAR = 'images/favicon/favicon-310.png'
 SHARIFF = True
 SHARIFF_LANG = 'en'
 DOCUTIL_CSS = True
