@@ -24,7 +24,16 @@ PLUGINS = ['creole_reader', ]
 THEME = 'themes/pelican-bootstrap3/'
 BOOTSTRAP_THEME = 'cerulean'
 DISPLAY_TAGS_ON_SIDEBAR = False
-ABOUT_ME = 'Freelance consulting engineer.'
+ABOUT_ME = ("""
+  <ul>
+    <li>Chartered Engineer</li>
+    <li>Based near Chester, UK.</li>
+    <li>Specialises in technical leadership of software development and
+    implementation projects.</li>
+    <li>Particularly enjoys taking on projects in need of rescue!</li>
+    <li>Volunteers as District Commissioner for
+    <a href='http://www.merseyweaverscouts.org.uk' target='_blank'>Mersey Weaver Scout District</a></li>
+  </ul>""")
 AVATAR = 'images/owencampbell.jpg'
 SHARIFF = True
 SHARIFF_LANG = 'en'
