@@ -5,17 +5,15 @@ tags: exchange, squid, email
 date: 2008-09-15
 <</header>>
 
-= Overview
-
 This article describes how to create a linux based reverse proxy for Exchange 2007 with support for Outlook Web Access (OWA), the Outlook client and ActiveSync.
 
-= Why?
+== Why?
 
 There are a number of reasons why a reverse proxy might be used (e.g. load balancing, performance), but in my case, it's simple. I don't want my Exchange Server exposed directly to the internet as it's too important and I can't afford the risk of it being compromised.
 
 Instead, I'd like a dedicated machine to respond to connections from the web, forward them to the Exchange Server and then serve the repsonse back to the client: a reverse proxy.
 
-= My Options
+== My Options
 
 There are several systems available to provide the proxy service. These are the ones I considered and the logic I used to decide between them:
 
@@ -41,7 +39,7 @@ From the website, "Squid is a caching proxy for the Web supporting HTTP, HTTPS, 
 \\
 We're in business!!
 
-= Making it Work
+== Making it Work
 
 I'm not going to describe the detail of setting up a linux server with Squid. There are plenty of tutorials on the web if you're not sure. From here on, I'm assuming that you have a server available with Squid installed and running.
 
@@ -49,7 +47,7 @@ For my part, I'm using Ubuntu as my server's operating system and that causes an
 
 I'm also going to assume that you already have Exchange up and running and that OWA, Outlook and ActiveSync all work properly if you connect directly to your Exchange server.
 
-== OWA
+=== OWA
 
 First off, let's get OWA up and running. It's simpler than Outlook and allows us to get the basics working before we delve into anything more complex.
 

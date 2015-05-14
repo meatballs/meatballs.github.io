@@ -5,8 +5,6 @@ slug: pelican-starter
 date: 2014-10-03
 <</header>>
 
-= Introduction
-
 This article describes how to get a Pelican powered website up and running with minimal effort using a Vagrant virtual machine.
 
 Pelican is a static html generator for creating blog style websites from simple text files in markdown, rst or creole syntax.
@@ -15,9 +13,9 @@ Vagrant is a tool for managing isolated development environments using VirtualBo
 
 If all that means nothing to you, you might like to have a look at [[http://getpelican.com/|Pelican]], [[https://www.vagrantup.com/|Vagrant]] and [[https://www.virtualbox.org/|VirtualBox]] first!
 
-= Installation
+== Installation
 
-== Pre-Requisites
+=== Pre-Requisites
 There are four software tools which you will need on your machine for this project:
 
  * [[https://www.vagrantup.com/downloads.html|Vagrant]]
@@ -28,7 +26,7 @@ There are four software tools which you will need on your machine for this proje
 
  * [[http://www.openssh.com/|SSH]]
 
-== Setup
+=== Setup
 
  * Clone the starter project repository to your machine:
 
@@ -86,11 +84,11 @@ This will take some time. It has to download the operating system and all the to
 
  * You can issue a command directly to your vm without logging into a shell. e.g.
 
-{{{ 
+{{{
     vagrant ssh -c "cd /vagrant; make rsync_upload"
 }}}
 
- * Your vm is configured to accept ssh agent forwarding so that your local ssh keys are available to it without needing to be copied. To use it you will have to configure your local machine to do so. 
+ * Your vm is configured to accept ssh agent forwarding so that your local ssh keys are available to it without needing to be copied. To use it you will have to configure your local machine to do so.
 
  e.g. on a Mac, add the following to ~/.ssh/config:
 
