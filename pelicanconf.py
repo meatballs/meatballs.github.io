@@ -30,6 +30,8 @@ BOOTSTRAP_THEME = 'cerulean'
 DISPLAY_TAGS_ON_SIDEBAR = False
 ABOUT_ME = 'Freelance consulting engineer.'
 AVATAR = 'images/owencampbell.jpg'
+SHARIFF = True
+SHARIFF_LANG = 'en'
 SOCIAL = (
     ('Google+', 'http://plus.google.com/+OwenCampbell1'),
     ('Twitter', 'https://twitter.com/opcampbell'),
