@@ -33,6 +33,11 @@ AVATAR = 'images/owencampbell.jpg'
 SHARIFF = True
 SHARIFF_LANG = 'en'
 DOCUTIL_CSS = True
+GITHUB_USER = 'meatballs'
+GITHUB_SKIP_FORK = True
+USE_OPEN_GRAPH = True
+TWITTER_CARDS = True
+TWITTER_USERNAME = 'opcampbell'
 SOCIAL = (
     ('Google+', 'http://plus.google.com/+OwenCampbell1'),
     ('Twitter', 'https://twitter.com/opcampbell'),
