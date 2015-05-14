@@ -27,6 +27,9 @@ PLUGINS = ['creole_reader', ]
 
 THEME = 'themes/pelican-bootstrap3/'
 BOOTSTRAP_THEME = 'cerulean'
+DISPLAY_TAGS_ON_SIDEBAR = False
+ABOUT_ME = 'Freelance consulting engineer.'
+AVATAR = 'images/owencampbell.jpg'
 SOCIAL = (
     ('Google+', 'http://plus.google.com/+OwenCampbell1'),
     ('Twitter', 'https://twitter.com/opcampbell'),
