@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
 
-AUTHOR = u'Owen'
+AUTHOR = u'Owen Campbell'
 SITENAME = u'Owen Campbell'
 SITEURL = 'http://localhost:8000'
 
