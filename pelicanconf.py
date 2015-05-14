@@ -48,5 +48,4 @@ SOCIAL = (
     ('Google+', 'http://plus.google.com/+OwenCampbell1'),
     ('Twitter', 'https://twitter.com/opcampbell'),
     ('LinkedIn', 'https://www.linkedin.com/in/owencampbell'),
-    ('BitBucket', 'http://bitbucket.org/meatballs'),
     ('GitHub', 'http://github.com/meatballs'))
