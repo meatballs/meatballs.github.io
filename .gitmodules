@@ -7,3 +7,6 @@
 [submodule "provision"]
 	path = provision
 	url = https://github.com/meatballs/vagrant-provisioning.git
+[submodule "themes/pelican-bootstrap3"]
+	path = themes/pelican-bootstrap3
+	url = git@github.com:meatballs/pelican-bootstrap3.git
