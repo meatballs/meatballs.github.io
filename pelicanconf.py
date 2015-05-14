@@ -32,7 +32,8 @@ ABOUT_ME = ("""
     implementation projects.</li>
     <li>Particularly enjoys taking on projects in need of rescue!</li>
     <li>Volunteers as District Commissioner for
-    <a href='http://www.merseyweaverscouts.org.uk' target='_blank'>Mersey Weaver Scout District</a></li>
+    <a href='http://www.merseyweaverscouts.org.uk' target='_blank'>
+    Mersey Weaver Scout District</a></li>
   </ul>""")
 AVATAR = 'images/owencampbell.jpg'
 SHARIFF = True
