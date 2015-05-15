@@ -42,7 +42,7 @@ ABOUT_ME = ("""
     <a href='http://www.merseyweaverscouts.org.uk' target='_blank'>
     Mersey Weaver Scout District</a></li>
   </ul>""")
-AVATAR = 'images/favicon/favicon-310.png'
+AVATAR = '/images/favicon/favicon-310.png'
 SHARIFF = True
 SHARIFF_LANG = 'en'
 DOCUTIL_CSS = True
