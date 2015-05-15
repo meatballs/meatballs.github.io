@@ -19,7 +19,10 @@ CATEGORY_FEED_ATOM = None
 TRANSLATION_FEED_ATOM = None
 
 PLUGIN_PATHS = ('plugins',)
-PLUGINS = ['creole_reader', ]
+PLUGINS = [
+  'creole_reader',
+  'series',
+  ]
 
 THEME = 'themes/pelican-bootstrap3/'
 FAVICON = 'images/favicon/favicon.ico'

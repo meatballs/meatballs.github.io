@@ -2,6 +2,7 @@
 title: Managing Agresso Environments
 slug: managing-agresso-environments
 author: Owen Campbell
+series:  agresso_management
 tags: agresso
 date: 2014-09-26
 <</header>>
