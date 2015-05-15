@@ -1,6 +1,6 @@
 <<header>>
-title: Tiered Environments
-slug: tiered-environments
+title: Managing Agresso Environments
+slug: managing-agresso-environments
 author: Owen Campbell
 tags: agresso
 date: 2014-09-26
