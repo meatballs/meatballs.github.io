@@ -1,0 +1,19 @@
+<<header>>
+title: Tiered Environments
+slug: managing-agresso-environments-4
+author: Owen Campbell
+series: Agresso Management
+series_index: 4
+tags: agresso
+date: 2014-09-26
+<</header>>
+
+Environments are considered to exist within ‘tiers.’ The tier to which a given environment belongs defines the function that it is intended to perform. A typical set of tiers is:
+* Development - Allows an individual developer or a small team to work on a single development in isolation from other environments
+* Integration - Allows multiple developments to be combined for joint regression testing
+* Staging - Simulates the production environment to allow end user testing, training or QA testing of a release process
+* Production - The live system
+
+At any given time, there may be one, several or no environments within the first three tiers, depending on the nature of work in hand at that time.
+
+For example, where a large training programme is under way at the same time as a minor piece of development work, it is likely that there would be two environments within the staging tier, one in development and no integration environment at all.

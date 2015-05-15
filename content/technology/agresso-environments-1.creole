@@ -1,0 +1,22 @@
+<<header>>
+title: Managing Agresso Environments
+slug: managing-agresso-environments-1
+author: Owen Campbell
+series: Agresso Management
+series_index: 1
+tags: agresso
+date: 2014-09-26
+<</header>>
+
+This series of articles presents how an Agresso system may be managed in such a way as to minimise risk and provide assurance, traceability and accountability to an organisation, its managers and auditors.
+
+The objectives of the ideas presented here are:
+# To ensure that all configuration changes to a live system have been tested before deployment
+# To ensure that testing is carried out on an system that is identical to but separate from the live system
+# To ensure that all configuration changes deployed to a live system are identical to those which were tested
+# To ensure that all configuration changes deployed to a live system are recorded and can be reproduced
+
+By way of illustration, the sorts of actions that would run counter to the objectives and ideas presented here might include
+* Making minor development changes directly to a live system (objective 1)
+* Deploying configuration changes manually via the Agresso client (objectives 3 and 4)
+* Testing software and configuration changes at the same time on the same system, but deploying to live separately (objectives 2 and 3)

@@ -1,0 +1,17 @@
+<<header>>
+title: Releases and Cloning
+slug: managing-agresso-environments-5
+author: Owen Campbell
+series: Agresso Management
+series_index: 5
+tags: agresso
+date: 2014-09-26
+<</header>>
+
+A ‘release’ is a process by which a change is promoted between tiers (e.g. from Staging to Production or Development to Staging).
+
+A release package consists of a set of instructions to affect a change from a given system state. It might consist of a scripts or executables to be run within an environment, files to be deployed with instructions on their intended locations and/or manual steps to be performed within the Agresso software. Ideally, a release process should be as automated as possible so as to ensure that the change is as intended.
+
+‘Cloning’ is a process by which an environment is copied between tiers. Cloning is normally performed from the Production environment so as to ensure that testing and development starts from the same current production system state.
+
+Releases and Cloning are both mechanisms for deployment of change across the tier boundaries. Neither should ever happen between environments within the same tier.

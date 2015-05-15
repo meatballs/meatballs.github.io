@@ -1,0 +1,20 @@
+<<header>>
+title: Requirements
+slug: managing-agresso-environments-2
+author: Owen Campbell
+series: Agresso Management
+series_index: 2
+tags: agresso
+date: 2014-09-26
+<</header>>
+
+A ‘requirement’ is considered to be the definition of a change to a system requested by an end user. It could describe a defect in existing functionality, a proposed enhancement or entirely new functionality.
+
+Systems to store and manage requirements definitions typically provide the following capabilities:
+* Track a requirement through a development/testing/deployment workflow
+* Link a requirement to the technical solution which attempts to deliver it
+* Expand, clarify and refine the definition in collaboration between end users and developers
+
+Well known requirements management tools include:
+* Jira (www.atlassian.com/software/jira)
+* Trac (trac.edgewall.org)
