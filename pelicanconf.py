@@ -12,6 +12,7 @@ DEFAULT_LANG = u'en_GB'
 DEFAULT_PAGINATION = 10
 RELATIVE_URLS = True
 DISPLAY_CATEGORIES_ON_MENU = False
+DISPLAY_PAGES_ON_MENU = True
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
