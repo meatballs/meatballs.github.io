@@ -7,3 +7,13 @@ status: draft
 <</header>>
 
 This is an example of an article in creole markup.
+
+= Heading
+
+== Sub-Heading
+
+* List item
+* List item
+
+# List item
+# litst item
