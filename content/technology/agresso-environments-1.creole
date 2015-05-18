@@ -4,7 +4,7 @@ slug: managing-agresso-environments-1
 author: Owen Campbell
 series: Agresso Management
 series_index: 1
-tags: agresso
+tags: ERP, Agresso
 date: 2014-09-26
 <</header>>
 
