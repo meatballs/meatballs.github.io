@@ -11,9 +11,9 @@ TIMEZONE = 'Europe/London'
 DEFAULT_LANG = u'en_GB'
 DEFAULT_PAGINATION = 10
 RELATIVE_URLS = True
-DISPLAY_CATEGORIES_ON_MENU = False
+DISPLAY_CATEGORIES_ON_MENU = True
 DISPLAY_PAGES_ON_MENU = True
-MENUITEMS = [('Projects', '/category/projects.html')]
+# MENUITEMS = [('Projects', '/category/projects.html')]
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None

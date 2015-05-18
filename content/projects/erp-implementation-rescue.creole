@@ -3,6 +3,7 @@ title: Rescue Project - New ERP System Implementation
 slug: erp-implementation-rescue
 tags: erp, rescue
 date: 2015-05-18
+status: draft
 <</header>>
 
 The client for this project was a UK PLC with over 100 multi-national subsidiary companies.
