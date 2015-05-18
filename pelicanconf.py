@@ -13,6 +13,7 @@ DEFAULT_PAGINATION = 10
 RELATIVE_URLS = True
 DISPLAY_CATEGORIES_ON_MENU = False
 DISPLAY_PAGES_ON_MENU = True
+MENUITEMS = [('Projects', '/category/projects.html')]
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
@@ -26,7 +27,7 @@ PLUGINS = [
   ]
 
 STATIC_PATHS = ['images', 'extra/CNAME']
-EXTRA_PATH_METADATA = {'extra/CNAME': {'path': 'CNAME'},}
+EXTRA_PATH_METADATA = {'extra/CNAME': {'path': 'CNAME'}}
 
 THEME = 'themes/pelican-bootstrap3/'
 FAVICON = 'images/favicon/favicon.ico'
