@@ -46,17 +46,19 @@ clean:
 regenerate:
 	vagrant ssh -c "cd /vagrant; $(PELICAN) -r $(INPUTDIR) -o $(OUTPUTDIR) -s $(CONFFILE) $(PELICANOPTS)"
 
-publish:
+generate_published:
 	vagrant ssh -c "cd /vagrant; $(PELICAN) $(INPUTDIR) -o $(OUTPUTDIR) -s $(PUBLISHCONF) $(PELICANOPTS)"
 
-ssh_upload: publish
+ssh_upload: generate_published
 	vagrant ssh -c "cd /vagrant; scp -P $(SSH_PORT) -r $(OUTPUTDIR)/* $(SSH_USER)@$(SSH_HOST):$(SSH_TARGET_DIR)"
 
-rsync_upload: publish
+rsync_upload: generate_published
 	vagrant ssh -c "cd /vagrant; rsync -e 'ssh -p $(SSH_PORT)'' -P -rvzc --delete $(OUTPUTDIR)/ $(SSH_USER)@$(SSH_HOST):$(SSH_TARGET_DIR) --cvs-exclude"
 
-github: publish
+github: generate_published
 	vagrant ssh -c "cd /vagrant; ghp-import -b $(GITHUB_PAGES_BRANCH) $(OUTPUTDIR)"
 	git push $(GITHUB_ALIAS) $(GITHUB_PAGES_BRANCH):$(GITHUB_PUBLISH_BRANCH)
 
-.PHONY: html help clean regenerate serve devserver publish ssh_upload rsync_upload dropbox_upload ftp_upload s3_upload cf_upload github
+publish: github
+
+.PHONY: html help clean regenerate generate_published ssh_upload rsync_upload github publish
