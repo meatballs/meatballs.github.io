@@ -3,19 +3,28 @@ title: Rescue Project - New ERP System Implementation
 slug: erp-implementation-rescue
 tags: ERP, rescue
 date: 2015-05-18
-status: draft
 <</header>>
 
-The client for this project was a UK PLC with over 100 multi-national subsidiary companies.
+The client for this project was a UK PLC with over 150 multi-national subsidiary companies.
 
 They were replacing their ERP system for the whole Group and required full historical data migration at the transactional level - the new system should look like it had always been in place since the company started trading.
 
 The project was slightly under two years old and the new system was about to go live in 5 of the subsidiary companies. End-Users were raising major concerns as they tested the system and I was asked to come in and undertake a review.
 
-It quickly became apparent that the scale and complexity of the project had been grossly underestimated; in particular the data migration task.
+* It quickly became apparent that the scale and complexity of the project had been grossly underestimated; in particular the data migration task.
 
-The entire design and configuration had been left to one individual who was too inexperienced to realise how far out of his depth he had become.
+* The entire design and configuration had been left to one individual who was too inexperienced to realise how far out of his depth he had become.
 
-End Users had been consulted at the start of the project and then ignored for over 12 months when they were asked to test a system that was supposedly about to go live.
+* End Users had been consulted at the start of the project and then ignored for over 12 months when they were asked to test a system that was supposedly about to go live.
 
-The project manager was too inclined to believe that 'it will all be alright on the night' and there was generally a lack of any leadership whether that might be technical, managerial or financial.
+But, on the plus side:
+
+* The system that had been selected (and paid for) was more than capable of delivering the requirements of the organisation
+
+* Most of the project team were capable and motivated
+
+* The senior management team were adamant that the project should be completed and provided the budget to do so
+
+Over the course of the following 18 months I, and a small team of associates, successfully re-designed the configuration of the system and the data migration processes. We brought end users into the project team to test the work as it proceeded and to add to the project requirements as they saw fit.
+
+At the peak of the project go-live period, we were migrating anything up to 20 subsidiaries per week into a system that was already live for those that had already been migrated - quite a challenge!
