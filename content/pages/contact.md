@@ -3,6 +3,7 @@ Date: 2014-10-01 13:32
 Tags: pelican
 Slug: contact
 Author: Owen Campbell
+status: published
 
 <form action="//formspree.io/owen.campbell@tanti.org.uk" method="POST">
   <div class="form-group">
