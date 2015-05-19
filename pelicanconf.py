@@ -6,6 +6,10 @@ AUTHOR = u'Owen Campbell'
 SITENAME = u'Owen Campbell'
 SITEURL = 'http://localhost:8000'
 
+DEFAULT_METADATA = {
+    'status': 'draft',
+}
+
 PATH = 'content'
 TIMEZONE = 'Europe/London'
 DEFAULT_LANG = u'en_GB'

@@ -6,6 +6,7 @@ series: Agresso Management
 series_index: 5
 tags: ERP, Agresso
 date: 2014-09-26
+status: published
 <</header>>
 
 A ‘release’ is a process by which a change is promoted between tiers (e.g. from Staging to Production or Development to Staging).

@@ -6,6 +6,7 @@ series: Agresso Management
 series_index: 6
 tags: ERP, Agresso
 date: 2014-09-26
+status: published
 <</header>>
 
 Anyone working on a given environment is considered to be an ‘actor’ performing a defined ‘role.’ A typical set of roles is:

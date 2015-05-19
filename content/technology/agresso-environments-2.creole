@@ -6,6 +6,7 @@ series: Agresso Management
 series_index: 2
 tags: ERP, Agresso
 date: 2014-09-26
+status: published
 <</header>>
 
 A ‘requirement’ is considered to be the definition of a change to a system requested by an end user. It could describe a defect in existing functionality, a proposed enhancement or entirely new functionality.

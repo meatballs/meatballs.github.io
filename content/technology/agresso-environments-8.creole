@@ -6,6 +6,7 @@ series: Agresso Management
 series_index: 8
 tags: ERP, Agresso
 date: 2014-09-26
+status: published
 <</header>>
 
 In the following scenarios, we assume the existence of a production environment and one staging environment (stg1) on separate hardware.

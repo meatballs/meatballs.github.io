@@ -3,6 +3,7 @@ title: Why I use LaTeX
 tags: latex
 slug: why-i-use-latex
 date: 2015-03-20
+status: published
 <</header>>
 
 When I tell people that I don't use Microsoft Word, they are generally somewhat taken aback and then assume that, because I own a Mac rather than a Windows PC, that I just use Apple's Pages instead.

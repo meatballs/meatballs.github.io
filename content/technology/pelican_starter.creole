@@ -3,6 +3,7 @@ title: Pelican Powered Site on a Vagrant Virtual Machine
 tags: pelican, vagrant
 slug: pelican-starter
 date: 2014-10-03
+status: published
 <</header>>
 
 This article describes how to get a Pelican powered website up and running with minimal effort using a Vagrant virtual machine.

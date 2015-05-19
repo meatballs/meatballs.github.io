@@ -6,6 +6,7 @@ series: Agresso Management
 series_index: 3
 tags: ERP, Agresso
 date: 2014-09-26
+status: published
 <</header>>
 
 An ‘environment’ is considered to be all the computing resources required to provide a given system. For an Agresso system, an environment consists of:

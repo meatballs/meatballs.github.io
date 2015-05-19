@@ -6,6 +6,7 @@ series: Agresso Management
 series_index: 4
 tags: ERP, Agresso
 date: 2014-09-26
+status: published
 <</header>>
 
 Environments are considered to exist within ‘tiers.’ The tier to which a given environment belongs defines the function that it is intended to perform. A typical set of tiers is:

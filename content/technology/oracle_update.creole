@@ -2,6 +2,7 @@
 title: Oracle Update Statements
 tags: oracle, sql
 date: 2012-03-08
+status: published
 <</header>>
 
 There are several methods in Oracle SQL to update records in one table based on the content of another table.

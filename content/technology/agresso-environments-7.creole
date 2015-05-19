@@ -6,6 +6,7 @@ series: Agresso Management
 series_index: 7
 tags: ERP, Agresso
 date: 2014-09-26
+status: published
 <</header>>
 
 ‘Source Code’ is considered to be machine interpretable instructions to affect a change within the system or to provide the definition of some element within that system.
