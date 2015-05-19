@@ -3,6 +3,7 @@ title: Rescue Project - New ERP System Implementation
 slug: erp-implementation-rescue
 tags: ERP, rescue
 date: 2015-05-18
+status: published
 <</header>>
 
 The client for this project was a UK PLC with over 150 multi-national subsidiary companies.
@@ -13,17 +14,19 @@ The project was slightly under two years old and the new system was about to go 
 
 * It quickly became apparent that the scale and complexity of the project had been grossly underestimated; in particular the data migration task.
 
-* The entire design and configuration had been left to one individual who was too inexperienced to realise how far out of his depth he had become.
+* The project management had been outsourced to an organisation with almost no experience of a project of this complexity and scale.
 
-* End Users had been consulted at the start of the project and then ignored for over 12 months when they were asked to test a system that was supposedly about to go live.
+* End users had been consulted at the start of the project and then ignored for over 12 months when they were asked to test a system that was supposedly about to go live.
+
+* The entire design and configuration had been left to one individual who was too inexperienced to realise how far out of his depth he had become.
 
 But, on the plus side:
 
-* The system that had been selected (and paid for) was more than capable of delivering the requirements of the organisation
+* The system that had been selected (and paid for) was more than capable of delivering the requirements of the organisation.
 
-* Most of the project team were capable and motivated
+* Most of the project team were capable and motivated.
 
-* The senior management team were adamant that the project should be completed and provided the budget to do so
+* The senior management team were adamant that the project should be completed and provided the budget to do so.
 
 Over the course of the following 18 months I, and a small team of associates, successfully re-designed the configuration of the system and the data migration processes. We brought end users into the project team to test the work as it proceeded and to add to the project requirements as they saw fit.
 
