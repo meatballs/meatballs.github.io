@@ -48,19 +48,23 @@ ABOUT_ME = ("""
     implementation projects.</li>
     <li>Particularly enjoys taking on projects in need of rescue!</li>
     <li>Volunteers as District Commissioner for
-    <a href='http://www.merseyweaverscouts.org.uk' target='_blank'>
-    Mersey Weaver Scout District</a></li>
+    Mersey Weaver Scout District</li>
   </ul>""")
 AVATAR = '/images/favicon/favicon-310.png'
 SHARIFF = True
 SHARIFF_LANG = 'en'
 DOCUTIL_CSS = True
 USE_OPEN_GRAPH = True
-TWITTER_CARDS = True
-TWITTER_USERNAME = 'opcampbell'
-TWITTER_WIDGET_ID = '598804695734431744'
+TWITTER_CARDS = False
+# TWITTER_USERNAME = 'opcampbell'
+# TWITTER_WIDGET_ID = '598804695734431744'
 SOCIAL = (
     ('Google+', 'http://plus.google.com/+OwenCampbell1'),
     ('Twitter', 'https://twitter.com/opcampbell'),
     ('LinkedIn', 'https://www.linkedin.com/in/owencampbell'),
     ('GitHub', 'http://github.com/meatballs'))
+LINKS = (
+  ('Metrophase', 'http://www.metrophase.co.uk'),
+  ('Empiria', 'http://www.empiria.co.uk'),
+  ('Mersey Weaver Scouts', 'http://www.merseyweaverscouts.org.uk'),
+  )
