@@ -3,7 +3,7 @@ title: DjAxelrod Project Sprint at DjangoCon Europe 2015
 tags: axelrod, djaxelrod, django, python
 slug: djaxelrod-sprint
 date: 2015-05-30
-status: published
+status: draft
 <</header>>
 
 If you're at [[http://2015.djangocon.eu/code/|DjangoCon Europe]] in Cardiff next week, you should come and join in with the [[https://github.com/Axelrod-Python/DjAxelrod|DjAxelrod]] project sprints on Thursday and Friday.
