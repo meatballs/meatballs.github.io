@@ -4,7 +4,7 @@ Author: Owen Campbell
 Series: Technical Leadership
 Series_index: 2
 tags: leadership, project management
-Date: 2015-06-17
+Date: 2015-06-16
 Status: Published
 
 One vital role of the leader is to define and enforce the processes that the team will follow. I've seen more projects fail as result of getting this wrong than any other single cause.
