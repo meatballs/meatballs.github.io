@@ -8,6 +8,7 @@ SITEURL = 'http://localhost:8000'
 
 DEFAULT_METADATA = {
     'status': 'draft',
+    'author': 'Owen Campbell'
 }
 
 PATH = 'content'
