@@ -35,7 +35,7 @@ This article explains why I've started using this technology and how the signatu
 
 If I were to send a hand written letter in the post, I would sign it so that the recipient could verify that it was genuine. I believe that my email should provide at least the same level of confidence.
 
-This belief is strengthened by the prevalence of spam, phishing and other malicious attemps to use email fraudulently.
+This belief is strengthened by the prevalence of spam, phishing and other malicious attempts to use email fraudulently.
 
 === The Technology
 
@@ -49,7 +49,6 @@ There are also some very good Wikipedia articles:
 
 http://en.wikipedia.org/wiki/Pretty_Good_Privacy
 http://en.wikipedia.org/wiki/Public-key_cryptography
-Using our Signatures
 
 === Software Tools
 
@@ -57,9 +56,9 @@ In order to use my signatures, you will need a software tool which implements th
 
 The toolkit I use is based upon 'GNU Privacy Guard' which is available free of charge from http://www.gnupg.org for Windows, Linux and MacOS systems.
 
-On my windows based mahcines, I use a package called 'Gpg4win' which bundles the Gnu Privacy Guard engine with some useful utilities to integrate it into our mail system. Gpg4win is available free of charge from http://www.gpg4win.org
+On my windows based machines, I use a package called 'Gpg4win' which bundles the Gnu Privacy Guard engine with some useful utilities to integrate it into my mail system. Gpg4win is available free of charge from http://www.gpg4win.org
 
-On my Mac, I use 'GPGTools' which provides a similiar set of functionality and is available free of charge from https://gpgtools.org
+On my Mac, I use 'GPGTools' which provides a similar set of functionality and is available free of charge from https://gpgtools.org
 
 Other software implementations are listed on the Wikipedia article and will work perfectly with my signatures.
 
