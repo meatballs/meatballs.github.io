@@ -5,7 +5,7 @@ Open Response to Graham Evans MP
 :category: personal
 :slug: graham-evans-response
 :author: Owen Campbell
-:status: draft
+:status: published
 
 This is an open response to a letter from Graham Evans MP, a copy of which is
 available on this site: http://www.owencampbell.me.uk/docs/GrahamEvansLetter.pdf
