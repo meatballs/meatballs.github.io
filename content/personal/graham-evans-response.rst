@@ -59,5 +59,5 @@ refer you to the Scout Association's complaints policy: http://members.scouts.or
 You already have the contact details for my County Commissioner to whom any
 complaint should be addressed.
 
-I'd also direct you to the Scout Promise where, amongst other things, we promise to do our best
-to help other people.
+And if you don't believe that, then only one question remains: Why exactly did
+you go to the trouble of writing your letter in the first place?
