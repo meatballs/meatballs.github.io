@@ -34,10 +34,11 @@ PLUGINS = [
 STATIC_PATHS = ['images', 'docs', 'extra/CNAME']
 EXTRA_PATH_METADATA = {'extra/CNAME': {'path': 'CNAME'}}
 
-THEME = 'themes/pelican-bootstrap3/'
+# THEME = 'themes/pelican-bootstrap3/'
 FAVICON = 'images/favicon/favicon.ico'
 BOOTSTRAP_THEME = 'cerulean'
 PYGMENTS_STYLE = 'solarizedlight'
+
 DISPLAY_TAGS_ON_SIDEBAR = False
 DISPLAY_SERIES_ON_SIDEBAR = False
 SHOW_SERIES = True
