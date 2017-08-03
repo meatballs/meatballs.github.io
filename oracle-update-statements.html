@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en_gb" prefix="og: http://ogp.me/ns# fb: https://www.facebook.com/2008/fbml">
+<head>
+    <title>Oracle Update Statements - Owen Campbell</title>
+    <!-- Using the latest rendering mode for IE -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <link href="http://www.owencampbell.me.uk/images/favicon/favicon.ico" rel="icon">
+
+<link rel="canonical" href="http://www.owencampbell.me.uk/oracle-update-statements.html">
+
+        <meta name="author" content="Owen Campbell" />
+        <meta name="keywords" content="oracle,sql" />
+        <meta name="description" content="There are several methods in Oracle SQL to update records in one table based on the content of another table. Here, I give some of those methods and some guidance on where they might be most appropriate. The Basics Oracle uses a &#39;correlated subquery&#39; syntax which looks like this: UPDATE …" />
+
+        <meta property="og:site_name" content="Owen Campbell" />
+        <meta property="og:type" content="article"/>
+        <meta property="og:title" content="Oracle Update Statements"/>
+        <meta property="og:url" content="http://www.owencampbell.me.uk/oracle-update-statements.html"/>
+        <meta property="og:description" content="There are several methods in Oracle SQL to update records in one table based on the content of another table. Here, I give some of those methods and some guidance on where they might be most appropriate. The Basics Oracle uses a &#39;correlated subquery&#39; syntax which looks like this: UPDATE …"/>
+        <meta property="article:published_time" content="2012-03-08" />
+            <meta property="article:section" content="technology" />
+            <meta property="article:tag" content="oracle" />
+            <meta property="article:tag" content="sql" />
+            <meta property="article:author" content="Owen Campbell" />
+
+
+    <!-- Bootstrap -->
+        <link rel="stylesheet" href="http://www.owencampbell.me.uk/theme/css/bootstrap.cerulean.min.css" type="text/css"/>
+    <link href="http://www.owencampbell.me.uk/theme/css/font-awesome.min.css" rel="stylesheet">
+
+    <link href="http://www.owencampbell.me.uk/theme/css/pygments/solarizedlight.css" rel="stylesheet">
+        <link href="http://www.owencampbell.me.uk/theme/css/html4css1.css" rel="stylesheet">
+    <link rel="stylesheet" href="http://www.owencampbell.me.uk/theme/css/style.css" type="text/css"/>
+        <link href="http://www.owencampbell.me.uk/theme/css/shariff/shariff.min.css" rel="stylesheet">
+
+        <link href="http://www.owencampbell.me.uk/feeds/all.atom.xml" type="application/atom+xml" rel="alternate"
+              title="Owen Campbell ATOM Feed"/>
+
+        <link href="http://www.owencampbell.me.uk/feeds/all.rss.xml" type="application/rss+xml" rel="alternate"
+              title="Owen Campbell RSS Feed"/>
+
+
+        <link href="http://www.owencampbell.me.uk/feeds/technology.atom.xml" type="application/atom+xml" rel="alternate"
+              title="Owen Campbell technology ATOM Feed"/>
+
+</head>
+<body>
+
+<div class="navbar navbar-default navbar-fixed-top" role="navigation">
+	<div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a href="http://www.owencampbell.me.uk/" class="navbar-brand">
+Owen Campbell            </a>
+        </div>
+        <div class="collapse navbar-collapse navbar-ex1-collapse">
+            <ul class="nav navbar-nav">
+                         <li><a href="http://www.owencampbell.me.uk/pages/contact.html">
+                             Contact
+                          </a></li>
+                        <li >
+                            <a href="http://www.owencampbell.me.uk/category/personal.html">Personal</a>
+                        </li>
+                        <li >
+                            <a href="http://www.owencampbell.me.uk/category/projects.html">Projects</a>
+                        </li>
+                        <li class="active">
+                            <a href="http://www.owencampbell.me.uk/category/technology.html">Technology</a>
+                        </li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+</div> <!-- /.navbar -->
+<!-- Banner -->
+<!-- End Banner -->
+<div class="container">
+    <div class="row">
+        <div class="col-sm-9">
+    <section id="content">
+        <article>
+            <header class="page-header">
+                <h1>
+                    <a href="http://www.owencampbell.me.uk/oracle-update-statements.html"
+                       rel="bookmark"
+                       title="Permalink to Oracle Update Statements">
+                        Oracle Update Statements
+                    </a>
+                </h1>
+            </header>
+            <div class="entry-content">
+                <div class="panel">
+                    <div class="panel-body">
+<footer class="post-info">
+    <span class="label label-default">Date</span>
+    <span class="published">
+        <i class="fa fa-calendar"></i><time datetime="2012-03-08T00:00:00+00:00"> Thu 08 March 2012</time>
+    </span>
+
+
+
+
+
+<span class="label label-default">Tags</span>
+	<a href="http://www.owencampbell.me.uk/tag/oracle.html">oracle</a>
+        /
+	<a href="http://www.owencampbell.me.uk/tag/sql.html">sql</a>
+    
+</footer><!-- /.post-info -->                    </div>
+                </div>
+                <p>There are several methods in Oracle SQL to update records in one table based on the content of another table.</p>
+
+<p>Here, I give some of those methods and some guidance on where they might be most appropriate.</p>
+
+<h3>The Basics</h3>
+
+<p>Oracle uses a 'correlated subquery' syntax which looks like this:</p>
+
+<pre>
+UPDATE  target t
+SET t.column = s.column
+(SELECT
+FROM  source s
+WHERE s.join_column = t.join_column)
+</pre>
+
+<p>The bracketed subquery joins the source and target tables and the target table is updated with values from the source column. I've shown a simple join between the two tables using one column from each, but the WHERE clause in the subquery can be as complex as required.</p>
+
+<h3>NULLs</h3>
+
+<p>The basic syntax I've given above assumes that there is one, and only one, matching record in the source table for each target record.</p>
+
+<p>If there are records in the target table with no matching source record, Oracle will return a 'Cannot update to null' error. In other words, if it can't find a matching record in the source table (according to whatever join criteria have been used), then how can it know the value to update the target record?</p>
+
+<p>There are several ways to deal with this problem:</p>
+
+<h3>A WHERE Clause</h3>
+
+<p>The simplest method is to limit the set of target records which are to be updated:</p>
+
+<pre>
+UPDATE  target t
+SET t.column = s.column
+(SELECT
+FROM  source s
+WHERE s.join_column = t.join_column)
+WHERE t.column......
+</pre>
+
+<p>Above, I've added a simple WHERE clause to the main query (not to be confused with the WHERE clause in the subquery which joins the two tables). This simply applies a criterion to some column on the target table and limits the update to those records which meet the criterion.</p>
+
+<h3>The NVL function</h3>
+
+<p>It's not always possible to determine in advance the set of records to be updated. Often, we want to update those target records which have a matching source record and that can be a dynamic set. One simple method uses the NVL function which allows us to make a substitution when a NULL value is encountered. Here's some example code:</p>
+
+<pre>
+UPDATE  target t
+SET t.column = s.column
+NVL((SELECT
+FROM  source s
+WHERE s.join_column = t.join_column),)
+</pre>
+
+<p>This code wraps the subquery inside the NVL function so that any target records without matching source records will be updated to their current content. In other words, all matching records will be updated to the value from the source table, all other records will remain the same.</p>
+
+<p>It's worth noting that in this example, every record in the target table still updated. It's just that some of them will be updated to the same value that they already contained. This can be inefficient if only a small percentage of the target records are matched.</p>
+
+<h3>WHERE EXISTS</h3>
+
+<p>It's possible to limit the target records to precisely those matched in the source table by using the WHERE EXISTS syntax:</p>
+
+<pre>
+UPDATE  target t
+SET t.column = s.column
+(SELECT
+FROM  source s
+WHERE s.join_column = t.join_column)
+WHERE EXISTS
+(SELECT *
+FROM  s
+WHERE s.join_column = t.join_column)
+</pre>
+
+<p>This is a more complex WHERE clause than the earlier simple example, but it's the same idea; we're using a WHERE clause to limit the set of target records to be affected by the UPDATE.</p>
+
+<p>I've shown the join in the WHERE EXISTS clause to be identical to that in the original subquery. This means that the target set is limited precisely to those matching records. However, there is no reason why the EXISTS join should not return a different set, if required. If it returns a subset, it merely limits the target set further. If it returns more records than the matched set, then those null values would have to be dealt with using further WHERE clauses or the NVL function (or both!!).</p>
+
+<p>Whether the NVL function or the WHERE EXISTS method is more efficient depends entirely upon the nature and circumstances of your application (e.g. the absolute and relative size of the tables, the complexity of the joins, the uniqueness of the records, the existence of indexes). It is well worthwhile to try both and to look at the execution plan before settling on a preferred solution.</p>
+
+<h3>Inline Views</h3>
+
+<p>This is possibly my favourite method!! Although I normally try more than one solution and use the execution plan to determine my preference, it's rare that any other method beats the inline view for efficiency.</p>
+
+<p>The idea here is that we update a view rather than a table. Any joins or limitations on the set to update are performed in the view:</p>
+
+<pre>
+UPDATE
+(SELECT t.column, s.column
+FROM  target t,  source s
+WHERE s.join_column = t.join_column)
+SET t.column = s.column
+</pre>
+
+<p>There are some restrictions on whether Oracle will allow tables to be updated via a view. Essentially, each row in the view must map to one and only one record in the underlying target table or, to put it in the more common jargon, the primary key of the target table must be preserved in the view.</p>
+            </div>
+            <!-- /.entry-content -->
+    <hr />
+    <!-- Shariff Button BEGIN -->
+    <div class="shariff"
+        data-lang="en"
+        data-orientation=""
+        data-url="http://www.owencampbell.me.uk/oracle-update-statements.html"></div>
+    <!-- Shariff Button END -->
+    <hr/>
+    <section class="comments" id="comments">
+        <h2>Comments</h2>
+
+        <div id="disqus_thread"></div>
+        <script type="text/javascript">
+            /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+            var disqus_shortname = 'owencampbell'; // required: replace example with your forum shortname
+
+                    var disqus_identifier = 'oracle-update-statements';
+                var disqus_url = 'http://www.owencampbell.me.uk/oracle-update-statements.html';
+
+            var disqus_config = function () {
+                this.language = "en_gb";
+            };
+
+            /* * * DON'T EDIT BELOW THIS LINE * * */
+            (function () {
+                var dsq = document.createElement('script');
+                dsq.type = 'text/javascript';
+                dsq.async = true;
+                dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+                (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+            })();
+        </script>
+        <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by
+            Disqus.</a></noscript>
+        <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+    </section>
+        </article>
+    </section>
+
+        </div>
+        <div class="col-sm-3" id="sidebar">
+            <aside>
+<div id="aboutme">
+        <p>
+            <img width="100%" class="img-thumbnail" src="http://www.owencampbell.me.uk//images/favicon/favicon-310.png"/>
+        </p>
+    <p>
+        <strong>About Owen Campbell</strong><br/>
+        
+  <ul>
+    <li>Chartered Engineer</li>
+    <li>Based near Chester, UK.</li>
+    <li>Specialises in technical leadership of software development and
+    implementation projects.</li>
+    <li>Particularly enjoys taking on projects in need of rescue!</li>
+    <li>District Commissioner for
+    <a href="http://www.merseyweaverscouts.org.uk/">Mersey Weaver Scout District</a></li>
+    <li>Founding Trustee of the UK Python Association</li>
+  </ul>
+    </p>
+</div>
+<section class="well well-sm">
+    <ul class="list-group list-group-flush">
+            <li class="list-group-item"><h4><i class="fa fa-home fa-lg"></i><span class="icon-label">Social</span></h4>
+              <ul class="list-group" id="social">
+                <li class="list-group-item"><a href="http://plus.google.com/+OwenCampbell1"><i class="fa fa-google-plus-square fa-lg"></i> Google+</a></li>
+                <li class="list-group-item"><a href="https://twitter.com/opcampbell"><i class="fa fa-twitter-square fa-lg"></i> Twitter</a></li>
+                <li class="list-group-item"><a href="https://www.linkedin.com/in/owencampbell"><i class="fa fa-linkedin-square fa-lg"></i> LinkedIn</a></li>
+                <li class="list-group-item"><a href="http://github.com/meatballs"><i class="fa fa-github-square fa-lg"></i> GitHub</a></li>
+              </ul>
+            </li>
+
+
+
+
+
+    <li class="list-group-item"><h4><i class="fa fa-external-link-square fa-lg"></i><span class="icon-label">Links</span></h4>
+      <ul class="list-group" id="links">
+        <li class="list-group-item">
+            <a href="http://www.metrophase.co.uk" target="_blank">
+                Metrophase
+            </a>
+        </li>
+        <li class="list-group-item">
+            <a href="http://www.empiria.co.uk" target="_blank">
+                Empiria
+            </a>
+        </li>
+        <li class="list-group-item">
+            <a href="http://www.merseyweaverscouts.org.uk" target="_blank">
+                Mersey Weaver Scouts
+            </a>
+        </li>
+      </ul>
+    </li>
+    </ul>
+</section>            </aside>
+        </div>
+    </div>
+</div>
+<footer>
+   <div class="container">
+      <hr>
+      <div class="row">
+         <div class="col-xs-10">&copy; 2016 Owen Campbell
+            &middot; Powered by <a href="https://github.com/getpelican/pelican-themes/tree/master/pelican-bootstrap3" target="_blank">pelican-bootstrap3</a>,
+            <a href="http://docs.getpelican.com/" target="_blank">Pelican</a>,
+            <a href="http://getbootstrap.com" target="_blank">Bootstrap</a>         </div>
+         <div class="col-xs-2"><p class="pull-right"><i class="fa fa-arrow-up"></i> <a href="#">Back to top</a></p></div>
+      </div>
+   </div>
+</footer>
+<script src="http://www.owencampbell.me.uk/theme/js/jquery.min.js"></script>
+
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="http://www.owencampbell.me.uk/theme/js/bootstrap.min.js"></script>
+
+<!-- Enable responsive features in IE8 with Respond.js (https://github.com/scottjehl/Respond) -->
+<script src="http://www.owencampbell.me.uk/theme/js/respond.min.js"></script>
+
+    <!-- Disqus -->
+    <script type="text/javascript">
+        /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+        var disqus_shortname = 'owencampbell'; // required: replace example with your forum shortname
+
+        /* * * DON'T EDIT BELOW THIS LINE * * */
+        (function () {
+            var s = document.createElement('script');
+            s.async = true;
+            s.type = 'text/javascript';
+            s.src = '//' + disqus_shortname + '.disqus.com/count.js';
+            (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+        }());
+    </script>
+    <!-- End Disqus Code -->
+    <!-- Google Analytics -->
+    <script type="text/javascript">
+
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-55389442-1']);
+        _gaq.push(['_trackPageview']);
+
+        (function () {
+            var ga = document.createElement('script');
+            ga.type = 'text/javascript';
+            ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(ga, s);
+        })();
+    </script>
+    <!-- End Google Analytics Code -->
+
+    <!-- add shariff support -->
+    <script src="http://www.owencampbell.me.uk/theme/js/shariff.min.js"></script>
+</body>
+</html>

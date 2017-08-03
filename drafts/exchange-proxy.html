@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en_gb" prefix="og: http://ogp.me/ns# fb: https://www.facebook.com/2008/fbml">
+<head>
+    <title>Reverse Proxy for Exchange Server 2007 - Owen Campbell</title>
+    <!-- Using the latest rendering mode for IE -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <link href="http://www.owencampbell.me.uk/images/favicon/favicon.ico" rel="icon">
+
+<link rel="canonical" href="http://www.owencampbell.me.uk/drafts/exchange-proxy.html">
+
+        <meta name="author" content="Owen Campbell" />
+        <meta name="keywords" content="exchange,squid,email" />
+        <meta name="description" content="This article describes how to create a linux based reverse proxy for Exchange 2007 with support for Outlook Web Access (OWA), the Outlook client and ActiveSync. Why? There are a number of reasons why a reverse proxy might be used (e.g. load balancing, performance), but in my case, it&#39;s …" />
+
+        <meta property="og:site_name" content="Owen Campbell" />
+        <meta property="og:type" content="article"/>
+        <meta property="og:title" content="Reverse Proxy for Exchange Server 2007"/>
+        <meta property="og:url" content="http://www.owencampbell.me.uk/drafts/exchange-proxy.html"/>
+        <meta property="og:description" content="This article describes how to create a linux based reverse proxy for Exchange 2007 with support for Outlook Web Access (OWA), the Outlook client and ActiveSync. Why? There are a number of reasons why a reverse proxy might be used (e.g. load balancing, performance), but in my case, it&#39;s …"/>
+        <meta property="article:published_time" content="2008-09-15" />
+            <meta property="article:section" content="technology" />
+            <meta property="article:tag" content="exchange" />
+            <meta property="article:tag" content="squid" />
+            <meta property="article:tag" content="email" />
+            <meta property="article:author" content="Owen Campbell" />
+
+
+    <!-- Bootstrap -->
+        <link rel="stylesheet" href="http://www.owencampbell.me.uk/theme/css/bootstrap.cerulean.min.css" type="text/css"/>
+    <link href="http://www.owencampbell.me.uk/theme/css/font-awesome.min.css" rel="stylesheet">
+
+    <link href="http://www.owencampbell.me.uk/theme/css/pygments/solarizedlight.css" rel="stylesheet">
+        <link href="http://www.owencampbell.me.uk/theme/css/html4css1.css" rel="stylesheet">
+    <link rel="stylesheet" href="http://www.owencampbell.me.uk/theme/css/style.css" type="text/css"/>
+        <link href="http://www.owencampbell.me.uk/theme/css/shariff/shariff.min.css" rel="stylesheet">
+
+        <link href="http://www.owencampbell.me.uk/feeds/all.atom.xml" type="application/atom+xml" rel="alternate"
+              title="Owen Campbell ATOM Feed"/>
+
+        <link href="http://www.owencampbell.me.uk/feeds/all.rss.xml" type="application/rss+xml" rel="alternate"
+              title="Owen Campbell RSS Feed"/>
+
+
+        <link href="http://www.owencampbell.me.uk/feeds/technology.atom.xml" type="application/atom+xml" rel="alternate"
+              title="Owen Campbell technology ATOM Feed"/>
+
+</head>
+<body>
+
+<div class="navbar navbar-default navbar-fixed-top" role="navigation">
+	<div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a href="http://www.owencampbell.me.uk/" class="navbar-brand">
+Owen Campbell            </a>
+        </div>
+        <div class="collapse navbar-collapse navbar-ex1-collapse">
+            <ul class="nav navbar-nav">
+                         <li><a href="http://www.owencampbell.me.uk/pages/contact.html">
+                             Contact
+                          </a></li>
+                        <li >
+                            <a href="http://www.owencampbell.me.uk/category/personal.html">Personal</a>
+                        </li>
+                        <li >
+                            <a href="http://www.owencampbell.me.uk/category/projects.html">Projects</a>
+                        </li>
+                        <li class="active">
+                            <a href="http://www.owencampbell.me.uk/category/technology.html">Technology</a>
+                        </li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+</div> <!-- /.navbar -->
+<!-- Banner -->
+<!-- End Banner -->
+<div class="container">
+    <div class="row">
+        <div class="col-sm-9">
+    <section id="content">
+        <article>
+            <header class="page-header">
+                <h1>
+                    <a href="http://www.owencampbell.me.uk/drafts/exchange-proxy.html"
+                       rel="bookmark"
+                       title="Permalink to Reverse Proxy for Exchange Server 2007">
+                        Reverse Proxy for Exchange Server 2007
+                    </a>
+                </h1>
+            </header>
+            <div class="entry-content">
+                <div class="panel">
+                    <div class="panel-body">
+<footer class="post-info">
+    <span class="label label-default">Date</span>
+    <span class="published">
+        <i class="fa fa-calendar"></i><time datetime="2008-09-15T00:00:00+01:00"> Mon 15 September 2008</time>
+    </span>
+
+
+
+
+
+<span class="label label-default">Tags</span>
+	<a href="http://www.owencampbell.me.uk/tag/exchange.html">exchange</a>
+        /
+	<a href="http://www.owencampbell.me.uk/tag/squid.html">squid</a>
+        /
+	<a href="http://www.owencampbell.me.uk/tag/email.html">email</a>
+    
+</footer><!-- /.post-info -->                    </div>
+                </div>
+                <p>This article describes how to create a linux based reverse proxy for Exchange 2007 with support for Outlook Web Access (OWA), the Outlook client and ActiveSync.</p>
+
+<h2>Why?</h2>
+
+<p>There are a number of reasons why a reverse proxy might be used (e.g. load balancing, performance), but in my case, it's simple. I don't want my Exchange Server exposed directly to the internet as it's too important and I can't afford the risk of it being compromised.</p>
+
+<p>Instead, I'd like a dedicated machine to respond to connections from the web, forward them to the Exchange Server and then serve the repsonse back to the client: a reverse proxy.</p>
+
+<h2>My Options</h2>
+
+<p>There are several systems available to provide the proxy service. These are the ones I considered and the logic I used to decide between them:</p>
+
+<ol>
+	<li><strong>Microsoft's ISA Server or Forefront Security for Exchange Server</strong><br />
+	I'm sure either of these would have done the job admirably, but they involve spending money! If I'd been unable to get any other option working, this would have been my last resort.<br />
+	</li>
+	<li><strong>The Apache Web Server</strong> <a href="http://www.apache.org">http://www.apache.org</a><br />
+	Apache can do reverse proxying and there are a few articles on the web describing how to use it for OWA and Outlook. However, these are mostly for Exchange Server 2003.<br />
+	The main problem is that Microsoft use some non-standard technology in Outlook and Apache doesn't support it. If I only wanted OWA, then Apache would do the job, but I want Outlook to work too.<br />
+	</li>
+	<li><strong>Pound</strong> <a href="http://www.apsis.ch/pound">http://www.apsis.ch/pound</a><br />
+	From the website,  Pound is "a reverse proxy, load balancer and HTTPS front-end for Web server(s)." It has support for Microsoft's non-standard URLs and would therefore seem an ideal candidate.<br />
+	However, there's a snag!!<br />
+	Pound is designed to terminate an SSL connection and forward the decrypted request to the target web server using http. Microsoft call this 'SSL Offloading' and they have a technet article on the subject at <a href="http://technet.microsoft.com/en-us/library/bb885060.aspx">http://technet.microsoft.com/en-us/library/bb885060.aspx</a> Part way down the article, there is a note which says "Microsoft Exchange ActiveSync does not support SSL offloading" and that effectively rules out Pound for me.<br />
+	If I just wanted OWA and Outlook, then Pound would be fine, but I want ActiveSync too.<br />
+	</li>
+	<li><strong>Squid</strong> <a href="http://www.squid-cache.org">http://www.squid-cache.org</a><br />
+	From the website, "Squid is a caching proxy for the Web supporting HTTP, HTTPS, FTP, and more." It supports Microsoft's non-standard URLs and it can use either http or https to talk to the Exchange Server.<br />
+	We're in business!!</li>
+</ol>
+<h2>Making it Work</h2>
+
+<p>I'm not going to describe the detail of setting up a linux server with Squid. There are plenty of tutorials on the web if you're not sure. From here on, I'm assuming that you have a server available with Squid installed and running.</p>
+
+<p>For my part, I'm using Ubuntu as my server's operating system and that causes an extra layer of aggravation: Ubuntu's standard Squid package does not support SSL!! I've written up how to get around the problem here: Squid with SSL on Ubuntu</p>
+
+<p>I'm also going to assume that you already have Exchange up and running and that OWA, Outlook and ActiveSync all work properly if you connect directly to your Exchange server.</p>
+
+<h3>OWA</h3>
+
+<p>First off, let's get OWA up and running. It's simpler than Outlook and allows us to get the basics working before we delve into anything more complex.</p>
+
+<p>You need to sort out your SSL Certificates before we go any further. We're aiming to get OWA running from a web browser without any certificate warnings. Although OWA will work quite happily if you accept any such warnings in your browser and continue, Outlook will fail and will not give you any such warning. We're using OWA here to ensure that everything is correct before we tackle Outlook.</p>
+
+<p>On your squid server, you will need to install a server certificate and key that matches the URL you want to use to connect to Exchange. E.g. If you own 'mydomain.co.uk' and you want your OWA URL to be 'exchange.mydomain.co.uk/owa', then your certificate's Common Name must be 'exchange.mydomain.co.uk'</p>
+
+<p>You can either buy a certificate from one of the online suppliers or create your own certification authority (CA) and certificate (again, lots of tutorials on the web). Either way, in order to avoid any certificate warnings, the CA certificate must be installed on any machine that wishes to connect to Exchange. Again, this isn't strictly necessary for OWA, but it is for Outlook</p>
+
+<p>You'll also need to sort out your firewall and router. Obviously, I can't tell you how to do that, but you will need incoming https connections routed to your new proxy and https connections allowed from your proxy to your Exchange server.</p>
+
+<p>To configure squid, replace your existing squid.conf file with the following (on Ubuntu this file is /etc/squid/squid.conf):</p>
+
+<pre>
+visible_hostname &lt;hostname for this proxy server&gt;
+debug_options ALL,1
+https_port 443  cert=&lt;path to your certificate&gt; key=&lt;path to your certificate's private key&gt; \
+defaultsite=&lt;certificate's common name&gt;
+cache_peer &lt;ip address of your exchange server&gt; parent 443 0 no-query proxy-only originserver \
+login=PASS ssl sslflags=DONT_VERIFY_PEER front-end-https=on name=owaserver
+acl all src 0.0.0.0/0.0.0.0
+acl owa dstdomain &lt;certificate's common name&gt;
+cache_peer_access owaserver allow owa
+never_direct allow owa
+http_access allow owa
+http_access deny all
+miss_access allow owa
+miss_access deny all
+</pre>
+
+<p>Once squid has been restarted, you should now be able to point your browser at your proxy server and navigate to OWA without any certificate warnings.</p>
+
+<p>Once you have OWA working, you simply need another couple of lines in squid.conf to tell it that you wish to use Microsoft's non-standard technology:</p>
+
+<pre>
+extension_methods RPC_IN_DATA RPC_OUT_DATA
+</pre>
+
+<p>so your squid.conf would now be:</p>
+
+<pre>
+visible_hostname &lt;hostname for this proxy server&gt;
+debug_options ALL,1
+extension_methods RPC_IN_DATA RPC_OUT_DATA
+ttps_port 443  cert=&lt;path to your certificate&gt; key=&lt;path to your certificate's private key&gt; \
+defaultsite=&lt;certificate's common name&gt;
+cache_peer &lt;ip address of your exchange server&gt; parent 443 0 no-query proxy-only originserver \
+login=PASS ssl sslflags=DONT_VERIFY_PEER front-end-https=on name=owaserver
+acl all src 0.0.0.0/0.0.0.0
+acl owa dstdomain &lt;certificate's common name&gt;
+cache_peer_access owaserver allow owa
+never_direct allow owa
+http_access allow owa
+http_access deny all
+miss_access allow owa
+miss_access deny all
+</pre>
+
+<p>Restart squid, and you should now be able to set Outlook's http proxy options (again, lots of guidance on the web as to how) to use your new server. You should also find that your mobile devices can use the server to access ActiveSync.</p>
+            </div>
+            <!-- /.entry-content -->
+    <hr />
+    <!-- Shariff Button BEGIN -->
+    <div class="shariff"
+        data-lang="en"
+        data-orientation=""
+        data-url="http://www.owencampbell.me.uk/drafts/exchange-proxy.html"></div>
+    <!-- Shariff Button END -->
+    <hr/>
+    <section class="comments" id="comments">
+        <h2>Comments</h2>
+
+        <div id="disqus_thread"></div>
+        <script type="text/javascript">
+            /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+            var disqus_shortname = 'owencampbell'; // required: replace example with your forum shortname
+
+                    var disqus_identifier = 'exchange-proxy';
+                var disqus_url = 'http://www.owencampbell.me.uk/drafts/exchange-proxy.html';
+
+            var disqus_config = function () {
+                this.language = "en_gb";
+            };
+
+            /* * * DON'T EDIT BELOW THIS LINE * * */
+            (function () {
+                var dsq = document.createElement('script');
+                dsq.type = 'text/javascript';
+                dsq.async = true;
+                dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+                (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+            })();
+        </script>
+        <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by
+            Disqus.</a></noscript>
+        <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+    </section>
+        </article>
+    </section>
+
+        </div>
+        <div class="col-sm-3" id="sidebar">
+            <aside>
+<div id="aboutme">
+        <p>
+            <img width="100%" class="img-thumbnail" src="http://www.owencampbell.me.uk//images/favicon/favicon-310.png"/>
+        </p>
+    <p>
+        <strong>About Owen Campbell</strong><br/>
+        
+  <ul>
+    <li>Chartered Engineer</li>
+    <li>Based near Chester, UK.</li>
+    <li>Specialises in technical leadership of software development and
+    implementation projects.</li>
+    <li>Particularly enjoys taking on projects in need of rescue!</li>
+    <li>District Commissioner for
+    <a href="http://www.merseyweaverscouts.org.uk/">Mersey Weaver Scout District</a></li>
+    <li>Founding Trustee of the UK Python Association</li>
+  </ul>
+    </p>
+</div>
+<section class="well well-sm">
+    <ul class="list-group list-group-flush">
+            <li class="list-group-item"><h4><i class="fa fa-home fa-lg"></i><span class="icon-label">Social</span></h4>
+              <ul class="list-group" id="social">
+                <li class="list-group-item"><a href="http://plus.google.com/+OwenCampbell1"><i class="fa fa-google-plus-square fa-lg"></i> Google+</a></li>
+                <li class="list-group-item"><a href="https://twitter.com/opcampbell"><i class="fa fa-twitter-square fa-lg"></i> Twitter</a></li>
+                <li class="list-group-item"><a href="https://www.linkedin.com/in/owencampbell"><i class="fa fa-linkedin-square fa-lg"></i> LinkedIn</a></li>
+                <li class="list-group-item"><a href="http://github.com/meatballs"><i class="fa fa-github-square fa-lg"></i> GitHub</a></li>
+              </ul>
+            </li>
+
+
+
+
+
+    <li class="list-group-item"><h4><i class="fa fa-external-link-square fa-lg"></i><span class="icon-label">Links</span></h4>
+      <ul class="list-group" id="links">
+        <li class="list-group-item">
+            <a href="http://www.metrophase.co.uk" target="_blank">
+                Metrophase
+            </a>
+        </li>
+        <li class="list-group-item">
+            <a href="http://www.empiria.co.uk" target="_blank">
+                Empiria
+            </a>
+        </li>
+        <li class="list-group-item">
+            <a href="http://www.merseyweaverscouts.org.uk" target="_blank">
+                Mersey Weaver Scouts
+            </a>
+        </li>
+      </ul>
+    </li>
+    </ul>
+</section>            </aside>
+        </div>
+    </div>
+</div>
+<footer>
+   <div class="container">
+      <hr>
+      <div class="row">
+         <div class="col-xs-10">&copy; 2016 Owen Campbell
+            &middot; Powered by <a href="https://github.com/getpelican/pelican-themes/tree/master/pelican-bootstrap3" target="_blank">pelican-bootstrap3</a>,
+            <a href="http://docs.getpelican.com/" target="_blank">Pelican</a>,
+            <a href="http://getbootstrap.com" target="_blank">Bootstrap</a>         </div>
+         <div class="col-xs-2"><p class="pull-right"><i class="fa fa-arrow-up"></i> <a href="#">Back to top</a></p></div>
+      </div>
+   </div>
+</footer>
+<script src="http://www.owencampbell.me.uk/theme/js/jquery.min.js"></script>
+
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="http://www.owencampbell.me.uk/theme/js/bootstrap.min.js"></script>
+
+<!-- Enable responsive features in IE8 with Respond.js (https://github.com/scottjehl/Respond) -->
+<script src="http://www.owencampbell.me.uk/theme/js/respond.min.js"></script>
+
+    <!-- Disqus -->
+    <script type="text/javascript">
+        /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+        var disqus_shortname = 'owencampbell'; // required: replace example with your forum shortname
+
+        /* * * DON'T EDIT BELOW THIS LINE * * */
+        (function () {
+            var s = document.createElement('script');
+            s.async = true;
+            s.type = 'text/javascript';
+            s.src = '//' + disqus_shortname + '.disqus.com/count.js';
+            (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+        }());
+    </script>
+    <!-- End Disqus Code -->
+    <!-- Google Analytics -->
+    <script type="text/javascript">
+
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-55389442-1']);
+        _gaq.push(['_trackPageview']);
+
+        (function () {
+            var ga = document.createElement('script');
+            ga.type = 'text/javascript';
+            ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(ga, s);
+        })();
+    </script>
+    <!-- End Google Analytics Code -->
+
+    <!-- add shariff support -->
+    <script src="http://www.owencampbell.me.uk/theme/js/shariff.min.js"></script>
+</body>
+</html>

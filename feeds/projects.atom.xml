@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Owen Campbell - projects</title><link href="http://www.owencampbell.me.uk/" rel="alternate"></link><link href="http://www.owencampbell.me.uk/feeds/projects.atom.xml" rel="self"></link><id>http://www.owencampbell.me.uk/</id><updated>2015-05-18T00:00:00+01:00</updated><entry><title>Rescue Project - New ERP System Implementation</title><link href="http://www.owencampbell.me.uk/erp-implementation-rescue.html" rel="alternate"></link><published>2015-05-18T00:00:00+01:00</published><updated>2015-05-18T00:00:00+01:00</updated><author><name>Owen Campbell</name></author><id>tag:www.owencampbell.me.uk,2015-05-18:/erp-implementation-rescue.html</id><summary type="html">&lt;p&gt;The client for this project was a UK PLC with over 150 multi-national subsidiary companies.&lt;/p&gt;
+
+&lt;p&gt;They were replacing their ERP system for the whole Group and required full historical data migration at the transactional level - the new system should look like it had always been in place since the company …&lt;/p&gt;</summary><content type="html">&lt;p&gt;The client for this project was a UK PLC with over 150 multi-national subsidiary companies.&lt;/p&gt;
+
+&lt;p&gt;They were replacing their ERP system for the whole Group and required full historical data migration at the transactional level - the new system should look like it had always been in place since the company started trading.&lt;/p&gt;
+
+&lt;p&gt;The project was slightly under two years old and the new system was about to go live in 5 of the subsidiary companies. End-Users were raising major concerns as they tested the system and I was asked to come in and undertake a review.&lt;/p&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;It quickly became apparent that the scale and complexity of the project had been grossly underestimated; in particular the data migration task.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+	&lt;li&gt;The project management had been outsourced to an organisation with almost no experience of a project of this complexity and scale.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+	&lt;li&gt;End users had been consulted at the start of the project and then ignored for over 12 months when they were asked to test a system that was supposedly about to go live.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+	&lt;li&gt;The entire design and configuration had been left to one individual who was too inexperienced to realise how far out of his depth he had become.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;But, on the plus side:&lt;/p&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;The system that had been selected (and paid for) was more than capable of delivering the requirements of the organisation.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+	&lt;li&gt;Most of the project team were capable and motivated.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+	&lt;li&gt;The senior management team were adamant that the project should be completed and provided the budget to do so.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Over the course of the following 18 months I, and a small team of associates, successfully re-designed the configuration of the system and the data migration processes. We brought end users into the project team to test the work as it proceeded and to add to the project requirements as they saw fit.&lt;/p&gt;
+
+&lt;p&gt;At the peak of the project go-live period, we were migrating anything up to 20 subsidiaries per week into a system that was already live for those that had already been migrated - quite a challenge!&lt;/p&gt;</content><category term="ERP"></category><category term="rescue"></category></entry></feed>

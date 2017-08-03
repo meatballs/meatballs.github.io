@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0"><channel><title>Owen Campbell - technology</title><link>http://www.owencampbell.me.uk/</link><description></description><lastBuildDate>Wed, 17 Jun 2015 00:00:00 +0100</lastBuildDate><item><title>Style</title><link>http://www.owencampbell.me.uk/technical-leadership-3.html</link><description>&lt;p&gt;Coming soon, some thoughts on leadership style......&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Owen Campbell</dc:creator><pubDate>Wed, 17 Jun 2015 00:00:00 +0100</pubDate><guid isPermaLink="false">tag:www.owencampbell.me.uk,2015-06-17:/technical-leadership-3.html</guid><category>leadership</category><category>project management</category></item><item><title>Process</title><link>http://www.owencampbell.me.uk/technical-leadership-2.html</link><description>&lt;p&gt;One vital role of the leader is to define and enforce the processes that the team will follow. I've seen more projects fail as result of getting this wrong than any other single cause.&lt;/p&gt;
+&lt;p&gt;Do I have the definitive answer as to the process you should follow? No, I do …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Owen Campbell</dc:creator><pubDate>Tue, 16 Jun 2015 00:00:00 +0100</pubDate><guid isPermaLink="false">tag:www.owencampbell.me.uk,2015-06-16:/technical-leadership-2.html</guid><category>leadership</category><category>project management</category></item><item><title>Leading Technical Teams</title><link>http://www.owencampbell.me.uk/technical-leadership-1.html</link><description>&lt;p&gt;Over the years, I've led, and been a member of, numerous technical teams on a wide variety of projects. Based on that experience, this series of articles documents my observations on the role of the leader in that sort of team.&lt;/p&gt;
+&lt;p&gt;Firstly, some thoughts on authority...&lt;/p&gt;
+&lt;h3&gt;Says Who?&lt;/h3&gt;
+&lt;p&gt;How did …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Owen Campbell</dc:creator><pubDate>Wed, 10 Jun 2015 00:00:00 +0100</pubDate><guid isPermaLink="false">tag:www.owencampbell.me.uk,2015-06-10:/technical-leadership-1.html</guid><category>leadership</category><category>project management</category></item><item><title>DjAxelrod Project Sprint at DjangoCon Europe 2015</title><link>http://www.owencampbell.me.uk/djaxelrod-sprint.html</link><description>&lt;p&gt;If you're at &lt;a href="http://2015.djangocon.eu/code/"&gt;DjangoCon Europe&lt;/a&gt; in Cardiff next week, you should come and join in with the &lt;a href="https://github.com/Axelrod-Python/DjAxelrod"&gt;DjAxelrod&lt;/a&gt; project sprints on Thursday and Friday.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://github.com/Axelrod-Python/DjAxelrod"&gt;DjAxelrod&lt;/a&gt; is a project to build a &lt;a href="https://www.djangoproject.com/"&gt;Django&lt;/a&gt; based web application that will allow anyone to create Axelrod tournaments and to study their results.&lt;/p&gt;
+
+&lt;p&gt;But what …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Owen Campbell</dc:creator><pubDate>Sat, 30 May 2015 00:00:00 +0100</pubDate><guid isPermaLink="false">tag:www.owencampbell.me.uk,2015-05-30:/djaxelrod-sprint.html</guid><category>axelrod</category><category>djaxelrod</category><category>django</category><category>python</category></item><item><title>Why I use LaTeX</title><link>http://www.owencampbell.me.uk/why-i-use-latex.html</link><description>&lt;p&gt;When I tell people that I don't use Microsoft Word, they are generally somewhat taken aback and then assume that, because I own a Mac rather than a Windows PC, that I just use Apple's Pages instead.&lt;/p&gt;
+
+&lt;p&gt;I don't!&lt;/p&gt;
+
+&lt;p&gt;In fact, I don't use any kind of conventional word processor …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Owen Campbell</dc:creator><pubDate>Fri, 20 Mar 2015 00:00:00 +0000</pubDate><guid isPermaLink="false">tag:www.owencampbell.me.uk,2015-03-20:/why-i-use-latex.html</guid><category>latex</category></item><item><title>Pelican Powered Site on a Vagrant Virtual Machine</title><link>http://www.owencampbell.me.uk/pelican-starter.html</link><description>&lt;p&gt;This article describes how to get a Pelican powered website up and running with minimal effort using a Vagrant virtual machine.&lt;/p&gt;
+
+&lt;p&gt;Pelican is a static html generator for creating blog style websites from simple text files in markdown, rst or creole syntax.&lt;/p&gt;
+
+&lt;p&gt;Vagrant is a tool for managing isolated development …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Owen Campbell</dc:creator><pubDate>Fri, 03 Oct 2014 00:00:00 +0100</pubDate><guid isPermaLink="false">tag:www.owencampbell.me.uk,2014-10-03:/pelican-starter.html</guid><category>pelican</category><category>vagrant</category></item><item><title>Managing Agresso Environments</title><link>http://www.owencampbell.me.uk/managing-agresso-environments-1.html</link><description>&lt;p&gt;This series of articles presents how an Agresso system may be managed in such a way as to minimise risk and provide assurance, traceability and accountability to an organisation, its managers and auditors.&lt;/p&gt;
+
+&lt;p&gt;The objectives of the ideas presented here are:&lt;/p&gt;
+&lt;ol&gt;
+	&lt;li&gt;To ensure that all configuration changes to a live …&lt;/li&gt;&lt;/ol&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Owen Campbell</dc:creator><pubDate>Fri, 26 Sep 2014 00:00:00 +0100</pubDate><guid isPermaLink="false">tag:www.owencampbell.me.uk,2014-09-26:/managing-agresso-environments-1.html</guid><category>ERP</category><category>Agresso</category></item><item><title>Requirements</title><link>http://www.owencampbell.me.uk/managing-agresso-environments-2.html</link><description>&lt;p&gt;A ‘requirement’ is considered to be the definition of a change to a system requested by an end user. It could describe a defect in existing functionality, a proposed enhancement or entirely new functionality.&lt;/p&gt;
+
+&lt;p&gt;Systems to store and manage requirements definitions typically provide the following capabilities:&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Track a requirement through …&lt;/li&gt;&lt;/ul&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Owen Campbell</dc:creator><pubDate>Fri, 26 Sep 2014 00:00:00 +0100</pubDate><guid isPermaLink="false">tag:www.owencampbell.me.uk,2014-09-26:/managing-agresso-environments-2.html</guid><category>ERP</category><category>Agresso</category></item><item><title>Environments</title><link>http://www.owencampbell.me.uk/managing-agresso-environments-3.html</link><description>&lt;p&gt;An ‘environment’ is considered to be all the computing resources required to provide a given system. For an Agresso system, an environment consists of:&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;A Database Management Server (DBMS) (e.g. Microsoft SQL Server)&lt;/li&gt;
+	&lt;li&gt;An Agresso database hosted on the DBMS&lt;/li&gt;
+	&lt;li&gt;An Agresso Business World (ABW) Server installation&lt;/li&gt;
+	&lt;li&gt;An Agresso …&lt;/li&gt;&lt;/ul&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Owen Campbell</dc:creator><pubDate>Fri, 26 Sep 2014 00:00:00 +0100</pubDate><guid isPermaLink="false">tag:www.owencampbell.me.uk,2014-09-26:/managing-agresso-environments-3.html</guid><category>ERP</category><category>Agresso</category></item><item><title>Tiered Environments</title><link>http://www.owencampbell.me.uk/managing-agresso-environments-4.html</link><description>&lt;p&gt;Environments are considered to exist within ‘tiers.’ The tier to which a given environment belongs defines the function that it is intended to perform. A typical set of tiers is:&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Development - Allows an individual developer or a small team to work on a single development in isolation from other environments …&lt;/li&gt;&lt;/ul&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Owen Campbell</dc:creator><pubDate>Fri, 26 Sep 2014 00:00:00 +0100</pubDate><guid isPermaLink="false">tag:www.owencampbell.me.uk,2014-09-26:/managing-agresso-environments-4.html</guid><category>ERP</category><category>Agresso</category></item><item><title>Releases and Cloning</title><link>http://www.owencampbell.me.uk/managing-agresso-environments-5.html</link><description>&lt;p&gt;A ‘release’ is a process by which a change is promoted between tiers (e.g. from Staging to Production or Development to Staging).&lt;/p&gt;
+
+&lt;p&gt;A release package consists of a set of instructions to affect a change from a given system state. It might consist of a scripts or executables to …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Owen Campbell</dc:creator><pubDate>Fri, 26 Sep 2014 00:00:00 +0100</pubDate><guid isPermaLink="false">tag:www.owencampbell.me.uk,2014-09-26:/managing-agresso-environments-5.html</guid><category>ERP</category><category>Agresso</category></item><item><title>Actors and Roles</title><link>http://www.owencampbell.me.uk/managing-agresso-environments-6.html</link><description>&lt;p&gt;Anyone working on a given environment is considered to be an ‘actor’ performing a defined ‘role.’ A typical set of roles is:&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Owner – determines the policy and process by which anyone else is assigned any other role&lt;/li&gt;
+	&lt;li&gt;Architect – defines the hardware and software platforms on which the environment is created …&lt;/li&gt;&lt;/ul&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Owen Campbell</dc:creator><pubDate>Fri, 26 Sep 2014 00:00:00 +0100</pubDate><guid isPermaLink="false">tag:www.owencampbell.me.uk,2014-09-26:/managing-agresso-environments-6.html</guid><category>ERP</category><category>Agresso</category></item><item><title>Source Code and Version Control</title><link>http://www.owencampbell.me.uk/managing-agresso-environments-7.html</link><description>&lt;p&gt;‘Source Code’ is considered to be machine interpretable instructions to affect a change within the system or to provide the definition of some element within that system.&lt;/p&gt;
+
+&lt;p&gt;In the context of a tiered Agresso implementation, the following would all be considered as source code:&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;SQL Script to define and create …&lt;/li&gt;&lt;/ul&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Owen Campbell</dc:creator><pubDate>Fri, 26 Sep 2014 00:00:00 +0100</pubDate><guid isPermaLink="false">tag:www.owencampbell.me.uk,2014-09-26:/managing-agresso-environments-7.html</guid><category>ERP</category><category>Agresso</category></item><item><title>Scenarios</title><link>http://www.owencampbell.me.uk/managing-agresso-environments-8.html</link><description>&lt;p&gt;In the following scenarios, we assume the existence of a production environment and one staging environment (stg1) on separate hardware.&lt;/p&gt;
+
+&lt;p&gt;The purpose of these scenarios is simply to demonstrate how the principles described above might be applied to real situations.&lt;/p&gt;
+
+&lt;h3&gt;Scenario 1&lt;/h3&gt;
+
+&lt;p&gt;A new requirement has been defined for additional …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Owen Campbell</dc:creator><pubDate>Fri, 26 Sep 2014 00:00:00 +0100</pubDate><guid isPermaLink="false">tag:www.owencampbell.me.uk,2014-09-26:/managing-agresso-environments-8.html</guid><category>ERP</category><category>Agresso</category></item><item><title>Oracle Update Statements</title><link>http://www.owencampbell.me.uk/oracle-update-statements.html</link><description>&lt;p&gt;There are several methods in Oracle SQL to update records in one table based on the content of another table.&lt;/p&gt;
+
+&lt;p&gt;Here, I give some of those methods and some guidance on where they might be most appropriate.&lt;/p&gt;
+
+&lt;h3&gt;The Basics&lt;/h3&gt;
+
+&lt;p&gt;Oracle uses a 'correlated subquery' syntax which looks like this:&lt;/p&gt;
+
+&lt;pre&gt;
+UPDATE …&lt;/pre&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Owen Campbell</dc:creator><pubDate>Thu, 08 Mar 2012 00:00:00 +0000</pubDate><guid isPermaLink="false">tag:www.owencampbell.me.uk,2012-03-08:/oracle-update-statements.html</guid><category>oracle</category><category>sql</category></item><item><title>PGP Signatures on Email</title><link>http://www.owencampbell.me.uk/pgp.html</link><description>&lt;p&gt;You're probably here because you've received an email from me with an attachment called 'signature.asc' or with lines at the top similar to:&lt;/p&gt;
+
+&lt;pre&gt;
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+&lt;/pre&gt;
+
+&lt;p&gt;and a section at the bottom which looks something like:&lt;/p&gt;
+
+&lt;pre&gt;
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.9 (MingW32)
+iEYEARECAAYFAkmr2UAACgkQmnCt8c1NQ98pcACdEpZpqJYifkH0NvE6krEjzA9T …&lt;/pre&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Owen Campbell</dc:creator><pubDate>Thu, 12 Jun 2008 00:00:00 +0100</pubDate><guid isPermaLink="false">tag:www.owencampbell.me.uk,2008-06-12:/pgp.html</guid><category>pgp</category><category>email</category></item></channel></rss>
