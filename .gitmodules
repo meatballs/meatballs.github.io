@@ -1,9 +1,6 @@
 [submodule "voidy-bootstrap"]
     path = themes/voidy-bootstrap
     url = https://github.com/robulouski/voidy-bootstrap.git
-[submodule "provision"]
-	path = provision
-	url = https://github.com/meatballs/vagrant-provisioning.git
 [submodule "themes/pelican-bootstrap3"]
 	path = themes/pelican-bootstrap3
 	url = git@github.com:meatballs/pelican-bootstrap3.git
