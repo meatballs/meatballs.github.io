@@ -1,3 +1,8 @@
-pelican-vagrant-starter
-============
-Read the instructions at http://owencampbell.me.uk/pelican-starter
+owencampbell.me.uk Site
+=======================
+
+Add content in .md, .rst or .creole markdown
+
+Push to gitlab
+
+Publish to github with `make github`
