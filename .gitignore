@@ -4,3 +4,4 @@ cache
 *.pyc
 .DS_Store
 *.pid
+*.sublime-project
