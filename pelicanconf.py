@@ -49,8 +49,9 @@ ABOUT_ME = ("""
     <li>Specialises in technical leadership of software development and
     implementation projects.</li>
     <li>Particularly enjoys taking on projects in need of rescue!</li>
-    <li>Volunteers as District Commissioner for
-    Mersey Weaver Scout District</li>
+    <li>District Commissioner for
+    <a href="http://www.merseyweaverscouts.org.uk/">Mersey Weaver Scout District</a></li>
+    <li>Founding Trustee of the UK Python Association</li>
   </ul>""")
 AVATAR = '/images/favicon/favicon-310.png'
 SHARIFF = True
