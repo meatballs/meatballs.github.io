@@ -25,7 +25,7 @@ FEED_ALL_ATOM = None
 CATEGORY_FEED_ATOM = None
 TRANSLATION_FEED_ATOM = None
 
-PLUGIN_PATHS = ('plugins',)
+PLUGIN_PATHS = ('../pelican-plugins',)
 PLUGINS = [
   'creole_reader',
   'series',
@@ -34,7 +34,7 @@ PLUGINS = [
 STATIC_PATHS = ['images', 'docs', 'extra/CNAME']
 EXTRA_PATH_METADATA = {'extra/CNAME': {'path': 'CNAME'}}
 
-THEME = 'themes/pelican-bootstrap3/'
+THEME = '../pelican-themes/pelican-bootstrap3/'
 FAVICON = 'images/favicon/favicon.ico'
 BOOTSTRAP_THEME = 'cerulean'
 PYGMENTS_STYLE = 'solarizedlight'
