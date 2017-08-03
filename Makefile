@@ -13,7 +13,8 @@ SSH_PORT=22
 SSH_USER=root
 SSH_TARGET_DIR=/var/www/owencampbell.org.uk
 
-GITHUB_PAGES_BRANCH=master
+GITHUB_ALIAS=github
+GITHUB_PUBLISH_BRANCH=master
 
 DEBUG ?= 0
 ifeq ($(DEBUG), 1)
@@ -92,7 +93,6 @@ cf_upload: publish
 		cd $(OUTPUTDIR) && swift -v -A https://auth.api.rackspacecloud.com/v1.0 -U $(CLOUDFILES_USERNAME) -K $(CLOUDFILES_API_KEY) upload -c $(CLOUDFILES_CONTAINER) .
 
 github: publish
-		ghp-import -m "Generate Pelican site" -b $(GITHUB_PAGES_BRANCH) $(OUTPUTDIR)
-		git push origin $(GITHUB_PAGES_BRANCH)
+		ghp-import -m "Generate Pelican site" -p -r $(GITHUB_ALIAS) -b $(GITHUB_PAGES_BRANCH) $(OUTPUTDIR)
 
 .PHONY: html help clean regenerate serve serve-global devserver stopserver publish ssh_upload rsync_upload dropbox_upload ftp_upload s3_upload cf_upload github
