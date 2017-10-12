@@ -616,13 +616,8 @@ VoMAn1HIKzpRrnveSEizzQBLMANkh648
 
 &lt;h3&gt;Public Keys&lt;/h3&gt;
 
-&lt;p&gt;You will also need my public key which I have published on the network of PGP key servers (e.g. &lt;a href="http://pgp.mit.edu"&gt;http://pgp.mit.edu&lt;/a&gt; ). Most of the software tools will allow you to search the key servers using my email addresses although some will only allow you to search using a key's unique ID:&lt;/p&gt;
+&lt;p&gt;You will also need my public key which I have published on the network of PGP key servers (e.g. &lt;a href="http://pgp.mit.edu"&gt;http://pgp.mit.edu&lt;/a&gt; ). Most of the software tools will allow you to search the key servers using my email addresses although some will only allow you to search using a key's unique ID. Mine is BE9C2B73.&lt;/p&gt;
 
-&lt;ul&gt;
-	&lt;li&gt;F359A0DC (Personal)&lt;/li&gt;
-	&lt;li&gt;6661605B (Empiria)&lt;/li&gt;
-	&lt;li&gt;5B245EED (Mersey Weaver Scouts)&lt;/li&gt;
-&lt;/ul&gt;
 &lt;p&gt;If, for whatever reason, you are unable to retrieve the correct key, please reply to the original email and I will gladly send it to you directly.&lt;/p&gt;
 
 &lt;p&gt;Once you have your chosen toolkit installed and have obtained the public key, you should be able to verify that one of my signed messages is indeed genuine and has not been altered since it was sent.&lt;/p&gt;
