@@ -60,15 +60,12 @@ amendment to the immigration bill: &lt;a class="reference external" href="https:
 
 &lt;pre&gt;
 UPDATE …&lt;/pre&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Owen Campbell</dc:creator><pubDate>Thu, 08 Mar 2012 00:00:00 +0000</pubDate><guid isPermaLink="false">tag:www.owencampbell.me.uk,2012-03-08:/oracle-update-statements.html</guid><category>oracle</category><category>sql</category></item><item><title>PGP Signatures on Email</title><link>http://www.owencampbell.me.uk/pgp.html</link><description>&lt;p&gt;You're probably here because you've received an email from me with an attachment called 'signature.asc' or with lines at the top similar to:&lt;/p&gt;
-
-&lt;pre&gt;
------BEGIN PGP SIGNED MESSAGE-----
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;-----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA512
-&lt;/pre&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
 
 &lt;p&gt;and a section at the bottom which looks something like:&lt;/p&gt;
-
-&lt;pre&gt;
------BEGIN PGP SIGNATURE-----
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;-----BEGIN PGP SIGNATURE-----
 Version: GnuPG v1.4.9 (MingW32)
-iEYEARECAAYFAkmr2UAACgkQmnCt8c1NQ98pcACdEpZpqJYifkH0NvE6krEjzA9T …&lt;/pre&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Owen Campbell</dc:creator><pubDate>Thu, 12 Jun 2008 00:00:00 +0100</pubDate><guid isPermaLink="false">tag:www.owencampbell.me.uk,2008-06-12:/pgp.html</guid><category>pgp</category><category>email</category></item></channel></rss>
+iEYEARECAAYFAkmr2UAACgkQmnCt8c1NQ98pcACdEpZpqJYifkH0NvE6krEjzA9T …&lt;/pre&gt;&lt;/div&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Owen Campbell</dc:creator><pubDate>Thu, 12 Jun 2008 00:00:00 +0100</pubDate><guid isPermaLink="false">tag:www.owencampbell.me.uk,2008-06-12:/pgp.html</guid><category>pgp</category><category>email</category></item></channel></rss>

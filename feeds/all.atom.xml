@@ -546,84 +546,60 @@ SET t.column = s.column
 &lt;/pre&gt;
 
 &lt;p&gt;There are some restrictions on whether Oracle will allow tables to be updated via a view. Essentially, each row in the view must map to one and only one record in the underlying target table or, to put it in the more common jargon, the primary key of the target table must be preserved in the view.&lt;/p&gt;</content><category term="oracle"></category><category term="sql"></category></entry><entry><title>PGP Signatures on Email</title><link href="http://www.owencampbell.me.uk/pgp.html" rel="alternate"></link><published>2008-06-12T00:00:00+01:00</published><updated>2008-06-12T00:00:00+01:00</updated><author><name>Owen Campbell</name></author><id>tag:www.owencampbell.me.uk,2008-06-12:/pgp.html</id><summary type="html">&lt;p&gt;You're probably here because you've received an email from me with an attachment called 'signature.asc' or with lines at the top similar to:&lt;/p&gt;
-
-&lt;pre&gt;
------BEGIN PGP SIGNED MESSAGE-----
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;-----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA512
-&lt;/pre&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
 
 &lt;p&gt;and a section at the bottom which looks something like:&lt;/p&gt;
-
-&lt;pre&gt;
------BEGIN PGP SIGNATURE-----
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;-----BEGIN PGP SIGNATURE-----
 Version: GnuPG v1.4.9 (MingW32)
-iEYEARECAAYFAkmr2UAACgkQmnCt8c1NQ98pcACdEpZpqJYifkH0NvE6krEjzA9T …&lt;/pre&gt;</summary><content type="html">&lt;p&gt;You're probably here because you've received an email from me with an attachment called 'signature.asc' or with lines at the top similar to:&lt;/p&gt;
-
-&lt;pre&gt;
------BEGIN PGP SIGNED MESSAGE-----
+iEYEARECAAYFAkmr2UAACgkQmnCt8c1NQ98pcACdEpZpqJYifkH0NvE6krEjzA9T …&lt;/pre&gt;&lt;/div&gt;</summary><content type="html">&lt;p&gt;You're probably here because you've received an email from me with an attachment called 'signature.asc' or with lines at the top similar to:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;-----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA512
-&lt;/pre&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
 
 &lt;p&gt;and a section at the bottom which looks something like:&lt;/p&gt;
-
-&lt;pre&gt;
------BEGIN PGP SIGNATURE-----
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;-----BEGIN PGP SIGNATURE-----
 Version: GnuPG v1.4.9 (MingW32)
 iEYEARECAAYFAkmr2UAACgkQmnCt8c1NQ98pcACdEpZpqJYifkH0NvE6krEjzA9T
 VoMAn1HIKzpRrnveSEizzQBLMANkh648
 =acdx
 -----END PGP SIGNATURE-----
-&lt;/pre&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
 
 &lt;p&gt;The attachment, or these two blocks, form a digital signature for the message which can be used to verify that:&lt;/p&gt;
-
 &lt;ul&gt;
-	&lt;li&gt;The message genuinely came from me.&lt;/li&gt;
-	&lt;li&gt;The content of the message has not been altered&lt;/li&gt;
+&lt;li&gt;The message genuinely came from me.&lt;/li&gt;
+&lt;li&gt;The content of the message has not been altered&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;This article explains why I've started using this technology and how the signature can be used.&lt;/p&gt;
-
-&lt;h3&gt;The Requirement&lt;/h3&gt;
-
+&lt;h2&gt;The Requirement&lt;/h2&gt;
 &lt;p&gt;If I were to send a hand written letter in the post, I would sign it so that the recipient could verify that it was genuine. I believe that my email should provide at least the same level of confidence.&lt;/p&gt;
-
 &lt;p&gt;This belief is strengthened by the prevalence of spam, phishing and other malicious attempts to use email fraudulently.&lt;/p&gt;
-
-&lt;h3&gt;The Technology&lt;/h3&gt;
-
-&lt;p&gt;My signatures are produced using tools which adhere to the OpenPGP standard. Whilst there are other technologies available, I chose OpenPGP as it is mature, stable and freely available. There are a variety of software tools which adhere to the standard for all major operating systems and many of these are completely free of charge.&lt;/p&gt;
-
-&lt;p&gt;You can read more about the OpenPGP standard at &lt;a href="http://www.openpgp.org"&gt;http://www.openpgp.org&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;OpenPGP is a protocol for encrypting email using public key cryptography. It is based upon a software tool called PGP which was originally written by Phil Zimmerman and released in 1991. There is an excellent explanation of public key cryptography and PGP itself at the International PGP website: &lt;a href="http://www.pgpi.org/doc/pgpintro"&gt;http://www.pgpi.org/doc/pgpintro&lt;/a&gt;&lt;/p&gt;
-
+&lt;h2&gt;The Technology&lt;/h2&gt;
+&lt;p&gt;My signatures are produced using tools which adhere to the &lt;a href="http://www.openpgp.org"&gt;OpenPGP standard&lt;/a&gt;. Whilst there are other technologies available, I chose OpenPGP as it is mature, stable and freely available. There are a variety of software tools which adhere to the standard for all major operating systems and many of these are completely free of charge.&lt;/p&gt;
+&lt;p&gt;OpenPGP is a protocol for encrypting email using public key cryptography. It is based upon a software tool called PGP which was originally written by Phil Zimmerman and released in 1991. There is an excellent explanation of public key cryptography and PGP itself at the (International PGP website)[http://www.pgpi.org/doc/pgpintro]&lt;/p&gt;
 &lt;p&gt;There are also some very good Wikipedia articles:&lt;/p&gt;
-
-&lt;p&gt;&lt;a href="http://en.wikipedia.org/wiki/Pretty_Good_Privacy"&gt;http://en.wikipedia.org/wiki/Pretty_Good_Privacy&lt;/a&gt;&lt;br /&gt;
-&lt;a href="http://en.wikipedia.org/wiki/Public-key_cryptography"&gt;http://en.wikipedia.org/wiki/Public-key_cryptography&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3&gt;Software Tools&lt;/h3&gt;
-
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://en.wikipedia.org/wiki/Pretty_Good_Privacy"&gt;http://en.wikipedia.org/wiki/Pretty_Good_Privacy&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://en.wikipedia.org/wiki/Public-key_cryptography"&gt;http://en.wikipedia.org/wiki/Public-key_cryptography&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Software Tools&lt;/h2&gt;
 &lt;p&gt;In order to use my signatures, you will need a software tool which implements the OpenPGP standard.&lt;/p&gt;
-
-&lt;p&gt;The toolkit I use is based upon 'GNU Privacy Guard' which is available free of charge from &lt;a href="http://www.gnupg.org"&gt;http://www.gnupg.org&lt;/a&gt; for Windows, Linux and MacOS systems.&lt;/p&gt;
-
-&lt;p&gt;On my windows based machines, I use a package called 'Gpg4win' which bundles the Gnu Privacy Guard engine with some useful utilities to integrate it into my mail system. Gpg4win is available free of charge from &lt;a href="http://www.gpg4win.org"&gt;http://www.gpg4win.org&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;On my Mac, I use 'GPGTools' which provides a similar set of functionality and is available free of charge from &lt;a href="https://gpgtools.org"&gt;https://gpgtools.org&lt;/a&gt;&lt;/p&gt;
-
+&lt;p&gt;The toolkit I use is based upon &lt;a href="http://www.gnupg.org"&gt;GNU Privacy Guard&lt;/a&gt; which is available free of charge for Windows, Linux and MacOS systems.&lt;/p&gt;
+&lt;p&gt;On my windows based machines, I use &lt;a href="http://www.gpg4win.org"&gt;Gpg4win&lt;/a&gt; which bundles the Gnu Privacy Guard engine with some useful utilities to integrate it into my mail system.&lt;/p&gt;
+&lt;p&gt;On my Mac, I use &lt;a href="https://gpgtools.org"&gt;GPGTools&lt;/a&gt; which provides a similar set of functionality and is available free of charge.&lt;/p&gt;
+&lt;p&gt;On my Android phone, I use &lt;a href="https://www.openkeychain.org/"&gt;OpenKeyChain&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Other software implementations are listed on the Wikipedia article and will work perfectly with my signatures.&lt;/p&gt;
-
-&lt;h3&gt;Public Keys&lt;/h3&gt;
-
+&lt;h2&gt;Public Keys&lt;/h2&gt;
 &lt;p&gt;You will also need my public key which I have published on the network of PGP key servers (e.g. &lt;a href="http://pgp.mit.edu"&gt;http://pgp.mit.edu&lt;/a&gt; ). Most of the software tools will allow you to search the key servers using my email addresses although some will only allow you to search using a key's unique ID. Mine is BE9C2B73.&lt;/p&gt;
-
+&lt;p&gt;Some software implementations support importing keys from a QR code:&lt;/p&gt;
+&lt;p&gt;&lt;img alt="My Key" src="http://www.owencampbell.me.uk/images/be9c2b73.svg"&gt;&lt;/p&gt;
 &lt;p&gt;If, for whatever reason, you are unable to retrieve the correct key, please reply to the original email and I will gladly send it to you directly.&lt;/p&gt;
-
 &lt;p&gt;Once you have your chosen toolkit installed and have obtained the public key, you should be able to verify that one of my signed messages is indeed genuine and has not been altered since it was sent.&lt;/p&gt;
-
-&lt;h3&gt;Fully Encrypted Email&lt;/h3&gt;
-
+&lt;h2&gt;Fully Encrypted Email&lt;/h2&gt;
 &lt;p&gt;If you wish to go one stage further and use fully encrypted email to communicate with me (the equivalent of putting our correspondence in sealed envelopes), I'm happy to do so provided you use the OpenPGP standard.&lt;/p&gt;
-
 &lt;p&gt;Simply let me know that you wish to use the technology and, once we have exchanged public keys, I'll encrypt and sign the content of any email I send to you.&lt;/p&gt;</content><category term="pgp"></category><category term="email"></category></entry></feed>
