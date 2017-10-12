@@ -31,7 +31,7 @@ PLUGINS = [
   'series',
   ]
 
-STATIC_PATHS = ['images', 'docs', 'extra/CNAME']
+STATIC_PATHS = ['images', 'docs', 'extra/CNAME', 'extra/keybase.txt']
 EXTRA_PATH_METADATA = {'extra/CNAME': {'path': 'CNAME'}}
 
 THEME = '../pelican-themes/pelican-bootstrap3/'
