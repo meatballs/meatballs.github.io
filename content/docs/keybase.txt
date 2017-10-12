@@ -1,0 +1,55 @@
+==================================================================
+https://keybase.io/owenc
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://owencampbell.me.uk
+  * I am owenc (https://keybase.io/owenc) on keybase.
+  * I have a public key ASB1cQJiaOPwIZwktEWuEwqqAFtkxW_jus4LiuDrSQYOaQo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "01207571026268e3f0219c24b445ae130aaa005b64c56fe3bace0b8ae0eb49060e690a",
+      "host": "keybase.io",
+      "kid": "01207571026268e3f0219c24b445ae130aaa005b64c56fe3bace0b8ae0eb49060e690a",
+      "uid": "4228f82e5377a8320bb7612177eda019",
+      "username": "owenc"
+    },
+    "merkle_root": {
+      "ctime": 1507809852,
+      "hash": "36b36279562483ba7c16bc50007f6bd8a9dc249cc84f93704474fdb1fbe0be45b7aefb022bff63c588b6fa6c75cee4d2a2528554de9de354e4974ddac8ccc266",
+      "hash_meta": "7400e56b8ddb3bb69afd8518785a75f233461ded01b408165348d66ebbf5a073",
+      "seqno": 1564774
+    },
+    "service": {
+      "hostname": "owencampbell.me.uk",
+      "protocol": "http:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "1.0.33"
+  },
+  "ctime": 1507809880,
+  "expire_in": 504576000,
+  "prev": "5f61fa6d96ee97f5f7b6b2140c732b9bd738f5f9e76b7ac2191fec1fbfe5f07c",
+  "seqno": 9,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgdXECYmjj8CGcJLRFrhMKqgBbZMVv47rOC4rg60kGDmkKp3BheWxvYWTFA0Z7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTIwNzU3MTAyNjI2OGUzZjAyMTljMjRiNDQ1YWUxMzBhYWEwMDViNjRjNTZmZTNiYWNlMGI4YWUwZWI0OTA2MGU2OTBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwNzU3MTAyNjI2OGUzZjAyMTljMjRiNDQ1YWUxMzBhYWEwMDViNjRjNTZmZTNiYWNlMGI4YWUwZWI0OTA2MGU2OTBhIiwidWlkIjoiNDIyOGY4MmU1Mzc3YTgzMjBiYjc2MTIxNzdlZGEwMTkiLCJ1c2VybmFtZSI6Im93ZW5jIn0sIm1lcmtsZV9yb290Ijp7ImN0aW1lIjoxNTA3ODA5ODUyLCJoYXNoIjoiMzZiMzYyNzk1NjI0ODNiYTdjMTZiYzUwMDA3ZjZiZDhhOWRjMjQ5Y2M4NGY5MzcwNDQ3NGZkYjFmYmUwYmU0NWI3YWVmYjAyMmJmZjYzYzU4OGI2ZmE2Yzc1Y2VlNGQyYTI1Mjg1NTRkZTlkZTM1NGU0OTc0ZGRhYzhjY2MyNjYiLCJoYXNoX21ldGEiOiI3NDAwZTU2YjhkZGIzYmI2OWFmZDg1MTg3ODVhNzVmMjMzNDYxZGVkMDFiNDA4MTY1MzQ4ZDY2ZWJiZjVhMDczIiwic2Vxbm8iOjE1NjQ3NzR9LCJzZXJ2aWNlIjp7Imhvc3RuYW1lIjoib3dlbmNhbXBiZWxsLm1lLnVrIiwicHJvdG9jb2wiOiJodHRwOiJ9LCJ0eXBlIjoid2ViX3NlcnZpY2VfYmluZGluZyIsInZlcnNpb24iOjF9LCJjbGllbnQiOnsibmFtZSI6ImtleWJhc2UuaW8gZ28gY2xpZW50IiwidmVyc2lvbiI6IjEuMC4zMyJ9LCJjdGltZSI6MTUwNzgwOTg4MCwiZXhwaXJlX2luIjo1MDQ1NzYwMDAsInByZXYiOiI1ZjYxZmE2ZDk2ZWU5N2Y1ZjdiNmIyMTQwYzczMmI5YmQ3MzhmNWY5ZTc2YjdhYzIxOTFmZWMxZmJmZTVmMDdjIiwic2Vxbm8iOjksInRhZyI6InNpZ25hdHVyZSJ9o3NpZ8RA6M4kojBjaoCDGpTjPLWjiFbrfOLGE1ZWvdd+IX1Guy4+SZxKIrX5VRmV/IdTe+4eLDTOKN6FtXU75IKCIPGJDqhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEILWqx5aoRMwj6ARGnZVBTqi3eT0+NH7kHdPr07W+z3h4o3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/owenc
+
+==================================================================
