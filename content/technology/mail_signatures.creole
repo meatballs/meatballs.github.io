@@ -64,11 +64,7 @@ Other software implementations are listed on the Wikipedia article and will work
 
 === Public Keys
 
-You will also need my public key which I have published on the network of PGP key servers (e.g. http://pgp.mit.edu ). Most of the software tools will allow you to search the key servers using my email addresses although some will only allow you to search using a key's unique ID:
-
-* F359A0DC (Personal)
-* 6661605B (Empiria)
-* 5B245EED (Mersey Weaver Scouts)
+You will also need my public key which I have published on the network of PGP key servers (e.g. http://pgp.mit.edu ). Most of the software tools will allow you to search the key servers using my email addresses although some will only allow you to search using a key's unique ID. Mine is BE9C2B73.
 
 If, for whatever reason, you are unable to retrieve the correct key, please reply to the original email and I will gladly send it to you directly.
 
