@@ -32,7 +32,7 @@ PLUGINS = [
   ]
 
 STATIC_PATHS = ['images', 'docs', 'extra/CNAME', 'extra/keybase.txt']
-EXTRA_PATH_METADATA = {'extra/CNAME': {'path': 'CNAME'}, 'extra.keybase.txt': {'path': 'keybase.txt'}}
+EXTRA_PATH_METADATA = {'extra/CNAME': {'path': 'CNAME'}, 'extra/keybase.txt': {'path': 'keybase.txt'}}
 
 THEME = '../pelican-themes/pelican-bootstrap3/'
 FAVICON = 'images/favicon/favicon.ico'
