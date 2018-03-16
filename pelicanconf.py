@@ -62,7 +62,6 @@ TWITTER_CARDS = False
 # TWITTER_USERNAME = 'opcampbell'
 # TWITTER_WIDGET_ID = '598804695734431744'
 SOCIAL = (
-    ('Google+', 'http://plus.google.com/+OwenCampbell1'),
     ('Twitter', 'https://twitter.com/opcampbell'),
     ('LinkedIn', 'https://www.linkedin.com/in/owencampbell'),
     ('GitHub', 'http://github.com/meatballs'))
