@@ -8,7 +8,7 @@ Scouts and Facebook Groups
 :status: published
 
 The views expressed in this article are my own and do not represent the views
-of any part of theUK Scout Association, including Mersey Weaver Scout District.
+of any part of the UK Scout Association, including Mersey Weaver Scout District.
 
 Over they last few years, many Scout Groups, Explorer Units and other parts of
 the Scout movement in the UK have used Facebook groups and pages for team
