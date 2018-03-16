@@ -51,8 +51,6 @@ ABOUT_ME = ("""
     implementation projects.</li>
     <li>Particularly enjoys taking on projects in need of rescue!</li>
     <li>Python Enthusiast</li>
-    <li>District Commissioner for
-    <a href="http://www.merseyweaverscouts.org.uk/">Mersey Weaver Scout District</a></li>
     <li>Founding Trustee of the UK Python Association</li>
   </ul>""")
 AVATAR = '/images/favicon/favicon-310.png'
@@ -70,6 +68,4 @@ SOCIAL = (
     ('GitHub', 'http://github.com/meatballs'))
 LINKS = (
   ('Metrophase', 'http://www.metrophase.co.uk'),
-  ('Empiria', 'http://www.empiria.co.uk'),
-  ('Mersey Weaver Scouts', 'http://www.merseyweaverscouts.org.uk'),
-  )
+  ('Empiria', 'http://www.empiria.co.uk'))
