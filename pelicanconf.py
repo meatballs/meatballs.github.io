@@ -44,6 +44,7 @@ DISPLAY_SERIES_ON_SIDEBAR = False
 SHOW_SERIES = True
 ABOUT_ME = ("""
   <ul>
+    <li>Freelancer, available for hire</li>
     <li>Chartered Engineer</li>
     <li>Based near Chester, UK.</li>
     <li>Specialises in technical leadership of software development and
