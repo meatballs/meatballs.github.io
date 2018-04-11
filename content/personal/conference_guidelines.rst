@@ -24,18 +24,6 @@ willing to attend.
 
 Here's what I look for when deciding:
 
-Code of Conduct
----------------
-
-I want to see that there is one, that it's prominent on the event's website
-and I want to see evidence that some thought and effort has gone into
-producing it. I want to see how to report incidents that might
-breach the COC and the procedure for dealing with those reports.
-
-I don't want to see links to COCs from other events. I don't want to see a
-COC that's obviously been copied from elsewhere and I don't want to have to
-hunt to find it.
-
 Diversity
 ---------
 
@@ -71,3 +59,15 @@ want to see evidence that their provision is taken seriously.
 
 I want to see some form of financial assistance scheme in place and I want
 to see that the process for applying is clear, prominent and confidential.
+
+Code of Conduct
+---------------
+
+I want to see that there is one, that it's prominent on the event's website
+and I want to see evidence that some thought and effort has gone into
+producing it. I want to see how to report incidents that might
+breach the COC and the procedure for dealing with those reports.
+
+I don't want to see links to COCs from other events. I don't want to see a
+COC that's obviously been copied from elsewhere and I don't want to have to
+hunt to find it.
