@@ -39,7 +39,7 @@ hunt to find it.
 Diversity
 ---------
 
-In no particular order, I'm white, male, able-bodied andheterosexual. I was
+In no particular order, I'm white, male, able-bodied and heterosexual. I was
 born and raised in the UK within a family of relative wealth and I'm happily
 married with children of my own.
 
