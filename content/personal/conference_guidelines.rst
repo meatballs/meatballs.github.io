@@ -39,9 +39,9 @@ hunt to find it.
 Diversity
 ---------
 
-In no particular order, I'm white, I'm male, I'm able bodied and I'm
-heterosexual. I was born and raised in the UK within a family of relative
-wealth and I'm happily married with children of my own.
+In no particular order, I'm white, male, able-bodied andheterosexual. I was
+born and raised in the UK within a family of relative wealth and I'm happily
+married with children of my own.
 
 I have absolutely no interest in attending an event full of people just like
 me. I especially don't want to hear from speakers who are all just like me.
