@@ -7,7 +7,7 @@ My Conference Attendance Guidelines
 :author: Owen Campbell
 :status: published
 
-I regularly attend techinical conferences in order to learn, make new contacts
+I regularly attend technical conferences in order to learn, make new contacts
 and generally participate in whatever community that conference represents.
 
 Over the years, I have found that the best way to increase my chances of making
@@ -48,7 +48,7 @@ Inclusivity
 
 The kind of diversity I'm looking for doesn't happen by accident. It only
 happens when the organisers of an event put time and effort in making anyone
-and everyone feel welcome and comfortable. It requires organises to think
+and everyone feel welcome and comfortable. It requires organisers to think
 about the needs of people from many backgrounds and to take action to fulfil
 those needs.
 
