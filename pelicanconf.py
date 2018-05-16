@@ -66,5 +66,5 @@ SOCIAL = (
     ('LinkedIn', 'https://www.linkedin.com/in/owencampbell'),
     ('GitHub', 'http://github.com/meatballs'))
 LINKS = (
-  ('Metrophase', 'http://www.metrophase.co.uk'),
+  ('SQL Python Tutorial', 'http://owencampbell.me.uk/sql_python_tutorial'),
   ('Empiria', 'http://www.empiria.co.uk'))
