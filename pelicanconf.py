@@ -64,7 +64,7 @@ TWITTER_CARDS = False
 SOCIAL = (
     ('Twitter', 'https://twitter.com/opcampbell'),
     ('LinkedIn', 'https://www.linkedin.com/in/owencampbell'),
-    ('GitHub', 'http://github.com/meatballs'))
+    ('GitHub', 'https://github.com/meatballs'))
 LINKS = (
-  ('SQL Python Tutorial', 'http://owencampbell.me.uk/sql_python_tutorial'),
-  ('Empiria', 'http://www.empiria.co.uk'))
+  ('SQL Python Tutorial', 'https://owencampbell.me.uk/sql_python_tutorial'),
+  ('Empiria', 'https://www.empiria.co.uk'))
