@@ -8,9 +8,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 
-    <link href="http://www.owencampbell.me.uk/images/favicon/favicon.ico" rel="icon">
+    <link href="https://www.owencampbell.me.uk/images/favicon/favicon.ico" rel="icon">
 
-<link rel="canonical" href="http://www.owencampbell.me.uk/drafts/exchange-proxy.html">
+<link rel="canonical" href="https://www.owencampbell.me.uk/drafts/exchange-proxy.html">
 
         <meta name="author" content="Owen Campbell" />
         <meta name="keywords" content="exchange,squid,email" />
@@ -19,7 +19,7 @@
         <meta property="og:site_name" content="Owen Campbell" />
         <meta property="og:type" content="article"/>
         <meta property="og:title" content="Reverse Proxy for Exchange Server 2007"/>
-        <meta property="og:url" content="http://www.owencampbell.me.uk/drafts/exchange-proxy.html"/>
+        <meta property="og:url" content="https://www.owencampbell.me.uk/drafts/exchange-proxy.html"/>
         <meta property="og:description" content="This article describes how to create a linux based reverse proxy for Exchange 2007 with support for Outlook Web Access (OWA), the Outlook client and ActiveSync. Why? There are a number of reasons why a reverse proxy might be used (e.g. load balancing, performance), but in my case, it&#39;s …"/>
         <meta property="article:published_time" content="2008-09-15" />
             <meta property="article:section" content="technology" />
@@ -30,22 +30,22 @@
 
 
     <!-- Bootstrap -->
-        <link rel="stylesheet" href="http://www.owencampbell.me.uk/theme/css/bootstrap.cerulean.min.css" type="text/css"/>
-    <link href="http://www.owencampbell.me.uk/theme/css/font-awesome.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://www.owencampbell.me.uk/theme/css/bootstrap.cerulean.min.css" type="text/css"/>
+    <link href="https://www.owencampbell.me.uk/theme/css/font-awesome.min.css" rel="stylesheet">
 
-    <link href="http://www.owencampbell.me.uk/theme/css/pygments/solarizedlight.css" rel="stylesheet">
-        <link href="http://www.owencampbell.me.uk/theme/css/html4css1.css" rel="stylesheet">
-    <link rel="stylesheet" href="http://www.owencampbell.me.uk/theme/css/style.css" type="text/css"/>
-        <link href="http://www.owencampbell.me.uk/theme/css/shariff/shariff.min.css" rel="stylesheet">
+    <link href="https://www.owencampbell.me.uk/theme/css/pygments/solarizedlight.css" rel="stylesheet">
+        <link href="https://www.owencampbell.me.uk/theme/css/html4css1.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://www.owencampbell.me.uk/theme/css/style.css" type="text/css"/>
+        <link href="https://www.owencampbell.me.uk/theme/css/shariff/shariff.min.css" rel="stylesheet">
 
-        <link href="http://www.owencampbell.me.uk/feeds/all.atom.xml" type="application/atom+xml" rel="alternate"
+        <link href="https://www.owencampbell.me.uk/feeds/all.atom.xml" type="application/atom+xml" rel="alternate"
               title="Owen Campbell ATOM Feed"/>
 
-        <link href="http://www.owencampbell.me.uk/feeds/all.rss.xml" type="application/rss+xml" rel="alternate"
+        <link href="https://www.owencampbell.me.uk/feeds/all.rss.xml" type="application/rss+xml" rel="alternate"
               title="Owen Campbell RSS Feed"/>
 
 
-        <link href="http://www.owencampbell.me.uk/feeds/technology.atom.xml" type="application/atom+xml" rel="alternate"
+        <link href="https://www.owencampbell.me.uk/feeds/technology.atom.xml" type="application/atom+xml" rel="alternate"
               title="Owen Campbell technology ATOM Feed"/>
 
 </head>
@@ -60,22 +60,22 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a href="http://www.owencampbell.me.uk/" class="navbar-brand">
+            <a href="https://www.owencampbell.me.uk/" class="navbar-brand">
 Owen Campbell            </a>
         </div>
         <div class="collapse navbar-collapse navbar-ex1-collapse">
             <ul class="nav navbar-nav">
-                         <li><a href="http://www.owencampbell.me.uk/pages/contact.html">
+                         <li><a href="https://www.owencampbell.me.uk/pages/contact.html">
                              Contact
                           </a></li>
                         <li >
-                            <a href="http://www.owencampbell.me.uk/category/personal.html">Personal</a>
+                            <a href="https://www.owencampbell.me.uk/category/personal.html">Personal</a>
                         </li>
                         <li >
-                            <a href="http://www.owencampbell.me.uk/category/projects.html">Projects</a>
+                            <a href="https://www.owencampbell.me.uk/category/projects.html">Projects</a>
                         </li>
                         <li class="active">
-                            <a href="http://www.owencampbell.me.uk/category/technology.html">Technology</a>
+                            <a href="https://www.owencampbell.me.uk/category/technology.html">Technology</a>
                         </li>
             </ul>
             <ul class="nav navbar-nav navbar-right">
@@ -93,7 +93,7 @@ Owen Campbell            </a>
         <article>
             <header class="page-header">
                 <h1>
-                    <a href="http://www.owencampbell.me.uk/drafts/exchange-proxy.html"
+                    <a href="https://www.owencampbell.me.uk/drafts/exchange-proxy.html"
                        rel="bookmark"
                        title="Permalink to Reverse Proxy for Exchange Server 2007">
                         Reverse Proxy for Exchange Server 2007
@@ -114,11 +114,11 @@ Owen Campbell            </a>
 
 
 <span class="label label-default">Tags</span>
-	<a href="http://www.owencampbell.me.uk/tag/exchange.html">exchange</a>
+	<a href="https://www.owencampbell.me.uk/tag/exchange.html">exchange</a>
         /
-	<a href="http://www.owencampbell.me.uk/tag/squid.html">squid</a>
+	<a href="https://www.owencampbell.me.uk/tag/squid.html">squid</a>
         /
-	<a href="http://www.owencampbell.me.uk/tag/email.html">email</a>
+	<a href="https://www.owencampbell.me.uk/tag/email.html">email</a>
     
 </footer><!-- /.post-info -->                    </div>
                 </div>
@@ -227,7 +227,7 @@ miss_access deny all
     <div class="shariff"
         data-lang="en"
         data-orientation=""
-        data-url="http://www.owencampbell.me.uk/drafts/exchange-proxy.html"></div>
+        data-url="https://www.owencampbell.me.uk/drafts/exchange-proxy.html"></div>
     <!-- Shariff Button END -->
     <hr/>
     <section class="comments" id="comments">
@@ -239,7 +239,7 @@ miss_access deny all
             var disqus_shortname = 'owencampbell'; // required: replace example with your forum shortname
 
                     var disqus_identifier = 'exchange-proxy';
-                var disqus_url = 'http://www.owencampbell.me.uk/drafts/exchange-proxy.html';
+                var disqus_url = 'https://www.owencampbell.me.uk/drafts/exchange-proxy.html';
 
             var disqus_config = function () {
                 this.language = "en_gb";
@@ -267,7 +267,7 @@ miss_access deny all
             <aside>
 <div id="aboutme">
         <p>
-            <img width="100%" class="img-thumbnail" src="http://www.owencampbell.me.uk//images/favicon/favicon-310.png"/>
+            <img width="100%" class="img-thumbnail" src="https://www.owencampbell.me.uk//images/favicon/favicon-310.png"/>
         </p>
     <p>
         <strong>About Owen Campbell</strong><br/>
@@ -329,13 +329,13 @@ miss_access deny all
       </div>
    </div>
 </footer>
-<script src="http://www.owencampbell.me.uk/theme/js/jquery.min.js"></script>
+<script src="https://www.owencampbell.me.uk/theme/js/jquery.min.js"></script>
 
 <!-- Include all compiled plugins (below), or include individual files as needed -->
-<script src="http://www.owencampbell.me.uk/theme/js/bootstrap.min.js"></script>
+<script src="https://www.owencampbell.me.uk/theme/js/bootstrap.min.js"></script>
 
 <!-- Enable responsive features in IE8 with Respond.js (https://github.com/scottjehl/Respond) -->
-<script src="http://www.owencampbell.me.uk/theme/js/respond.min.js"></script>
+<script src="https://www.owencampbell.me.uk/theme/js/respond.min.js"></script>
 
     <!-- Disqus -->
     <script type="text/javascript">
@@ -371,6 +371,6 @@ miss_access deny all
     <!-- End Google Analytics Code -->
 
     <!-- add shariff support -->
-    <script src="http://www.owencampbell.me.uk/theme/js/shariff.min.js"></script>
+    <script src="https://www.owencampbell.me.uk/theme/js/shariff.min.js"></script>
 </body>
 </html>
