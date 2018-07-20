@@ -18,30 +18,30 @@ Ingredients
 For the filling
 ***************
 
-1 kg apples,  Goudrenet is the traditional dutch variety. I use Bramleys. Granny Smith would probably be ok
-Juice of 1 medium-sized lemon, freshly squeezed
-70 g caster sugar
-1 tsp ground cinnamon
-50 g sultanas
+* 1 kg apples,  Goudrenet is the traditional dutch variety. I use Bramleys. Granny Smith would probably be ok
+* Juice of 1 medium-sized lemon, freshly squeezed
+* 70 g caster sugar
+* 1 tsp ground cinnamon
+* 50 g sultanas
 
 For the dough
 *************
 
-175 g unsalted butter, at room temperature, plus extra for greasing the pan
-175 g all-purpose flour
-175 g self-raising flour
-175 g caster sugar
-1 large egg
-½ tsp lemon zest, freshly grated
-1 Tbsp water
-Pinch of salt
-3 Tbsp dried breadcrumbs
+* 175 g unsalted butter, at room temperature, plus extra for greasing the pan
+* 175 g all-purpose flour
+* 175 g self-raising flour
+* 175 g caster sugar
+* 1 large egg
+* ½ tsp lemon zest, freshly grated
+* 1 Tbsp water
+* Pinch of salt
+* 3 Tbsp dried breadcrumbs
 
 For the glaze
 *************
 
-70 g apricot jam
-30 ml (2 Tbsp) brandy (or water)
+* 70 g apricot jam
+* 30 ml (2 Tbsp) brandy (or water)
 
 Method
 ------
