@@ -21,7 +21,7 @@ For the filling
 * 1 kg apples,  Goudrenet is the traditional dutch variety. I use Bramleys. Granny Smith would probably be ok
 * Juice of 1 medium-sized lemon, freshly squeezed
 * 70 g caster sugar
-* 1 tsp ground cinnamon
+* 2 tsp ground cinnamon
 * 50 g sultanas
 
 For the dough
