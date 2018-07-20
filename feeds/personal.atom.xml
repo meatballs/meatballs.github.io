@@ -1,22 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom"><title>Owen Campbell - personal</title><link href="https://www.owencampbell.me.uk/" rel="alternate"></link><link href="https://www.owencampbell.me.uk/feeds/personal.atom.xml" rel="self"></link><id>https://www.owencampbell.me.uk/</id><updated>2018-07-20T00:00:00+01:00</updated><entry><title>Dutch Apple Pie Recipe</title><link href="https://www.owencampbell.me.uk/dutch-apple-pie.html" rel="alternate"></link><published>2018-07-20T00:00:00+01:00</published><updated>2018-07-20T00:00:00+01:00</updated><author><name>Owen Campbell</name></author><id>tag:www.owencampbell.me.uk,2018-07-20:/dutch-apple-pie.html</id><summary type="html">&lt;div class="section" id="ingredients"&gt;
 &lt;h2&gt;Ingredients&lt;/h2&gt;
-&lt;p&gt;for the filling:&lt;/p&gt;
+&lt;div class="section" id="for-the-filling"&gt;
+&lt;h3&gt;For the filling&lt;/h3&gt;
 &lt;p&gt;1 kg apples,  Goudrenet is the traditional dutch variety. I use Bramleys. Granny Smith would probably be ok
 Juice of 1 medium-sized lemon, freshly squeezed
 70 g caster sugar
 1 tsp ground cinnamon
 50 g sultanas&lt;/p&gt;
-&lt;p&gt;for the dough:&lt;/p&gt;
-&lt;p&gt;175 g unsalted butter, at room temperature …&lt;/p&gt;&lt;/div&gt;</summary><content type="html">&lt;div class="section" id="ingredients"&gt;
+&lt;/div&gt;
+&lt;div class="section" id="for-the-dough"&gt;
+&lt;h3&gt;For the dough&lt;/h3&gt;
+&lt;p&gt;175 g unsalted butter, at room temperature …&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;</summary><content type="html">&lt;div class="section" id="ingredients"&gt;
 &lt;h2&gt;Ingredients&lt;/h2&gt;
-&lt;p&gt;for the filling:&lt;/p&gt;
+&lt;div class="section" id="for-the-filling"&gt;
+&lt;h3&gt;For the filling&lt;/h3&gt;
 &lt;p&gt;1 kg apples,  Goudrenet is the traditional dutch variety. I use Bramleys. Granny Smith would probably be ok
 Juice of 1 medium-sized lemon, freshly squeezed
 70 g caster sugar
 1 tsp ground cinnamon
 50 g sultanas&lt;/p&gt;
-&lt;p&gt;for the dough:&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="for-the-dough"&gt;
+&lt;h3&gt;For the dough&lt;/h3&gt;
 &lt;p&gt;175 g unsalted butter, at room temperature, plus extra for greasing the pan
 175 g all-purpose flour
 175 g self-raising flour
@@ -26,9 +32,12 @@ Juice of 1 medium-sized lemon, freshly squeezed
 1 Tbsp water
 Pinch of salt
 3 Tbsp dried breadcrumbs&lt;/p&gt;
-&lt;p&gt;for the glaze:&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="for-the-glaze"&gt;
+&lt;h3&gt;For the glaze&lt;/h3&gt;
 &lt;p&gt;70 g apricot jam
 30 ml (2 Tbsp) brandy (or water)&lt;/p&gt;
+&lt;/div&gt;
 &lt;/div&gt;
 &lt;div class="section" id="method"&gt;
 &lt;h2&gt;Method&lt;/h2&gt;
