@@ -10,7 +10,8 @@ Dutch Apple Pie Recipe
 Ingredients
 -----------
 
-for the filling:
+For the filling
+***************
 
 1 kg apples,  Goudrenet is the traditional dutch variety. I use Bramleys. Granny Smith would probably be ok
 Juice of 1 medium-sized lemon, freshly squeezed
@@ -18,7 +19,8 @@ Juice of 1 medium-sized lemon, freshly squeezed
 1 tsp ground cinnamon
 50 g sultanas
 
-for the dough:
+For the dough
+*************
 
 175 g unsalted butter, at room temperature, plus extra for greasing the pan
 175 g all-purpose flour
@@ -30,7 +32,8 @@ for the dough:
 Pinch of salt
 3 Tbsp dried breadcrumbs
 
-for the glaze:
+For the glaze
+*************
 
 70 g apricot jam
 30 ml (2 Tbsp) brandy (or water)
