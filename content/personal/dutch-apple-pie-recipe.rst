@@ -1,5 +1,5 @@
-My Conference Attendance Guidelines
-###################################
+Dutch Apple Pie Recipe
+======================
 
 :date: 2018-07-20
 :category: personal
@@ -40,14 +40,14 @@ Method
 Put the sultanas in a small bowl along with a cup of hot water and let them soak for 15 minutes.
 
 Prepare the filling
-===================
+*******************
 Add the lemon juice to a large bowl. Peeling, core and thinly slice the apples, placing them in the bowl as you go. Stir them around in the lemon juice, so that they don't discolour.
 Drain the sultanas, squeeze them with your hands and add them to the bowl along with the sugar and cinnamon. Mix well with a wooden spoon or spatula. Set bowl aside.
 
 Butter the bottom and sides of your spring-form pan generously.
 
 Prepare the dough
-=================
+*****************
 Beat the butter, until softened and creamy, for 1-2 minutes. Sift all-purpose and self-raising flour directly into the bowl and add the sugar, salt, lemon zest, water and the egg. Mix all the ingredients with your hands and knead until you have a smooth, shiny, soft yet pliable dough that's not sticking to your hands.
 
 Cut off a third of the dough and leave it aside.
@@ -60,7 +60,7 @@ Take the piece of dough you left aside and divide it into smaller pieces. Roll e
 Place the pan on the middle rack of the oven and bake at 180 degrees for 45-50 minutes, until the crust takes on a golden-brown color.
 
 Prepare apricot glaze
-=====================
+*********************
 Ten minutes before the pie is ready, prepare the glaze by putting the apricot jam and the brandy (or water) in a small saucepan. Heat the jam over medium heat, until it comes to the boil and then immediately remove from the heat.
 
 When the apple pie is ready, take it out of the oven and immediately glaze it, using a pastry brush. Allow the pie to slightly cool inside the pan and then remove the sides of the pan. Allow to cool completely and if you want, move the pie onto a platter or cake stand.
