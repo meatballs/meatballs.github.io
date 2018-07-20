@@ -7,6 +7,11 @@ Dutch Apple Pie Recipe
 :author: Owen Campbell
 :status: published
 
+After visiting Amsterdam and sampling the stunningly good apple pie at
+`Cafe Papeneiland <http://www.papeneiland.nl/home.html>`_, I had to make it
+myself when I returned home. There are many recipes online and, after trying
+them out, here's what I've settled on.
+
 Ingredients
 -----------
 
