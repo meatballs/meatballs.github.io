@@ -26,6 +26,7 @@ PLUGIN_PATHS = ("../pelican-plugins",)
 PLUGINS = ["creole_reader", "series", "pelican-ipynb.markup"]
 
 MARKUP = ("md", "ipynb")
+IGNORE_FILES = ['.ipynb_checkpoints']
 
 STATIC_PATHS = ["images", "docs", "extra/CNAME", "extra/keybase.txt"]
 EXTRA_PATH_METADATA = {
