@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Owen Campbell - technology</title><link href="https://www.owencampbell.me.uk/" rel="alternate"></link><link href="https://www.owencampbell.me.uk/feeds/technology.atom.xml" rel="self"></link><id>https://www.owencampbell.me.uk/</id><updated>2018-08-19T00:00:00+01:00</updated><entry><title>Detecting Change with Pandas</title><link href="https://www.owencampbell.me.uk/detecting-change.html" rel="alternate"></link><published>2018-08-19T00:00:00+01:00</published><updated>2018-08-19T00:00:00+01:00</updated><author><name>Owen Campbell</name></author><id>tag:www.owencampbell.me.uk,2018-08-19:/detecting-change.html</id><summary type="html">
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Owen Campbell - professional</title><link href="https://www.owencampbell.me.uk/" rel="alternate"></link><link href="https://www.owencampbell.me.uk/feeds/professional.atom.xml" rel="self"></link><id>https://www.owencampbell.me.uk/</id><updated>2018-08-19T00:00:00+01:00</updated><entry><title>Detecting Change with Pandas</title><link href="https://www.owencampbell.me.uk/detecting-change.html" rel="alternate"></link><published>2018-08-19T00:00:00+01:00</published><updated>2018-08-19T00:00:00+01:00</updated><author><name>Owen Campbell</name></author><id>tag:www.owencampbell.me.uk,2018-08-19:/detecting-change.html</id><summary type="html">
 &lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;
 &lt;div class="inner_cell"&gt;
@@ -2080,7 +2080,60 @@ h6:hover .anchor-link {
     (document.body || document.getElementsByTagName('head')[0]).appendChild(mathjaxscript);
 }
 &lt;/script&gt;
-</content><category term="Python"></category><category term="Pandas"></category></entry><entry><title>Process</title><link href="https://www.owencampbell.me.uk/technical-leadership-2.html" rel="alternate"></link><published>2015-06-16T00:00:00+01:00</published><updated>2015-06-16T00:00:00+01:00</updated><author><name>Owen Campbell</name></author><id>tag:www.owencampbell.me.uk,2015-06-16:/technical-leadership-2.html</id><summary type="html">&lt;p&gt;One vital role of the leader is to define and enforce the processes that the team will follow. I've seen more projects fail as result of getting this wrong than any other single cause.&lt;/p&gt;
+</content><category term="Python"></category><category term="Pandas"></category></entry><entry><title>My Conference Attendance Guidelines</title><link href="https://www.owencampbell.me.uk/conference-attendance-guidelines.html" rel="alternate"></link><published>2018-04-11T00:00:00+01:00</published><updated>2018-04-11T00:00:00+01:00</updated><author><name>Owen Campbell</name></author><id>tag:www.owencampbell.me.uk,2018-04-11:/conference-attendance-guidelines.html</id><summary type="html">&lt;p&gt;I regularly attend technical conferences in order to learn, make new contacts
+and generally participate in whatever community that conference represents.&lt;/p&gt;
+&lt;p&gt;Over the years, I have found that the best way to increase my chances of making
+new friends and contacts is to speak at the conference - people are far …&lt;/p&gt;</summary><content type="html">&lt;p&gt;I regularly attend technical conferences in order to learn, make new contacts
+and generally participate in whatever community that conference represents.&lt;/p&gt;
+&lt;p&gt;Over the years, I have found that the best way to increase my chances of making
+new friends and contacts is to speak at the conference - people are far more
+likely to approach me to discuss my talk than for any other reason.&lt;/p&gt;
+&lt;p&gt;So, for me, attendance at a conference is a big deal. I'm asserting that I wish
+to be part of that community, that I'd like to be one of its speakers and,
+therefore, have my name publicly associated with the event and I'm prepared to
+spend time, effort and money to make that happen.&lt;/p&gt;
+&lt;p&gt;As a result, I am very careful about the nature of the events which I am
+willing to attend.&lt;/p&gt;
+&lt;p&gt;Here's what I look for when deciding:&lt;/p&gt;
+&lt;div class="section" id="diversity"&gt;
+&lt;h2&gt;Diversity&lt;/h2&gt;
+&lt;p&gt;In no particular order, I'm white, male, able-bodied and heterosexual. I was
+born and raised in the UK within a family of relative wealth and I'm happily
+married with children of my own.&lt;/p&gt;
+&lt;p&gt;I have absolutely no interest in attending an event full of people just like
+me. I especially don't want to hear from speakers who are all just like me.&lt;/p&gt;
+&lt;p&gt;I want to meet people that come from different backgrounds to me. I want to
+hear how their experience has shaped their view and use of technology and
+how that might differ from my own.&lt;/p&gt;
+&lt;p&gt;I want to see that the programmes from previous events have included a mix
+of speakers and not a lineup of faces that look very similar to my own. If
+it's a new event, I want to see how that mix is going to be achieved.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="inclusivity"&gt;
+&lt;h2&gt;Inclusivity&lt;/h2&gt;
+&lt;p&gt;The kind of diversity I'm looking for doesn't happen by accident. It only
+happens when the organisers of an event put time and effort in making anyone
+and everyone feel welcome and comfortable. It requires organisers to think
+about the needs of people from many backgrounds and to take action to fulfil
+those needs.&lt;/p&gt;
+&lt;p&gt;I want to see evidence of that thought and action occurring. I won't need
+there to be a crèche, I don't require vegetarian food and I probably won't
+use a quiet room but I want to see those things, and more, in place and I
+want to see evidence that their provision is taken seriously.&lt;/p&gt;
+&lt;p&gt;I want to see some form of financial assistance scheme in place and I want
+to see that the process for applying is clear, prominent and confidential.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="code-of-conduct"&gt;
+&lt;h2&gt;Code of Conduct&lt;/h2&gt;
+&lt;p&gt;I want to see that there is one, that it's prominent on the event's website
+and I want to see evidence that some thought and effort has gone into
+producing it. I want to see how to report incidents that might
+breach the COC and the procedure for dealing with those reports.&lt;/p&gt;
+&lt;p&gt;I don't want to see links to COCs from other events. I don't want to see a
+COC that's obviously been copied from elsewhere and I don't want to have to
+hunt to find it.&lt;/p&gt;
+&lt;/div&gt;
+</content><category term="conferences"></category><category term="inclusivity"></category></entry><entry><title>Process</title><link href="https://www.owencampbell.me.uk/technical-leadership-2.html" rel="alternate"></link><published>2015-06-16T00:00:00+01:00</published><updated>2015-06-16T00:00:00+01:00</updated><author><name>Owen Campbell</name></author><id>tag:www.owencampbell.me.uk,2015-06-16:/technical-leadership-2.html</id><summary type="html">&lt;p&gt;One vital role of the leader is to define and enforce the processes that the team will follow. I've seen more projects fail as result of getting this wrong than any other single cause.&lt;/p&gt;
 &lt;p&gt;Do I have the definitive answer as to the process you should follow? No, I do …&lt;/p&gt;</summary><content type="html">&lt;p&gt;One vital role of the leader is to define and enforce the processes that the team will follow. I've seen more projects fail as result of getting this wrong than any other single cause.&lt;/p&gt;
 &lt;p&gt;Do I have the definitive answer as to the process you should follow? No, I do not; and neither does anyone else, regardless of their expertise and experience.&lt;/p&gt;
 &lt;p&gt;The main problem I've encountered is leaders and project managers who are familiar with one particular method and believe that it can be applied in all circumstances to all projects.&lt;/p&gt;
@@ -2143,7 +2196,40 @@ h6:hover .anchor-link {
 
 &lt;p&gt;Now, we're looking to take that work one stage further. We are creating an web application so that anyone can use the Python library without any coding expertise and use it to study how cooperation and evolution might not be such contradictory ideas after all.&lt;/p&gt;
 
-&lt;p&gt;So, if you're at DjangoCon next week, stop by, say hello and write a few lines of code. You could be contributing to nothing less than the theory of evolution itself!&lt;/p&gt;</content><category term="axelrod"></category><category term="djaxelrod"></category><category term="django"></category><category term="python"></category></entry><entry><title>Why I use LaTeX</title><link href="https://www.owencampbell.me.uk/why-i-use-latex.html" rel="alternate"></link><published>2015-03-20T00:00:00+00:00</published><updated>2015-03-20T00:00:00+00:00</updated><author><name>Owen Campbell</name></author><id>tag:www.owencampbell.me.uk,2015-03-20:/why-i-use-latex.html</id><summary type="html">&lt;p&gt;When I tell people that I don't use Microsoft Word, they are generally somewhat taken aback and then assume that, because I own a Mac rather than a Windows PC, that I just use Apple's Pages instead.&lt;/p&gt;
+&lt;p&gt;So, if you're at DjangoCon next week, stop by, say hello and write a few lines of code. You could be contributing to nothing less than the theory of evolution itself!&lt;/p&gt;</content><category term="Axelrod"></category><category term="djaxelrod"></category><category term="Django"></category><category term="Python"></category></entry><entry><title>Rescue Project - New ERP System Implementation</title><link href="https://www.owencampbell.me.uk/erp-implementation-rescue.html" rel="alternate"></link><published>2015-05-18T00:00:00+01:00</published><updated>2015-05-18T00:00:00+01:00</updated><author><name>Owen Campbell</name></author><id>tag:www.owencampbell.me.uk,2015-05-18:/erp-implementation-rescue.html</id><summary type="html">&lt;p&gt;The client for this project was a UK PLC with over 150 multi-national subsidiary companies.&lt;/p&gt;
+
+&lt;p&gt;They were replacing their ERP system for the whole Group and required full historical data migration at the transactional level - the new system should look like it had always been in place since the company …&lt;/p&gt;</summary><content type="html">&lt;p&gt;The client for this project was a UK PLC with over 150 multi-national subsidiary companies.&lt;/p&gt;
+
+&lt;p&gt;They were replacing their ERP system for the whole Group and required full historical data migration at the transactional level - the new system should look like it had always been in place since the company started trading.&lt;/p&gt;
+
+&lt;p&gt;The project was slightly under two years old and the new system was about to go live in 5 of the subsidiary companies. End-Users were raising major concerns as they tested the system and I was asked to come in and undertake a review.&lt;/p&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;It quickly became apparent that the scale and complexity of the project had been grossly underestimated; in particular the data migration task.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+	&lt;li&gt;The project management had been outsourced to an organisation with almost no experience of a project of this complexity and scale.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+	&lt;li&gt;End users had been consulted at the start of the project and then ignored for over 12 months when they were asked to test a system that was supposedly about to go live.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+	&lt;li&gt;The entire design and configuration had been left to one individual who was too inexperienced to realise how far out of his depth he had become.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;But, on the plus side:&lt;/p&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;The system that had been selected (and paid for) was more than capable of delivering the requirements of the organisation.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+	&lt;li&gt;Most of the project team were capable and motivated.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+	&lt;li&gt;The senior management team were adamant that the project should be completed and provided the budget to do so.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Over the course of the following 18 months I, and a small team of associates, successfully re-designed the configuration of the system and the data migration processes. We brought end users into the project team to test the work as it proceeded and to add to the project requirements as they saw fit.&lt;/p&gt;
+
+&lt;p&gt;At the peak of the project go-live period, we were migrating anything up to 20 subsidiaries per week into a system that was already live for those that had already been migrated - quite a challenge!&lt;/p&gt;</content><category term="ERP"></category><category term="rescue"></category><category term="projects"></category></entry><entry><title>Why I use LaTeX</title><link href="https://www.owencampbell.me.uk/why-i-use-latex.html" rel="alternate"></link><published>2015-03-20T00:00:00+00:00</published><updated>2015-03-20T00:00:00+00:00</updated><author><name>Owen Campbell</name></author><id>tag:www.owencampbell.me.uk,2015-03-20:/why-i-use-latex.html</id><summary type="html">&lt;p&gt;When I tell people that I don't use Microsoft Word, they are generally somewhat taken aback and then assume that, because I own a Mac rather than a Windows PC, that I just use Apple's Pages instead.&lt;/p&gt;
 
 &lt;p&gt;I don't!&lt;/p&gt;
 
@@ -2189,7 +2275,7 @@ h6:hover .anchor-link {
 
 &lt;p&gt;However, if I'm working with someone who has never heard of git, never used a text editor and is firmly wedded to their copy of Microsoft Word, it's much more difficult. I can end up spending more time teaching them how to use the tools than writing any content.&lt;/p&gt;
 
-&lt;p&gt;I don't have an answer to that one yet, but I'm looking at online tools like &lt;a href="https://www.overleaf.com/"&gt;Overleaf&lt;/a&gt; as potential solution.&lt;/p&gt;</content><category term="latex"></category></entry><entry><title>Pelican Powered Site on a Vagrant Virtual Machine</title><link href="https://www.owencampbell.me.uk/pelican-starter.html" rel="alternate"></link><published>2014-10-03T00:00:00+01:00</published><updated>2014-10-03T00:00:00+01:00</updated><author><name>Owen Campbell</name></author><id>tag:www.owencampbell.me.uk,2014-10-03:/pelican-starter.html</id><summary type="html">&lt;p&gt;This article describes how to get a Pelican powered website up and running with minimal effort using a Vagrant virtual machine.&lt;/p&gt;
+&lt;p&gt;I don't have an answer to that one yet, but I'm looking at online tools like &lt;a href="https://www.overleaf.com/"&gt;Overleaf&lt;/a&gt; as potential solution.&lt;/p&gt;</content><category term="LaTex"></category></entry><entry><title>Pelican Powered Site on a Vagrant Virtual Machine</title><link href="https://www.owencampbell.me.uk/pelican-starter.html" rel="alternate"></link><published>2014-10-03T00:00:00+01:00</published><updated>2014-10-03T00:00:00+01:00</updated><author><name>Owen Campbell</name></author><id>tag:www.owencampbell.me.uk,2014-10-03:/pelican-starter.html</id><summary type="html">&lt;p&gt;This article describes how to get a Pelican powered website up and running with minimal effort using a Vagrant virtual machine.&lt;/p&gt;
 
 &lt;p&gt;Pelican is a static html generator for creating blog style websites from simple text files in markdown, rst or creole syntax.&lt;/p&gt;
 
@@ -2304,25 +2390,7 @@ h6:hover .anchor-link {
 
 &lt;ul&gt;
 	&lt;li&gt;You can host your Pelican site with Github Pages. Instructions are in the &lt;a href="http://docs.getpelican.com/en/3.4.0/tips.html"&gt;Pelican tips&lt;/a&gt; and the ghp-import tool is already installed on your vm.&lt;/li&gt;
-&lt;/ul&gt;</content><category term="pelican"></category><category term="vagrant"></category></entry><entry><title>Managing Agresso Environments</title><link href="https://www.owencampbell.me.uk/managing-agresso-environments-1.html" rel="alternate"></link><published>2014-09-26T00:00:00+01:00</published><updated>2014-09-26T00:00:00+01:00</updated><author><name>Owen Campbell</name></author><id>tag:www.owencampbell.me.uk,2014-09-26:/managing-agresso-environments-1.html</id><summary type="html">&lt;p&gt;This series of articles presents how an Agresso system may be managed in such a way as to minimise risk and provide assurance, traceability and accountability to an organisation, its managers and auditors.&lt;/p&gt;
-
-&lt;p&gt;The objectives of the ideas presented here are:&lt;/p&gt;
-&lt;ol&gt;
-	&lt;li&gt;To ensure that all configuration changes to a live …&lt;/li&gt;&lt;/ol&gt;</summary><content type="html">&lt;p&gt;This series of articles presents how an Agresso system may be managed in such a way as to minimise risk and provide assurance, traceability and accountability to an organisation, its managers and auditors.&lt;/p&gt;
-
-&lt;p&gt;The objectives of the ideas presented here are:&lt;/p&gt;
-&lt;ol&gt;
-	&lt;li&gt;To ensure that all configuration changes to a live system have been tested before deployment&lt;/li&gt;
-	&lt;li&gt;To ensure that testing is carried out on an system that is identical to but separate from the live system&lt;/li&gt;
-	&lt;li&gt;To ensure that all configuration changes deployed to a live system are identical to those which were tested&lt;/li&gt;
-	&lt;li&gt;To ensure that all configuration changes deployed to a live system are recorded and can be reproduced&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;By way of illustration, the sorts of actions that would run counter to the objectives and ideas presented here might include&lt;/p&gt;
-&lt;ul&gt;
-	&lt;li&gt;Making minor development changes directly to a live system (objective 1)&lt;/li&gt;
-	&lt;li&gt;Deploying configuration changes manually via the Agresso client (objectives 3 and 4)&lt;/li&gt;
-	&lt;li&gt;Testing software and configuration changes at the same time on the same system, but deploying to live separately (objectives 2 and 3)&lt;/li&gt;
-&lt;/ul&gt;</content><category term="ERP"></category><category term="Agresso"></category></entry><entry><title>Requirements</title><link href="https://www.owencampbell.me.uk/managing-agresso-environments-2.html" rel="alternate"></link><published>2014-09-26T00:00:00+01:00</published><updated>2014-09-26T00:00:00+01:00</updated><author><name>Owen Campbell</name></author><id>tag:www.owencampbell.me.uk,2014-09-26:/managing-agresso-environments-2.html</id><summary type="html">&lt;p&gt;A ‘requirement’ is considered to be the definition of a change to a system requested by an end user. It could describe a defect in existing functionality, a proposed enhancement or entirely new functionality.&lt;/p&gt;
+&lt;/ul&gt;</content><category term="Pelican"></category><category term="Vagrant"></category></entry><entry><title>Requirements</title><link href="https://www.owencampbell.me.uk/managing-agresso-environments-2.html" rel="alternate"></link><published>2014-09-26T00:00:00+01:00</published><updated>2014-09-26T00:00:00+01:00</updated><author><name>Owen Campbell</name></author><id>tag:www.owencampbell.me.uk,2014-09-26:/managing-agresso-environments-2.html</id><summary type="html">&lt;p&gt;A ‘requirement’ is considered to be the definition of a change to a system requested by an end user. It could describe a defect in existing functionality, a proposed enhancement or entirely new functionality.&lt;/p&gt;
 
 &lt;p&gt;Systems to store and manage requirements definitions typically provide the following capabilities:&lt;/p&gt;
 &lt;ul&gt;
@@ -2544,7 +2612,7 @@ WHERE s.join_column = t.join_column)
 SET t.column = s.column
 &lt;/pre&gt;
 
-&lt;p&gt;There are some restrictions on whether Oracle will allow tables to be updated via a view. Essentially, each row in the view must map to one and only one record in the underlying target table or, to put it in the more common jargon, the primary key of the target table must be preserved in the view.&lt;/p&gt;</content><category term="oracle"></category><category term="sql"></category></entry><entry><title>PGP Signatures on Email</title><link href="https://www.owencampbell.me.uk/pgp.html" rel="alternate"></link><published>2008-06-12T00:00:00+01:00</published><updated>2008-06-12T00:00:00+01:00</updated><author><name>Owen Campbell</name></author><id>tag:www.owencampbell.me.uk,2008-06-12:/pgp.html</id><summary type="html">&lt;p&gt;You're probably here because you've received an email from me with an attachment called 'signature.asc' or with lines at the top similar to:&lt;/p&gt;
+&lt;p&gt;There are some restrictions on whether Oracle will allow tables to be updated via a view. Essentially, each row in the view must map to one and only one record in the underlying target table or, to put it in the more common jargon, the primary key of the target table must be preserved in the view.&lt;/p&gt;</content><category term="Oracle"></category><category term="SQL"></category></entry><entry><title>PGP Signatures on Email</title><link href="https://www.owencampbell.me.uk/pgp.html" rel="alternate"></link><published>2008-06-12T00:00:00+01:00</published><updated>2008-06-12T00:00:00+01:00</updated><author><name>Owen Campbell</name></author><id>tag:www.owencampbell.me.uk,2008-06-12:/pgp.html</id><summary type="html">&lt;p&gt;You're probably here because you've received an email from me with an attachment called 'signature.asc' or with lines at the top similar to:&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;-----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA512
 &lt;/pre&gt;&lt;/div&gt;
