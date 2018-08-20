@@ -1,3 +1,7 @@
+ul li {
+  margin-bottom: 10px;
+}
+
 div.code_cell {
   /* avoid page breaking on code cells when printing */
 }
@@ -1061,7 +1065,7 @@ samp {
   font-family: monospace;
 }
 p {
-  margin-bottom: 0;
+  margin-bottom: 10;
 }
 .end_space {
   min-height: 100px;
