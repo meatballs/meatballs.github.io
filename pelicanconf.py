@@ -23,10 +23,10 @@ CATEGORY_FEED_ATOM = None
 TRANSLATION_FEED_ATOM = None
 
 PLUGIN_PATHS = ("../pelican-plugins",)
-PLUGINS = ["creole_reader", "series", "pelican-ipynb.markup"]
+PLUGINS = ["creole_reader", "series", "pelican-ipynb.markup", "tag_cloud"]
 
 MARKUP = ("md", "ipynb")
-IGNORE_FILES = ['.ipynb_checkpoints']
+IGNORE_FILES = [".ipynb_checkpoints"]
 
 STATIC_PATHS = ["images", "docs", "extra/CNAME", "extra/keybase.txt"]
 EXTRA_PATH_METADATA = {
@@ -39,7 +39,9 @@ FAVICON = "images/favicon/favicon.ico"
 BOOTSTRAP_THEME = "cerulean"
 PYGMENTS_STYLE = "solarizedlight"
 
-DISPLAY_TAGS_ON_SIDEBAR = False
+DISPLAY_TAGS_ON_SIDEBAR = True
+DISPLAY_TAGS_INLINE = True
+DISPLAY_ARTICLE_INFO_ON_INDEX = True
 DISPLAY_SERIES_ON_SIDEBAR = False
 SHOW_SERIES = True
 ABOUT_ME = """
