@@ -2,7 +2,6 @@ My Conference Attendance Guidelines
 ###################################
 
 :date: 2018-04-11
-:category: personal
 :slug: conference-attendance-guidelines
 :author: Owen Campbell
 :status: published

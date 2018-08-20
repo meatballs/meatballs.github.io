@@ -2,7 +2,6 @@ Scouts and Facebook Groups
 ##########################
 
 :date: 2017-11-23
-:category: personal
 :slug: scouts-facebook
 :author: Owen Campbell
 :status: published

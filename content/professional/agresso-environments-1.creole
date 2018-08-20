@@ -1,6 +1,6 @@
-<<header>>
 title: Managing Agresso Environments
 slug: managing-agresso-environments-1
+<<header>>
 author: Owen Campbell
 series: Agresso Management
 series_index: 1

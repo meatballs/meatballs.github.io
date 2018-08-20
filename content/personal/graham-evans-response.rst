@@ -2,7 +2,6 @@ Open Response to Graham Evans MP
 ################################
 
 :date: 2016-05-03
-:category: personal
 :slug: graham-evans-response
 :author: Owen Campbell
 :status: published
