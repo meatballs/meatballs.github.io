@@ -29,18 +29,18 @@ MARKUP = ("md", "ipynb")
 IGNORE_FILES = [".ipynb_checkpoints"]
 IPYNB_SKIP_CSS = True
 
-CUSTOM_CSS = "static/css/notebook.css"
+CUSTOM_CSS = "static/css/custom.css"
 STATIC_PATHS = [
     "images",
     "docs",
     "extra/CNAME",
     "extra/keybase.txt",
-    "extra/notebook.css",
+    "extra/custom.css",
 ]
 EXTRA_PATH_METADATA = {
     "extra/CNAME": {"path": "CNAME"},
     "extra/keybase.txt": {"path": "keybase.txt"},
-    "extra/notebook.css": {"path": "static/css/notebook.css"},
+    "extra/custom.css": {"path": "static/css/custom.css"},
 }
 
 # Tell Pelican to add files from 'extra' to the output dir
