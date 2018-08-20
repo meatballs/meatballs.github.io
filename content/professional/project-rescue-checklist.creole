@@ -1,7 +1,7 @@
 <<header>>
 title: Checklist for Project Rescue
 slug: project-rescue-checklist
-tags: project, rescue, agile
+tags: projects, rescue, agile
 date: 2015-05-18
 status: draft
 <</header>>

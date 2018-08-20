@@ -1,6 +1,6 @@
 <<header>>
 title: Why I use LaTeX
-tags: latex
+tags: LaTex
 slug: why-i-use-latex
 date: 2015-03-20
 status: published

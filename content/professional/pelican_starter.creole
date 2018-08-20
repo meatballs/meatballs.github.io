@@ -1,6 +1,6 @@
 <<header>>
 title: Pelican Powered Site on a Vagrant Virtual Machine
-tags: pelican, vagrant
+tags: Pelican, Vagrant
 slug: pelican-starter
 date: 2014-10-03
 status: published

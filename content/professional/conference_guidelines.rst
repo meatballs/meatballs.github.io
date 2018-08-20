@@ -3,6 +3,7 @@ My Conference Attendance Guidelines
 
 :date: 2018-04-11
 :slug: conference-attendance-guidelines
+:tags: conferences, inclusivity
 :author: Owen Campbell
 :status: published
 

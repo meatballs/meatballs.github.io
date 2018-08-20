@@ -3,6 +3,7 @@ Scouts and Facebook Groups
 
 :date: 2017-11-23
 :slug: scouts-facebook
+:tags: Scouts, Facebook
 :author: Owen Campbell
 :status: published
 

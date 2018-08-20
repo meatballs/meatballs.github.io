@@ -3,6 +3,7 @@ Dutch Apple Pie Recipe
 
 :date: 2018-07-20
 :slug: dutch-apple-pie
+:tags: recipe
 :author: Owen Campbell
 :status: published
 

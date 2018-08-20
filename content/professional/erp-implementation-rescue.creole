@@ -1,7 +1,7 @@
 <<header>>
 title: Rescue Project - New ERP System Implementation
 slug: erp-implementation-rescue
-tags: ERP, rescue
+tags: ERP, rescue, projects
 date: 2015-05-18
 status: published
 <</header>>

@@ -1,6 +1,6 @@
 <<header>>
 title: Oracle Update Statements
-tags: oracle, sql
+tags: Oracle, SQL
 date: 2012-03-08
 status: published
 <</header>>
