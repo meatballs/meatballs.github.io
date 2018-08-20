@@ -27,12 +27,27 @@ PLUGINS = ["creole_reader", "series", "pelican-ipynb.markup", "tag_cloud"]
 
 MARKUP = ("md", "ipynb")
 IGNORE_FILES = [".ipynb_checkpoints"]
+IPYNB_SKIP_CSS = True
 
-STATIC_PATHS = ["images", "docs", "extra/CNAME", "extra/keybase.txt"]
+CUSTOM_CSS = "static/css/notebook.css"
+STATIC_PATHS = [
+    "images",
+    "docs",
+    "extra/CNAME",
+    "extra/keybase.txt",
+    "extra/notebook.css",
+]
 EXTRA_PATH_METADATA = {
     "extra/CNAME": {"path": "CNAME"},
     "extra/keybase.txt": {"path": "keybase.txt"},
+    "extra/notebook.css": {"path": "static/css/notebook.css"},
 }
+
+# Tell Pelican to add files from 'extra' to the output dir
+STATIC_PATHS = ["images", "extra"]
+
+# Tell Pelican to change the path to 'static/custom.css' in the output dir
+
 
 THEME = "../pelican-themes/pelican-bootstrap3/"
 FAVICON = "images/favicon/favicon.ico"
