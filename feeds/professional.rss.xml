@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0"><channel><title>Owen Campbell - professional</title><link>https://www.owencampbell.me.uk/</link><description></description><lastBuildDate>Sun, 19 Aug 2018 00:00:00 +0100</lastBuildDate><item><title>Detecting Change with Pandas</title><link>https://www.owencampbell.me.uk/detecting-change.html</link><description>
 &lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
-&lt;/div&gt;
-&lt;div class="inner_cell"&gt;
+&lt;/div&gt;&lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
 &lt;p&gt;Recently, I was working with an investment management company who had an interesting problem to solve.&lt;/p&gt;
 &lt;p&gt;They had 10 years' of historical data on approximately 1500 companies. This was stored in a spreadsheet and, each month, for 10 years, they would copy the current sheet of companies, record any changes and add any new companies to the bottom. This spreadsheet had 120 worksheets  - one for each month for the last 10 years - and each sheet had a at least 1000 rows - one for each company of interest at the time.&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Owen Campbell</dc:creator><pubDate>Sun, 19 Aug 2018 00:00:00 +0100</pubDate><guid isPermaLink="false">tag:www.owencampbell.me.uk,2018-08-19:/detecting-change.html</guid><category>Python</category><category>Pandas</category></item><item><title>My Conference Attendance Guidelines</title><link>https://www.owencampbell.me.uk/conference-attendance-guidelines.html</link><description>&lt;p&gt;I regularly attend technical conferences in order to learn, make new contacts

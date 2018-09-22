@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 
-    <link href="https://www.owencampbell.me.uk/images/favicon/favicon.ico" rel="icon">
+    <link href="https://www.owencampbell.me.uk/images/favicon/favicon-16x16.png" rel="icon">
 
 <link rel="canonical" href="https://www.owencampbell.me.uk/detecting-change.html">
 
@@ -119,8 +119,7 @@ Owen Campbell            </a>
                 </div>
                 <body>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
+</div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p>Recently, I was working with an investment management company who had an interesting problem to solve.</p>
 <p>They had 10 years' of historical data on approximately 1500 companies. This was stored in a spreadsheet and, each month, for 10 years, they would copy the current sheet of companies, record any changes and add any new companies to the bottom. This spreadsheet had 120 worksheets  - one for each month for the last 10 years - and each sheet had a at least 1000 rows - one for each company of interest at the time.</p>
@@ -155,14 +154,13 @@ Owen Campbell            </a>
 <span class="n">company_data</span><span class="p">[</span><span class="n">months</span><span class="p">[</span><span class="mi">2</span><span class="p">]][</span><span class="s1">&#39;status&#39;</span><span class="p">][</span><span class="mi">2</span><span class="p">]</span> <span class="o">=</span> <span class="s1">&#39;inactive&#39;</span>
 </pre></div>
 
-</div>
+    </div>
 </div>
 </div>
 
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
+</div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p>Next, let's define a function to display the contents of our dictionary so we can see how that has worked:</p>
 
@@ -182,7 +180,7 @@ Owen Campbell            </a>
 <span class="n">display_company_data</span><span class="p">(</span><span class="n">company_data</span><span class="p">)</span>
 </pre></div>
 
-</div>
+    </div>
 </div>
 </div>
 
@@ -192,7 +190,7 @@ Owen Campbell            </a>
 
 <div class="output_area">
 
-<div class="prompt"></div>
+    <div class="prompt"></div>
 
 
 
@@ -205,7 +203,7 @@ Owen Campbell            </a>
 
 <div class="output_area">
 
-<div class="prompt"></div>
+    <div class="prompt"></div>
 
 
 
@@ -257,7 +255,7 @@ Owen Campbell            </a>
 
 <div class="output_area">
 
-<div class="prompt"></div>
+    <div class="prompt"></div>
 
 
 
@@ -270,7 +268,7 @@ Owen Campbell            </a>
 
 <div class="output_area">
 
-<div class="prompt"></div>
+    <div class="prompt"></div>
 
 
 
@@ -322,7 +320,7 @@ Owen Campbell            </a>
 
 <div class="output_area">
 
-<div class="prompt"></div>
+    <div class="prompt"></div>
 
 
 
@@ -335,7 +333,7 @@ Owen Campbell            </a>
 
 <div class="output_area">
 
-<div class="prompt"></div>
+    <div class="prompt"></div>
 
 
 
@@ -390,8 +388,7 @@ Owen Campbell            </a>
 
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
+</div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p>We'll need to deal with the dictionary keys. Currently, they are strings representing a month and they are in two different formats. Let's define a function to convert those strings to a Python datetime object using a list of possble string formats:</p>
 
@@ -413,14 +410,13 @@ Owen Campbell            </a>
         <span class="k">raise</span> <span class="ne">ValueError</span><span class="p">(</span><span class="n">f</span><span class="s2">&quot;No valid datetime format found for </span><span class="si">{text}</span><span class="s2">&quot;</span><span class="p">)</span>
 </pre></div>
 
-</div>
+    </div>
 </div>
 </div>
 
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
+</div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p>Now, we can convert the month names to proper datetime values and view the result:</p>
 
@@ -440,7 +436,7 @@ Owen Campbell            </a>
 <span class="n">display_company_data</span><span class="p">(</span><span class="n">company_data</span><span class="p">)</span>
 </pre></div>
 
-</div>
+    </div>
 </div>
 </div>
 
@@ -450,7 +446,7 @@ Owen Campbell            </a>
 
 <div class="output_area">
 
-<div class="prompt"></div>
+    <div class="prompt"></div>
 
 
 
@@ -463,7 +459,7 @@ Owen Campbell            </a>
 
 <div class="output_area">
 
-<div class="prompt"></div>
+    <div class="prompt"></div>
 
 
 
@@ -515,7 +511,7 @@ Owen Campbell            </a>
 
 <div class="output_area">
 
-<div class="prompt"></div>
+    <div class="prompt"></div>
 
 
 
@@ -528,7 +524,7 @@ Owen Campbell            </a>
 
 <div class="output_area">
 
-<div class="prompt"></div>
+    <div class="prompt"></div>
 
 
 
@@ -580,7 +576,7 @@ Owen Campbell            </a>
 
 <div class="output_area">
 
-<div class="prompt"></div>
+    <div class="prompt"></div>
 
 
 
@@ -593,7 +589,7 @@ Owen Campbell            </a>
 
 <div class="output_area">
 
-<div class="prompt"></div>
+    <div class="prompt"></div>
 
 
 
@@ -648,8 +644,7 @@ Owen Campbell            </a>
 
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
+</div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p>Let's use the company name as the row index instead of the row number:</p>
 
@@ -667,7 +662,7 @@ Owen Campbell            </a>
 <span class="n">display_company_data</span><span class="p">(</span><span class="n">company_data</span><span class="p">)</span>
 </pre></div>
 
-</div>
+    </div>
 </div>
 </div>
 
@@ -677,7 +672,7 @@ Owen Campbell            </a>
 
 <div class="output_area">
 
-<div class="prompt"></div>
+    <div class="prompt"></div>
 
 
 
@@ -690,7 +685,7 @@ Owen Campbell            </a>
 
 <div class="output_area">
 
-<div class="prompt"></div>
+    <div class="prompt"></div>
 
 
 
@@ -742,7 +737,7 @@ Owen Campbell            </a>
 
 <div class="output_area">
 
-<div class="prompt"></div>
+    <div class="prompt"></div>
 
 
 
@@ -755,7 +750,7 @@ Owen Campbell            </a>
 
 <div class="output_area">
 
-<div class="prompt"></div>
+    <div class="prompt"></div>
 
 
 
@@ -807,7 +802,7 @@ Owen Campbell            </a>
 
 <div class="output_area">
 
-<div class="prompt"></div>
+    <div class="prompt"></div>
 
 
 
@@ -820,7 +815,7 @@ Owen Campbell            </a>
 
 <div class="output_area">
 
-<div class="prompt"></div>
+    <div class="prompt"></div>
 
 
 
@@ -875,8 +870,7 @@ Owen Campbell            </a>
 
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
+</div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p>Now, we can concatenate the dataframes into one with the month as an additional index:</p>
 
@@ -892,7 +886,7 @@ Owen Campbell            </a>
 <span class="n">display</span><span class="p">(</span><span class="n">df</span><span class="p">)</span>
 </pre></div>
 
-</div>
+    </div>
 </div>
 </div>
 
@@ -902,7 +896,7 @@ Owen Campbell            </a>
 
 <div class="output_area">
 
-<div class="prompt"></div>
+    <div class="prompt"></div>
 
 
 
@@ -986,8 +980,7 @@ Owen Campbell            </a>
 
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
+</div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p>We can swap the order of the month and company indexes and then sort by that order:</p>
 
@@ -1003,7 +996,7 @@ Owen Campbell            </a>
 <span class="n">display</span><span class="p">(</span><span class="n">df</span><span class="p">)</span>
 </pre></div>
 
-</div>
+    </div>
 </div>
 </div>
 
@@ -1013,7 +1006,7 @@ Owen Campbell            </a>
 
 <div class="output_area">
 
-<div class="prompt"></div>
+    <div class="prompt"></div>
 
 
 
@@ -1097,8 +1090,7 @@ Owen Campbell            </a>
 
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
+</div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p>Finally, we use the shift() and groupby() methods to filter only the rows where the status has changed for that company:</p>
 
@@ -1113,7 +1105,7 @@ Owen Campbell            </a>
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">display</span><span class="p">(</span><span class="n">df</span><span class="p">[</span><span class="n">df</span><span class="o">.</span><span class="n">groupby</span><span class="p">([</span><span class="s1">&#39;company&#39;</span><span class="p">])</span><span class="o">.</span><span class="n">status</span><span class="o">.</span><span class="n">shift</span><span class="p">()</span><span class="o">.</span><span class="n">ne</span><span class="p">(</span><span class="n">df</span><span class="o">.</span><span class="n">status</span><span class="p">)])</span>
 </pre></div>
 
-</div>
+    </div>
 </div>
 </div>
 
@@ -1123,7 +1115,7 @@ Owen Campbell            </a>
 
 <div class="output_area">
 
-<div class="prompt"></div>
+    <div class="prompt"></div>
 
 
 
@@ -1269,7 +1261,7 @@ Owen Campbell            </a>
             <aside>
 <div id="aboutme">
         <p>
-            <img width="100%" class="img-thumbnail" src="https://www.owencampbell.me.uk//images/favicon/favicon-310.png"/>
+            <img width="100%" class="img-thumbnail" src="https://www.owencampbell.me.uk//images/favicon/mstile-310x310.png"/>
         </p>
     <p>
         <strong>About Owen Campbell</strong><br/>
