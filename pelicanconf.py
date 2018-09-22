@@ -50,7 +50,7 @@ STATIC_PATHS = ["images", "extra"]
 
 
 THEME = "../pelican-themes/pelican-bootstrap3/"
-FAVICON = "images/favicon/favicon.ico"
+FAVICON = "images/favicon/favicon-16x16.png"
 BOOTSTRAP_THEME = "cerulean"
 PYGMENTS_STYLE = "solarizedlight"
 
@@ -70,7 +70,7 @@ ABOUT_ME = """
     <li>Python Enthusiast</li>
     <li>Founding Trustee of the UK Python Association</li>
   </ul>"""
-AVATAR = "/images/favicon/favicon-310.png"
+AVATAR = "/images/favicon/mstile-310x310.png"
 SHARIFF = True
 SHARIFF_LANG = "en"
 DOCUTIL_CSS = True

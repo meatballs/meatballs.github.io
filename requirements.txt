@@ -2,3 +2,5 @@ pelican
 markdown
 python-creole
 ghp-import
+ipython
+nbconvert
