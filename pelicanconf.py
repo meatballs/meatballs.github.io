@@ -50,7 +50,7 @@ STATIC_PATHS = ["images", "extra"]
 
 
 THEME = "../pelican-themes/pelican-bootstrap3/"
-FAVICON = "images/favicon/favicon.ico"
+FAVICON = "images/favicon/favicon-16x16.png"
 BOOTSTRAP_THEME = "cerulean"
 PYGMENTS_STYLE = "solarizedlight"
 
@@ -64,13 +64,11 @@ ABOUT_ME = """
     <li>Freelancer, available for hire</li>
     <li>Chartered Engineer</li>
     <li>Based near Chester, UK.</li>
-    <li>Specialises in technical leadership of software development and
-    implementation projects.</li>
-    <li>Particularly enjoys taking on projects in need of rescue!</li>
+    <li>I help organisations to replace spreadsheets with good quality code</li>
     <li>Python Enthusiast</li>
     <li>Founding Trustee of the UK Python Association</li>
   </ul>"""
-AVATAR = "/images/favicon/favicon-310.png"
+AVATAR = "/images/favicon/mstile-310x310.png"
 SHARIFF = True
 SHARIFF_LANG = "en"
 DOCUTIL_CSS = True
