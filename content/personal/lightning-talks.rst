@@ -12,7 +12,7 @@ PyCon UK 2016
 At `PyCon UK 2016 <https://2016.pyconuk.org>`_, I became annoyed.
 
 I was fully part of the organising team for the first time and we had spent part of
-first morning's session introducing lightning talks: explaining how there were an
+our opening morning's session introducing lightning talks: explaining how they were an
 ideal way for new speakers to begin their speaking career.
 
 At the time, the system we used for lightning talks was the same as everyone else.
@@ -20,12 +20,12 @@ We had a flipchart at reception and, if you wanted to give a talk, you wrote you
 name and a title on the flipchart, starting at the top.
 
 But, when I walked down to reception at the end of the introduction, the flipchart
-was already full with far more submissions than we could possibly hope to cover in
-the lightning talk session. Anyone who had heard about them for the first time two
-minutes earlier had no chance of getting on stage.
+was already full with far more submissions than we could possibly hope to cover.
+Anyone who had heard about them for the first time two minutes earlier had no
+chance of getting on stage.
 
 The same happened the following day and each day of the conference. The lightning talk
-sessions each evening filled up with the same old faces who knew the system and arrived
+sessions filled up with the same old faces who knew the system and arrived
 early each morning to get their name on the list.
 
 The inner eight-year old within me cried out, "That's not fair!" and something had to be done.
