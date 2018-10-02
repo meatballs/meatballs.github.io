@@ -61,10 +61,10 @@ DISPLAY_SERIES_ON_SIDEBAR = False
 SHOW_SERIES = True
 ABOUT_ME = """
   <ul>
+    <li>I help organisations to replace spreadsheets with good quality code</li>
     <li>Freelancer, available for hire</li>
     <li>Chartered Engineer</li>
     <li>Based near Chester, UK.</li>
-    <li>I help organisations to replace spreadsheets with good quality code</li>
     <li>Python Enthusiast</li>
     <li>Founding Trustee of the UK Python Association</li>
   </ul>"""
