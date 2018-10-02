@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom"><title>Owen Campbell</title><link href="https://www.owencampbell.me.uk/" rel="alternate"></link><link href="https://www.owencampbell.me.uk/feeds/all.atom.xml" rel="self"></link><id>https://www.owencampbell.me.uk/</id><updated>2018-10-02T00:00:00+01:00</updated><entry><title>Lightning Talks and Buckets</title><link href="https://www.owencampbell.me.uk/lightning-talks.html" rel="alternate"></link><published>2018-10-02T00:00:00+01:00</published><updated>2018-10-02T00:00:00+01:00</updated><author><name>Owen Campbell</name></author><id>tag:www.owencampbell.me.uk,2018-10-02:/lightning-talks.html</id><summary type="html">&lt;div class="section" id="pycon-uk-2016"&gt;
 &lt;h2&gt;PyCon UK 2016&lt;/h2&gt;
-&lt;p&gt;At PyCon UK 2016, I became annoyed.&lt;/p&gt;
+&lt;p&gt;At &lt;a class="reference external" href="https://2016.pyconuk.org"&gt;PyCon UK 2016&lt;/a&gt;, I became annoyed.&lt;/p&gt;
 &lt;p&gt;I was fully part of the organising team for the first time and we had spent part of
 first morning's session introducing lightning talks: explaining how there were an
 ideal way for new speakers to begin their speaking career.&lt;/p&gt;
 &lt;p&gt;At …&lt;/p&gt;&lt;/div&gt;</summary><content type="html">&lt;div class="section" id="pycon-uk-2016"&gt;
 &lt;h2&gt;PyCon UK 2016&lt;/h2&gt;
-&lt;p&gt;At PyCon UK 2016, I became annoyed.&lt;/p&gt;
+&lt;p&gt;At &lt;a class="reference external" href="https://2016.pyconuk.org"&gt;PyCon UK 2016&lt;/a&gt;, I became annoyed.&lt;/p&gt;
 &lt;p&gt;I was fully part of the organising team for the first time and we had spent part of
 first morning's session introducing lightning talks: explaining how there were an
 ideal way for new speakers to begin their speaking career.&lt;/p&gt;
@@ -25,8 +25,8 @@ early each morning to get their name on the list.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class="section" id="pycon-uk-2017"&gt;
 &lt;h2&gt;PyCon UK 2017&lt;/h2&gt;
-&lt;p&gt;The following year, I decided to do something about it. I felt there were two
-issues to resolve:&lt;/p&gt;
+&lt;p&gt;For &lt;a class="reference external" href="https://2017.pyconuk.org"&gt;PyCon UK 2017&lt;/a&gt;, I decided to do something
+about it. I felt there were two issues to resolve:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;p class="first"&gt;New Speakers&lt;/p&gt;
 &lt;p&gt;If we were serious about encouraging new speakers, we had to bias the system
@@ -52,7 +52,8 @@ them on the flipchart at reception.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class="section" id="pycon-uk-2018"&gt;
 &lt;h2&gt;PyCon UK 2018&lt;/h2&gt;
-&lt;p&gt;No system is ever perfect and we tweaked things slightly this year.&lt;/p&gt;
+&lt;p&gt;No system is ever perfect and we tweaked things slightly for
+&lt;a class="reference external" href="https://2018.pyconuk.org"&gt;PyCon UK 2018&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Firstly, we'd had a lot of questions about the definition of an &amp;quot;experienced
 speaker&amp;quot; in 2017 and we'd changed those descriptions part way through the conference.&lt;/p&gt;
 &lt;p&gt;The two buckets were now for &amp;quot;New Speakers&amp;quot; and &amp;quot;Everyone Else.&amp;quot; We opened with
@@ -87,7 +88,10 @@ a few ideas in mind, so watch out for further tweaks!&lt;/p&gt;
 I'm aware of five other conferences that have used similar systems for their
 lightning talk submission and selection.&lt;/p&gt;
 &lt;p&gt;I've made an attempt to capture where the system has been used and how the idea
-was introduced. If you're interested, it's available at &lt;a class="reference external" href="https://github.com/meatballs/bucket-brigade"&gt;github&lt;/a&gt;&lt;/p&gt;
+was introduced. If you're interested, it's available at
+&lt;a class="reference external" href="https://github.com/meatballs/bucket-brigade"&gt;github&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;You might also want to read &lt;a class="reference external" href="https://alexwlchan.net/2017/10/lightning-talks/"&gt;Alex Chan's article&lt;/a&gt;
+which was written shortly after the 2017 conference.&lt;/p&gt;
 &lt;/div&gt;
 </content><category term="conferences"></category></entry><entry><title>Detecting Change with Pandas</title><link href="https://www.owencampbell.me.uk/detecting-change.html" rel="alternate"></link><published>2018-08-19T00:00:00+01:00</published><updated>2018-08-19T00:00:00+01:00</updated><author><name>Owen Campbell</name></author><id>tag:www.owencampbell.me.uk,2018-08-19:/detecting-change.html</id><summary type="html">
 &lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
