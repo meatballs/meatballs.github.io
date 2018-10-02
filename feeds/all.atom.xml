@@ -1,5 +1,95 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Owen Campbell</title><link href="https://www.owencampbell.me.uk/" rel="alternate"></link><link href="https://www.owencampbell.me.uk/feeds/all.atom.xml" rel="self"></link><id>https://www.owencampbell.me.uk/</id><updated>2018-08-19T00:00:00+01:00</updated><entry><title>Detecting Change with Pandas</title><link href="https://www.owencampbell.me.uk/detecting-change.html" rel="alternate"></link><published>2018-08-19T00:00:00+01:00</published><updated>2018-08-19T00:00:00+01:00</updated><author><name>Owen Campbell</name></author><id>tag:www.owencampbell.me.uk,2018-08-19:/detecting-change.html</id><summary type="html">
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Owen Campbell</title><link href="https://www.owencampbell.me.uk/" rel="alternate"></link><link href="https://www.owencampbell.me.uk/feeds/all.atom.xml" rel="self"></link><id>https://www.owencampbell.me.uk/</id><updated>2018-10-02T00:00:00+01:00</updated><entry><title>Lightning Talks and Buckets</title><link href="https://www.owencampbell.me.uk/lightning-talks.html" rel="alternate"></link><published>2018-10-02T00:00:00+01:00</published><updated>2018-10-02T00:00:00+01:00</updated><author><name>Owen Campbell</name></author><id>tag:www.owencampbell.me.uk,2018-10-02:/lightning-talks.html</id><summary type="html">&lt;div class="section" id="pycon-uk-2016"&gt;
+&lt;h2&gt;PyCon UK 2016&lt;/h2&gt;
+&lt;p&gt;At PyCon UK 2016, I became annoyed.&lt;/p&gt;
+&lt;p&gt;I was fully part of the organising team for the first time and we had spent part of
+first morning's session introducing lightning talks: explaining how there were an
+ideal way for new speakers to begin their speaking career.&lt;/p&gt;
+&lt;p&gt;At …&lt;/p&gt;&lt;/div&gt;</summary><content type="html">&lt;div class="section" id="pycon-uk-2016"&gt;
+&lt;h2&gt;PyCon UK 2016&lt;/h2&gt;
+&lt;p&gt;At PyCon UK 2016, I became annoyed.&lt;/p&gt;
+&lt;p&gt;I was fully part of the organising team for the first time and we had spent part of
+first morning's session introducing lightning talks: explaining how there were an
+ideal way for new speakers to begin their speaking career.&lt;/p&gt;
+&lt;p&gt;At the time, the system we used for lightning talks was the same as everyone else.
+We had a flipchart at reception and, if you wanted to give a talk, you wrote your
+name and a title on the flipchart, starting at the top.&lt;/p&gt;
+&lt;p&gt;But, when I walked down to reception at the end of the introduction, the flipchart
+was already full with far more submissions than we could possibly hope to cover in
+the lightning talk session. Anyone who had heard about them for the first time two
+minutes earlier had no chance of getting on stage.&lt;/p&gt;
+&lt;p&gt;The same happened the following day and each day of the conference. The lightning talk
+sessions each evening filled up with the same old faces who knew the system and arrived
+early each morning to get their name on the list.&lt;/p&gt;
+&lt;p&gt;The inner eight-year old within me cried out, &amp;quot;That's not fair!&amp;quot; and something had to be done.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="pycon-uk-2017"&gt;
+&lt;h2&gt;PyCon UK 2017&lt;/h2&gt;
+&lt;p&gt;The following year, I decided to do something about it. I felt there were two
+issues to resolve:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p class="first"&gt;New Speakers&lt;/p&gt;
+&lt;p&gt;If we were serious about encouraging new speakers, we had to bias the system
+in their favour somehow. It was unreasonable to expect newcomers to compete
+for speaking slots with those that had been coming to the conference for years.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p class="first"&gt;Talk Selection&lt;/p&gt;
+&lt;p&gt;The flipchart system meant that talks were selected on a first-come,
+first-served basis so that, even if you were an experienced speaker, you had
+no chance of giving a talk unless you were prepared to get out of bed early
+and get your name at the top of the list.&lt;/p&gt;
+&lt;p&gt;What about anyone who had an idea during the day? What about anyone who couldn't
+get to the venue for 8 AM?&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;And so, I came up with the bucket system. We replaced the flipchart
+with two buckets and a set of index cards. If you wanted to submit a talk proposal,
+you took an index card, wrote your name and a title on it and dropped it in a bucket.
+One of the buckets was for new speakers and the other for experienced speakers.&lt;/p&gt;
+&lt;p&gt;The buckets appeared at reception each morning and stayed there until lunch. During
+lunch we drew cards, half from one bucket and half from the other, and posted
+them on the flipchart at reception.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="pycon-uk-2018"&gt;
+&lt;h2&gt;PyCon UK 2018&lt;/h2&gt;
+&lt;p&gt;No system is ever perfect and we tweaked things slightly this year.&lt;/p&gt;
+&lt;p&gt;Firstly, we'd had a lot of questions about the definition of an &amp;quot;experienced
+speaker&amp;quot; in 2017 and we'd changed those descriptions part way through the conference.&lt;/p&gt;
+&lt;p&gt;The two buckets were now for &amp;quot;New Speakers&amp;quot; and &amp;quot;Everyone Else.&amp;quot; We opened with
+that description for 2018 and it worked much better with far less confusion
+about who should use which bucket.&lt;/p&gt;
+&lt;p&gt;We also realised that the index cards would be extremely useful for the lightning
+talks chair. In 2017, we'd simply left them at reception all day but, in 2018,
+we ensured that the chair, Mark Smith, had the cards in the correct order well
+before the session started. If there was anything he couldn't read, was unsure
+how to pronounce or anything else he needed to know, he had time to find the speaker,
+clarify things and make notes on the cards. It worked well and we'll definitely
+repeat that next year.&lt;/p&gt;
+&lt;p&gt;We do have one more issue to consider and improve: the lightining talk session
+is always at the end of the day and has a fixed end time because of our agreement
+with the venue. Given the possibility of previous sessions over-running and the
+general uncertainty of how long lightning talks (and handover between them) might
+take, it's tricky to estimate how many talks we'll need.&lt;/p&gt;
+&lt;p&gt;In 2017 and 2018, we deliberately drew more cards than we thought we'd need.
+There are always far more submissions than we can possibly fit and it would be
+a shame to finish the session early simply because we drew too few cards. In
+many ways, this is no different to the old flipchart system where, the further
+down the list you were, the less likely it became that you would get on stage
+but you didn't know for definite until the session itself.&lt;/p&gt;
+&lt;p&gt;However, this caused some issues in 2018. Some potential speakers had put effort
+into preparing their talks but the session ended before they were called. That's
+not ideal and we'll need to improve how we handle that aspect for 2019. I have
+a few ideas in mind, so watch out for further tweaks!&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="elsewhere"&gt;
+&lt;h2&gt;Elsewhere&lt;/h2&gt;
+&lt;p&gt;I've been delighted to see that the idea has spread. At the time of writing,
+I'm aware of five other conferences that have used similar systems for their
+lightning talk submission and selection.&lt;/p&gt;
+&lt;p&gt;I've made an attempt to capture where the system has been used and how the idea
+was introduced. If you're interested, it's available at &lt;a class="reference external" href="https://github.com/meatballs/bucket-brigade"&gt;github&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+</content><category term="conferences"></category></entry><entry><title>Detecting Change with Pandas</title><link href="https://www.owencampbell.me.uk/detecting-change.html" rel="alternate"></link><published>2018-08-19T00:00:00+01:00</published><updated>2018-08-19T00:00:00+01:00</updated><author><name>Owen Campbell</name></author><id>tag:www.owencampbell.me.uk,2018-08-19:/detecting-change.html</id><summary type="html">
 &lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;&lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
