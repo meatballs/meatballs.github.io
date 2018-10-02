@@ -9,7 +9,7 @@ Lightning Talks and Buckets
 
 PyCon UK 2016
 -------------
-At PyCon UK 2016, I became annoyed.
+At `PyCon UK 2016 <https://2016.pyconuk.org>`_, I became annoyed.
 
 I was fully part of the organising team for the first time and we had spent part of
 first morning's session introducing lightning talks: explaining how there were an
@@ -33,8 +33,8 @@ The inner eight-year old within me cried out, "That's not fair!" and something h
 PyCon UK 2017
 -------------
 
-The following year, I decided to do something about it. I felt there were two
-issues to resolve:
+For `PyCon UK 2017 <https://2017.pyconuk.org>`_, I decided to do something
+about it. I felt there were two issues to resolve:
 
 * New Speakers
 
@@ -64,7 +64,8 @@ them on the flipchart at reception.
 PyCon UK 2018
 -------------
 
-No system is ever perfect and we tweaked things slightly this year.
+No system is ever perfect and we tweaked things slightly for
+`PyCon UK 2018 <https://2018.pyconuk.org>`_.
 
 Firstly, we'd had a lot of questions about the definition of an "experienced
 speaker" in 2017 and we'd changed those descriptions part way through the conference.
@@ -106,4 +107,8 @@ I'm aware of five other conferences that have used similar systems for their
 lightning talk submission and selection.
 
 I've made an attempt to capture where the system has been used and how the idea
-was introduced. If you're interested, it's available at `github <https://github.com/meatballs/bucket-brigade>`_
+was introduced. If you're interested, it's available at
+`github <https://github.com/meatballs/bucket-brigade>`_.
+
+You might also want to read `Alex Chan's article <https://alexwlchan.net/2017/10/lightning-talks/>`_
+which was written shortly after the 2017 conference.
