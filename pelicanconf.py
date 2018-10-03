@@ -66,6 +66,7 @@ ABOUT_ME = """
     <li>Chartered Engineer</li>
     <li>Based near Chester, UK.</li>
     <li>Python Enthusiast</li>
+    <li>PyCon UK Organiser</li>
     <li>Founding Trustee of the UK Python Association</li>
   </ul>"""
 AVATAR = "/images/favicon/mstile-310x310.png"
