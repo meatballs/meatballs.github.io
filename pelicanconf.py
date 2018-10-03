@@ -82,6 +82,6 @@ SOCIAL = (
     ("GitHub", "https://github.com/meatballs"),
 )
 LINKS = (
-    ("SQL Python Tutorial", "https://owencampbell.me.uk/sql_python_tutorial"),
+    ("SQL Python Tutorial", "https://www.owencampbell.me.uk/sql_python_tutorial"),
     ("Empiria", "https://www.empiria.co.uk"),
 )
