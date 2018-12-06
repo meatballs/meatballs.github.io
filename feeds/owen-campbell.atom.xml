@@ -1,5 +1,40 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Owen Campbell - Owen Campbell</title><link href="https://www.owencampbell.me.uk/" rel="alternate"></link><link href="https://www.owencampbell.me.uk/feeds/owen-campbell.atom.xml" rel="self"></link><id>https://www.owencampbell.me.uk/</id><updated>2018-10-02T00:00:00+01:00</updated><entry><title>Lightning Talks and Buckets</title><link href="https://www.owencampbell.me.uk/lightning-talks.html" rel="alternate"></link><published>2018-10-02T00:00:00+01:00</published><updated>2018-10-02T00:00:00+01:00</updated><author><name>Owen Campbell</name></author><id>tag:www.owencampbell.me.uk,2018-10-02:/lightning-talks.html</id><summary type="html">&lt;div class="section" id="pycon-uk-2016"&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Owen Campbell - Owen Campbell</title><link href="https://www.owencampbell.me.uk/" rel="alternate"></link><link href="https://www.owencampbell.me.uk/feeds/owen-campbell.atom.xml" rel="self"></link><id>https://www.owencampbell.me.uk/</id><updated>2018-12-06T00:00:00+00:00</updated><entry><title>Make Mine a Martini</title><link href="https://www.owencampbell.me.uk/martini.html" rel="alternate"></link><published>2018-12-06T00:00:00+00:00</published><updated>2018-12-06T00:00:00+00:00</updated><author><name>Owen Campbell</name></author><id>tag:www.owencampbell.me.uk,2018-12-06:/martini.html</id><summary type="html">&lt;p&gt;I do like a good martini. I can even turn out a pretty reasonable effort at
+making one myself.&lt;/p&gt;
+&lt;p&gt;But if I'm ordering one at a bar, I want the full rites. I want to hear the
+questions. I want to take my time over the answers. I enjoy the …&lt;/p&gt;</summary><content type="html">&lt;p&gt;I do like a good martini. I can even turn out a pretty reasonable effort at
+making one myself.&lt;/p&gt;
+&lt;p&gt;But if I'm ordering one at a bar, I want the full rites. I want to hear the
+questions. I want to take my time over the answers. I enjoy the ritual. (
+What can I say? I was raised a Catholic).&lt;/p&gt;
+&lt;p&gt;So, what does ordering the perfect martini look like?&lt;/p&gt;
+&lt;p&gt;&amp;quot;Vodka or gin, Sir?&amp;quot;&lt;/p&gt;
+&lt;p&gt;Obviously, this is a trick question with one correct answer and one for those
+who have spent far too much time reading Ian Fleming novels. We'll share a
+moment of disdain for those who might choose the wrong option and bond (never
+could resist a good pun...) for a brief moment over out shared good taste.&lt;/p&gt;
+&lt;p&gt;&amp;quot;Do you a particular gin in mind?&amp;quot;&lt;/p&gt;
+&lt;p&gt;I might have spotted something I'd like to try behind the bar or I might be
+looking for some guidance. Help me out here. Don't let me choose something
+that's going to disappoint. If you've got one that's perfect, tell me about it.&lt;/p&gt;
+&lt;p&gt;&amp;quot;And the vermouth?&amp;quot;&lt;/p&gt;
+&lt;p&gt;Tricky one this. Some places have a selection, others only one. At least let me
+know if I have a choice and, if not, tell me what I'll be getting. It may not
+have made any difference for Mr. Churchill - if you only wave the gin at an
+unopened bottle of vermouth, who care's what's in it? - but that's not how I
+want my martini.&lt;/p&gt;
+&lt;p&gt;&amp;quot;Shaken or stirred?&amp;quot;&lt;/p&gt;
+&lt;p&gt;Again, there's a correct answer and one for those harbouring fantasies of
+becoming MI6 officers. You'll look apologetic for having to ask and we'll both
+bask in our superiority for a moment or two when I give the correct answer.&lt;/p&gt;
+&lt;p&gt;&amp;quot;Olive or a twist?&amp;quot;&lt;/p&gt;
+&lt;p&gt;Full marks for giving a little guidance here and extra bonus points for
+offering something different based on the choice of gin. Extra bonus points if
+I opt for an olive and you ask if I want it dirty.&lt;/p&gt;
+&lt;p&gt;Get the ritual right and I'll have the perfect martini every time. And if the
+next customer orders a vodka martini, shaken not stirred, make them feel just
+as special but we'll share a knowing glance across the bar.&lt;/p&gt;
+</content><category term="food"></category></entry><entry><title>Lightning Talks and Buckets</title><link href="https://www.owencampbell.me.uk/lightning-talks.html" rel="alternate"></link><published>2018-10-02T00:00:00+01:00</published><updated>2018-10-02T00:00:00+01:00</updated><author><name>Owen Campbell</name></author><id>tag:www.owencampbell.me.uk,2018-10-02:/lightning-talks.html</id><summary type="html">&lt;div class="section" id="pycon-uk-2016"&gt;
 &lt;h2&gt;PyCon UK 2016&lt;/h2&gt;
 &lt;p&gt;At &lt;a class="reference external" href="https://2016.pyconuk.org"&gt;PyCon UK 2016&lt;/a&gt;, I became annoyed.&lt;/p&gt;
 &lt;p&gt;I was fully part of the organising team for the first time and we had spent part of
