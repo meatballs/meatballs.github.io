@@ -61,8 +61,7 @@ DISPLAY_SERIES_ON_SIDEBAR = False
 SHOW_SERIES = True
 ABOUT_ME = """
   <ul>
-    <li>I help organisations to replace spreadsheets with good quality code</li>
-    <li>Freelancer, available for hire</li>
+    <li>Freelance Professional Software Engineer</li>
     <li>Chartered Engineer</li>
     <li>Based near Chester, UK.</li>
     <li>Python Enthusiast</li>
@@ -75,10 +74,7 @@ SHARIFF_LANG = "en"
 DOCUTIL_CSS = True
 USE_OPEN_GRAPH = True
 TWITTER_CARDS = False
-# TWITTER_USERNAME = 'opcampbell'
-# TWITTER_WIDGET_ID = '598804695734431744'
 SOCIAL = (
-    ("Twitter", "https://twitter.com/opcampbell"),
     ("LinkedIn", "https://www.linkedin.com/in/owencampbell"),
     ("GitHub", "https://github.com/meatballs"),
 )
