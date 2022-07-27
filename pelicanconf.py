@@ -70,8 +70,6 @@ ABOUT_ME = """
     <li>Founding Trustee of the UK Python Association</li>
   </ul>"""
 AVATAR = "/images/favicon/mstile-310x310.png"
-SHARIFF = True
-SHARIFF_LANG = "en"
 DOCUTIL_CSS = True
 USE_OPEN_GRAPH = True
 TWITTER_CARDS = False
