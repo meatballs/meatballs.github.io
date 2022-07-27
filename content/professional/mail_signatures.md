@@ -62,7 +62,7 @@ You will also need my public key which I have published on the network of PGP ke
 
 Some software implementations support importing keys from a QR code:
 
-![My Key]({filename}/images/be9c2b73.svg)
+![My Key]({static}/images/be9c2b73.svg)
 
 If, for whatever reason, you are unable to retrieve the correct key, please reply to the original email and I will gladly send it to you directly.
 

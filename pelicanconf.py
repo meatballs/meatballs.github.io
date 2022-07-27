@@ -10,7 +10,7 @@ DEFAULT_METADATA = {"status": "draft", "author": "Owen Campbell"}
 
 PATH = "content"
 TIMEZONE = "Europe/London"
-DEFAULT_LANG = "en_GB"
+DEFAULT_LANG = "en"
 DEFAULT_PAGINATION = 10
 RELATIVE_URLS = True
 DISPLAY_CATEGORIES_ON_MENU = True
@@ -23,7 +23,7 @@ CATEGORY_FEED_ATOM = None
 TRANSLATION_FEED_ATOM = None
 
 PLUGIN_PATHS = ("../pelican-plugins",)
-PLUGINS = ["creole_reader", "series", "pelican-ipynb.markup", "tag_cloud"]
+PLUGINS = ["creole_reader", "series", "pelican-ipynb.markup", "tag_cloud", "i18n_subsites"]
 
 MARKUP = ("md", "ipynb")
 IGNORE_FILES = [".ipynb_checkpoints"]
@@ -50,11 +50,12 @@ STATIC_PATHS = ["images", "extra"]
 
 
 THEME = "../pelican-themes/pelican-bootstrap3/"
+JINJA_ENVIRONMENT = {"extensions": ["jinja2.ext.i18n"]}
 FAVICON = "images/favicon/favicon-16x16.png"
 BOOTSTRAP_THEME = "cerulean"
 PYGMENTS_STYLE = "solarizedlight"
 
-DISPLAY_TAGS_ON_SIDEBAR = True
+DISPLAY_TAGS_ON_SIDEBAR = False
 DISPLAY_TAGS_INLINE = True
 DISPLAY_ARTICLE_INFO_ON_INDEX = True
 DISPLAY_SERIES_ON_SIDEBAR = False
@@ -80,5 +81,6 @@ SOCIAL = (
 )
 LINKS = (
     ("SQL Python Tutorial", "https://www.owencampbell.me.uk/sql_python_tutorial"),
-    ("Empiria", "https://www.empiria.co.uk"),
+    ("PyCon UK", "https://pyconuk.org"),
+    ("UK Python Association", "https://uk.python.org"),
 )
