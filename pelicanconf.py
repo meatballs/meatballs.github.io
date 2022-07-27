@@ -61,7 +61,6 @@ ABOUT_ME = """
     <li>Freelance Professional Software Engineer</li>
     <li>Chartered Engineer</li>
     <li>Based near Chester, UK.</li>
-    <li>Python Enthusiast</li>
     <li>PyCon UK Organiser</li>
     <li>Founding Trustee of the UK Python Association</li>
   </ul>"""
