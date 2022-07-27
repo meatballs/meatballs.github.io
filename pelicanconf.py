@@ -10,7 +10,7 @@ DEFAULT_METADATA = {"status": "draft", "author": "Owen Campbell"}
 
 PATH = "content"
 TIMEZONE = "Europe/London"
-DEFAULT_LANG = "en"
+DEFAULT_LANG = "en_GB"
 DEFAULT_PAGINATION = 10
 RELATIVE_URLS = True
 DISPLAY_CATEGORIES_ON_MENU = True
@@ -23,11 +23,7 @@ CATEGORY_FEED_ATOM = None
 TRANSLATION_FEED_ATOM = None
 
 PLUGIN_PATHS = ("../pelican-plugins",)
-PLUGINS = ["creole_reader", "series", "pelican-ipynb.markup", "tag_cloud", "i18n_subsites"]
-
-MARKUP = ("md", "ipynb")
-IGNORE_FILES = [".ipynb_checkpoints"]
-IPYNB_SKIP_CSS = True
+PLUGINS = ["creole_reader", "series", "i18n_subsites"]
 
 CUSTOM_CSS = "static/css/custom.css"
 STATIC_PATHS = [
