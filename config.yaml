@@ -15,7 +15,7 @@ Menus:
     - identifier: blog
       name: Blog
       title: Blog posts
-      url: /blog
+      url: /blogs
       weight: 1
 
 params:
@@ -97,7 +97,7 @@ params:
     btnName: Mail me
 
   footer:
-    # recentPosts: false
+    recentPosts: true
     socialNetworks:
       github: https://github.com/meatballs
       linkedin: https://linkedin.com/in/owencampbell
