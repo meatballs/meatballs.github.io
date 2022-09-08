@@ -1,8 +1,15 @@
+---
 title: PGP Signatures on Email
-slug: pgp
-tags: pgp, email
 date: 2008-06-12
-status: published
+draft: false
+author: "Owen"
+tags:
+  - pgp
+  - email
+image:
+description: ""
+toc: 
+---
 
 You're probably here because you've received an email from me with an attachment called 'signature.asc' or with lines at the top similar to:
 
