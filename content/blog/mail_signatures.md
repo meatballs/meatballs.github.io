@@ -3,12 +3,13 @@ title: PGP Signatures on Email
 date: 2008-06-12
 draft: false
 author: "Owen"
+url: /pgp
 tags:
   - pgp
   - email
 image:
 description: ""
-toc: 
+toc:
 ---
 
 You're probably here because you've received an email from me with an attachment called 'signature.asc' or with lines at the top similar to:
