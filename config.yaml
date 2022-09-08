@@ -273,6 +273,21 @@ params:
           - icon: fab fa-twitter
             url: https://twitter.com/intent/tweet?text=Check+it+out:&url=https%3A%2F%2Fowencampbell.me.uk%2Fsql_python_tutorial%2F
 
+      - title: Anvil Extras
+        content: A library of extra components and modules for use in creating an Anvil app.
+        image: /images/projects/anvil_extras.png
+        featured:
+          name: Demo
+          link: https://anvil-extras-demo.anvil.app/
+        badges:
+          - Anvil
+          - Python
+        links:
+          - icon: fab fa-github
+            url: https://github.com/anvilistas/anvil_extras
+          - icon: fab fa-twitter
+            url: https://twitter.com/intent/tweet?text=Check+it+out:&url=https%3A%2F%2Fgithub.com%2Fanvilistas%2Fanvil_extras%2F
+
   #Contact
   contact:
     enable: true
