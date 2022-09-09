@@ -61,21 +61,6 @@ params:
   projects:
     enable: true
     items:
-      - title: SQL for Python Programmers
-        content: A tutorial covering basic SQL for those with a background in Python.
-        image: /images/projects/sql_python_tutorial.png
-        featured:
-          name: Start
-          link: https://owencampbell.me.uk/sql_python_tutorial/
-        badges:
-          - "Python"
-          - "SQL"
-        links:
-          - icon: fab fa-github
-            url: https://github.com/meatballs/sql_python_tutorial
-          - icon: fab fa-twitter
-            url: https://twitter.com/intent/tweet?text=Check+it+out:&url=https%3A%2F%2Fowencampbell.me.uk%2Fsql_python_tutorial%2F
-
       - title: Anvil Extras
         content: A library of extra components and modules for use in creating an Anvil app.
         image: /images/projects/anvil_extras.png
@@ -103,6 +88,20 @@ params:
           - icon: fab fa-twitter
             url: https://twitter.com/intent/tweet?text=Check+it+out:&url=https%3A%2F%2Fgithub.com%2Fanvilistas%2Famoni%2F
 
+      - title: SQL for Python Programmers
+        content: A tutorial covering basic SQL for those with a background in Python.
+        image: /images/projects/sql_python_tutorial.png
+        featured:
+          name: Start
+          link: https://owencampbell.me.uk/sql_python_tutorial/
+        badges:
+          - "Python"
+          - "SQL"
+        links:
+          - icon: fab fa-github
+            url: https://github.com/meatballs/sql_python_tutorial
+          - icon: fab fa-twitter
+            url: https://twitter.com/intent/tweet?text=Check+it+out:&url=https%3A%2F%2Fowencampbell.me.uk%2Fsql_python_tutorial%2F
 
   contact:
     enable: true
