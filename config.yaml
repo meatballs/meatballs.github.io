@@ -91,6 +91,18 @@ params:
           - icon: fab fa-twitter
             url: https://twitter.com/intent/tweet?text=Check+it+out:&url=https%3A%2F%2Fgithub.com%2Fanvilistas%2Famoni%2F
 
+      - title: Axelrod Python
+        content: A Python game theory library for the study of the Iterated Prisoners Dilemma.
+        image: /images/projects/axelrod.png
+        featured:
+          name: Docs
+          link: https://axelrod.readthedocs.io/en/latest/
+        links:
+          - icon: fab fa-github
+            url: https://github.com/axelrod-python/axelrod
+          - icon: fab fa-twitter
+            url: https://twitter.com/intent/tweet?text=Check+it+out:&url=https%3A%2F%2Fgithub.com%2Faxelrod-python%2Faxelrod%2F
+
       - title: SQL for Python Programmers
         content: A tutorial covering basic SQL for those with a background in Python.
         image: /images/projects/sql_python_tutorial.png
