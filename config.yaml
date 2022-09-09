@@ -34,7 +34,7 @@ params:
     title: Owen.
     subtitle: "I'm a consulting software engineer."
     content: |-
-      Improving the world of business by getting rid of as many spreadsheets as possible.
+      Improving the business world by getting rid of as many spreadsheets as possible.
     image: /profile.png
     socialLinks:
       fontAwesomeIcons:
