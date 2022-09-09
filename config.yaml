@@ -91,6 +91,19 @@ params:
           - icon: fab fa-twitter
             url: https://twitter.com/intent/tweet?text=Check+it+out:&url=https%3A%2F%2Fgithub.com%2Fanvilistas%2Fanvil_extras%2F
 
+      - title: Amoni
+        content: A command line utility for local development of Anvil apps.
+        image: /images/projects/amoni.png
+        featured:
+          name: Docs
+          link: https://amoni.readthedocs.io/en/latest/
+        links:
+          - icon: fab fa-github
+            url: https://github.com/anvilistas/amoni
+          - icon: fab fa-twitter
+            url: https://twitter.com/intent/tweet?text=Check+it+out:&url=https%3A%2F%2Fgithub.com%2Fanvilistas%2Famoni%2F
+
+
   contact:
     enable: true
     #title: "Custom name"
