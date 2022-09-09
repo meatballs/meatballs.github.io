@@ -25,7 +25,7 @@ params:
   useBootstrapCDN: false
 
   theme:
-    disableThemeToggle: true
+    disableThemeToggle: false
     defaultTheme: "dark"
 
   hero:
