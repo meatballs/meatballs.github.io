@@ -21,7 +21,7 @@ proposal was selected as a keynote (which we'll come back to again in a moment):
 
 I want to come at this from a slightly different angle. Rather than offering some
 guidance on how to write a proposal, I thought I'd look back at the proposals that have
-stood out and see if I could spot any patterns. What is that consistently makes our
+stood out and see if I could spot any patterns. What is it that consistently makes our
 review team give out their highest scores?
 
 I'll be using several examples from PyCon UK 2022. This was our first conference after
