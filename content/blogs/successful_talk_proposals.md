@@ -31,7 +31,7 @@ review team give out their highest scores?
 
 I'll be using several examples from PyCon UK 2022. This was our first conference after
 COVID-19 and competition for places was fierce. The conference was scaled down compared
-to previous years (we had 22 talk slots compared with 125 in 2019) yet the number of proposals
+to previous years (we had 22 talk slots compared with 79 in 2019) yet the number of proposals
 was higher (167 compared with 147 in 2019). To get on to our stage and give a talk in 2022,
 the proposal had to be even better than usual.
 
