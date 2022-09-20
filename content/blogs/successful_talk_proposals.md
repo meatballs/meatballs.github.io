@@ -51,7 +51,7 @@ The master of the metaphorical talk is probably Daniele Procida. Here's his 2022
 
 [How to Wag a Dog](https://pretalx.com/pycon-uk-2022/talk/L3YEB3/)
 
-But, coming back to Hannah, this is what really sold her 2022 proposal to the reviewers
+But, coming back to Hannah, the metaphor is what really sold her 2022 proposal to the reviewers
 and led to her delivering our opening keynote that year:
 
 [Unexploded Bombs](https://pretalx.com/pycon-uk-2022/talk/7ANG8N/)
