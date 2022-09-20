@@ -14,8 +14,13 @@ is to look after the programme - the call for proposals, reviewing the submissio
 fitting those we accept into the schedule.
 
 There are many guides online to writing a successful proposal. We normally have one
-ourselves on the conference website. Here's another from Hannah Hazi whose 2022
-proposal was selected as a keynote (which we'll come back to again in a moment):
+ourselves on the conference website:
+
+(Our 2022 Advice)[https://2022.pyconuk.org/call-for-proposals/proposal-submission-advice/]
+
+
+Here's another from Hannah Hazi whose 2022 proposal was selected as a keynote (which
+we'll come back to again in a moment):
 
 [Create a Conference Talk Proposal that Sparks Joy](https://anvil.works/blog/conference-talks-that-spark-joy)
 
