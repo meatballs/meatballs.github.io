@@ -16,7 +16,7 @@ fitting those we accept into the schedule.
 There are many guides online to writing a successful proposal. We normally have one
 ourselves on the conference website:
 
-(Our 2022 Advice)[https://2022.pyconuk.org/call-for-proposals/proposal-submission-advice/]
+[Our 2022 Advice](https://2022.pyconuk.org/call-for-proposals/proposal-submission-advice/)
 
 
 Here's another from Hannah Hazi whose 2022 proposal was selected as a keynote (which
