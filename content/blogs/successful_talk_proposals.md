@@ -62,7 +62,7 @@ If you can offer to tell our audience about a world they didn't even know existe
 you'll have our reviewers hooked. They'll want to know more and, to do that, they'll
 score the proposal highly.
 
-I'm going to use a couple of lightning talks as examples here. For those, you still have
+I'm going to use a lightning talk as an example here. For those, you still have
 to submit a written proposal - you just use an index card and a [bucket]({{< ref "/blogs/lightning_talks" >}}) -
 and those are reviewed and selected.
 
