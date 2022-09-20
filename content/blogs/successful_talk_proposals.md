@@ -1,7 +1,7 @@
 ---
 title: "Successful Talk Proposals"
 date: 2022-09-20T09:50:01+01:00
-draft: true
+draft: false
 author: "Owen"
 tags:
   - conferences
