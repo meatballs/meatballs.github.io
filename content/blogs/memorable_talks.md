@@ -29,7 +29,7 @@ audience never knew existed, your talk will stick in the mind.
 
 This one is tricky to plan! Many people, when asked to recall a talk, will leap to one
 where they personally learned something hugely useful. The reasons for that learning are
-often deeply personal and relate the circumstances of the listener more than anything
+often deeply personal and relate to the circumstances of the listener more than anything
 specific the speaker said or did.
 
 The takeaway? If you know something in some depth, there's a good chance somebody will
