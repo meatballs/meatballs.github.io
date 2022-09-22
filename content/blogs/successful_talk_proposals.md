@@ -61,7 +61,7 @@ and led to her delivering our opening keynote that year:
 
 [Unexploded Bombs](https://pretalx.com/pycon-uk-2022/talk/7ANG8N/)
 
-## Unknown Worlds
+## Hidden Worlds
 
 If you can offer to tell our audience about a world they didn't even know existed,
 you'll have our reviewers hooked. They'll want to know more and, to do that, they'll
@@ -80,4 +80,4 @@ a world we knew nothing about:
 
 Of course, one way to boost your proposal's chances is for the reviewers to remember
 talks you've given previously and want to hear more from you - but that's the subject of
-a whole new post ...
+a [whole new post]({{< ref "/blogs/memorable_talks" >}}) ...
