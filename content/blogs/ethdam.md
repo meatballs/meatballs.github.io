@@ -33,7 +33,6 @@ We also used condition based decryption by [nucypher](https://nucypher.com) and 
 
 Much to our amazement, we picked up a prize from both of the sponsors and went home with $3000 of bounty! James' idea certainly is sound and we're not the only ones who thought so!
 
-ETHDam itself was wonderful. The organisers had done an excellent job and, as a hacker with my head down for hours at a time, I was well looked after. As a newcomer to this world, I couldn't have possibly been made more welcome and I'll certainly be back.
-
 Given that using anvil was what I'd brought to the party and it's not exactly a mainstream solution, I was delighted that we managed to build our demo in such a short time. It certainly proved itself that weekend - there is no other way I could have carried off $3000 in prize money by building an app in 36 hours in a field I'd never worked in before.
 
+ETHDam itself was wonderful. The organisers had done an excellent job and, as a hacker with my head down for hours at a time, I was well looked after. As a newcomer to this world, I couldn't have possibly been made more welcome and I'll certainly be back.
