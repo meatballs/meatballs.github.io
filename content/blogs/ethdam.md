@@ -1,5 +1,6 @@
 ---
 title: "ETHDam - My First Web3 Event"
+slug: ethdam
 date: 2023-05-30
 draft: false
 author: "Owen"
