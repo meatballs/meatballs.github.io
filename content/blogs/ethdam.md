@@ -1,7 +1,7 @@
 ---
 title: "ETHDam - My First Web3 Event"
 date: 2023-05-30
-draft: true
+draft: false
 author: "Owen"
 tags:
   - conferences
