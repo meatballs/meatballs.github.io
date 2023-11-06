@@ -17,7 +17,7 @@ Computers used to be enormous machines, often filling entire rooms. When I was a
 
 Those workstations each had a keyboard and a monitor. You typed your commands on the keyboard, those were sent down the wire to the mainframe and the response came back to be displayed on the monitor.
 
-That combination of keyboard and monitor were known as terminals. Why that word? The same reason we use it for some railways stations - they were at the end of a line!
+That combination of keyboard and monitor were known as terminals. Why that word? The same reason we use it for some railway stations - they were at the end of a line!
 
 ## What is a Shell?
 When those keystrokes arrived at the mainframe, you needed some sort of program to process them - it needed to listen for incoming keystrokes, interpret them, request the mainframe's operating system to execute the relevant instructions, get the output of those instructions and send it back to the terminal's monitor.
