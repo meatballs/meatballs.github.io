@@ -10,7 +10,7 @@ toc:
 ---
 I often find that there is some confusion for beginner programmers when it comes to understanding the difference between a terminal and a shell.
 
-Let's take a few moments to look at the history of where those terms arose and how that fits withe world of modern computing.
+Let's take a few moments to look at the history of where those terms arose and how that fits with the world of modern computing.
 
 ## What is a Terminal?
 Computers used to be enormous machines, often filling entire rooms. When I was at University in the late 1980s, there was a large 'mainframe' machine somewhere in the Computer Science building and there were workstations around the university campus from where students and staff could use it.
