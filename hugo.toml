@@ -8,6 +8,7 @@ languageCode = "en-gb"
 
 [params]
   description = "Freelance Software Engineer & Consultant - Python enthusiast, PyCon UK organiser"
+  favicon = "favicon-32x32.png"
   
   # Cutting off the page title to two chars for mobile
   titleCutting = true
