@@ -36,6 +36,15 @@ bd create --title "Subtask" --description "Details" --deps "parent-id"
 bd create --title "Task" --deps "id1,blocks:id2"
 ```
 
+## Git Push Policy
+
+**CRITICAL: NEVER push to remote without explicit user permission.**
+
+- **ALWAYS ask** before running `git push`
+- Commit locally, show status, then ASK: "Ready to push?"
+- Only push when user explicitly says: "push", "commit and push", "deploy", etc.
+- Exception: "Landing the plane" workflow at session end (see below)
+
 ## Landing the Plane (Session Completion)
 
 **When ending a work session**, you MUST complete ALL steps below. Work is NOT complete until `git push` succeeds.
@@ -45,7 +54,7 @@ bd create --title "Task" --deps "id1,blocks:id2"
 1. **File issues for remaining work** - Create issues for anything that needs follow-up
 2. **Run quality gates** (if code changed) - Tests, linters, builds
 3. **Update issue status** - Close finished work, update in-progress items
-4. **PUSH TO REMOTE** - This is MANDATORY:
+4. **ASK PERMISSION TO PUSH** - Then execute:
    ```bash
    git pull --rebase
    bd sync
@@ -57,8 +66,8 @@ bd create --title "Task" --deps "id1,blocks:id2"
 7. **Hand off** - Provide context for next session
 
 **CRITICAL RULES:**
-- Work is NOT complete until `git push` succeeds
-- NEVER stop before pushing - that leaves work stranded locally
-- NEVER say "ready to push when you are" - YOU must push
-- If push fails, resolve and retry until it succeeds
+- NEVER push without explicit user permission
+- Commits are local until user approves push
+- If user says "don't push" or "stop", commit locally and stop
+- Only push during session completion if user approves
 

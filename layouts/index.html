@@ -19,6 +19,8 @@ Improving the business world by purging it of spreadsheets.
 
 <h1>Latest posts</h1>
 
+<p><a href="/posts/index.xml">📡 Subscribe via RSS</a></p>
+
 <div class="posts-list">
 {{ with .Site.GetPage "/posts" }}
     {{ range first 3 (sort .Pages "Date" "desc" (where .Pages ".Params.private" "!=" true))}}
