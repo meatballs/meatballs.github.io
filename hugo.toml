@@ -1,0 +1,41 @@
+baseURL = "https://owencampbell.me.uk/"
+title = "Owen Campbell"
+theme = "hugo-theme-console"
+languageCode = "en-gb"
+
+[pagination]
+  pagerSize = 10
+
+[params]
+  description = "Freelance Software Engineer & Consultant - Python enthusiast, PyCon UK organiser"
+  
+  # Cutting off the page title to two chars for mobile
+  titleCutting = true
+
+  # Set the animation style -- https://animate.style/
+  animateStyle = "animate-fade-up"
+
+  [[params.navlinks]]
+  name = "about/"
+  url = "about/"
+
+  [[params.navlinks]]
+  name = "posts/"
+  url = "posts/"
+  
+  [[params.navlinks]]
+  name = "projects/"
+  url = "projects/"
+
+  [[params.navlinks]]
+  name = "talks/"
+  url = "talks/"
+
+  [[params.navlinks]]
+  name = "contact/"
+  url = "contact/"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true

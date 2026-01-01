@@ -1,0 +1,130 @@
+baseURL: "https://owencampbell.me.uk"
+languageCode: "en-gb"
+title: "Owen Campbell"
+theme: hugo-profile
+
+Paginate: 3
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+Menus:
+  main:
+    - identifier: blog
+      name: Blog
+      title: Blog posts
+      url: /blogs
+      weight: 1
+
+params:
+  title: "Owen Campbell"
+  description: Owen Campbell
+  favicon: "/favicon-32x32.png"
+  useBootstrapCDN: false
+
+  theme:
+    disableThemeToggle: false
+    defaultTheme: "light"
+
+  hero:
+    enable: true
+    intro: Hi, my name is
+    title: Owen.
+    subtitle: "I'm a consulting software engineer."
+    content: |-
+      Improving the business world by purging it of spreadsheets.
+    image: /profile.png
+    socialLinks:
+      fontAwesomeIcons:
+        - icon: fab fa-github
+          url: https://github.com/meatballs
+        - icon: fab fa-linkedin
+          url: https://linkedin.com/in/owencampbell
+
+  about:
+    enable: true
+    title: "About Me"
+    image: ""
+    content: |-
+      I am a well-established Freelance Software Engineer & Consultant (MIET & CEng)
+      with 30+ years' experience.
+
+      I'm UK based with clients around the world - of all sizes and in a wide
+      variety of sectors, both public and private.
+
+      I'm a Python enthusiast, one of the [PyCon UK](http://pyconuk.org) organisers
+      and a founding trustee of the [UK Python Association](https://uk.python.org).
+    skills:
+      enable: false
+      title: ""
+      items:
+
+  projects:
+    enable: true
+    items:
+      - title: Anvil Extras
+        content: A library of extra components and modules for use in creating an Anvil app.
+        image: /images/projects/anvil_extras.png
+        featured:
+          name: Demo
+          link: https://anvil-extras-demo.anvil.app/
+        badges:
+          - Anvil
+          - Python
+        links:
+          - icon: fab fa-github
+            url: https://github.com/anvilistas/anvil_extras
+          - icon: fab fa-twitter
+            url: https://twitter.com/intent/tweet?text=Check+it+out:&url=https%3A%2F%2Fgithub.com%2Fanvilistas%2Fanvil_extras%2F
+
+      - title: Amoni
+        content: A command line utility for local development of Anvil apps.
+        image: /images/projects/amoni.png
+        featured:
+          name: Docs
+          link: https://amoni.readthedocs.io/en/latest/
+        links:
+          - icon: fab fa-github
+            url: https://github.com/anvilistas/amoni
+          - icon: fab fa-twitter
+            url: https://twitter.com/intent/tweet?text=Check+it+out:&url=https%3A%2F%2Fgithub.com%2Fanvilistas%2Famoni%2F
+
+      - title: Axelrod Python
+        content: A Python game theory library for the study of the Iterated Prisoners Dilemma.
+        image: /images/projects/axelrod.png
+        featured:
+          name: Docs
+          link: https://axelrod.readthedocs.io/en/latest/
+        links:
+          - icon: fab fa-github
+            url: https://github.com/axelrod-python/axelrod
+          - icon: fab fa-twitter
+            url: https://twitter.com/intent/tweet?text=Check+it+out:&url=https%3A%2F%2Fgithub.com%2Faxelrod-python%2Faxelrod%2F
+
+      - title: SQL for Python Programmers
+        content: A tutorial covering basic SQL for those with a background in Python.
+        image: /images/projects/sql_python_tutorial.png
+        featured:
+          name: Start
+          link: https://owencampbell.me.uk/sql_python_tutorial/
+        badges:
+          - "Python"
+          - "SQL"
+        links:
+          - icon: fab fa-github
+            url: https://github.com/meatballs/sql_python_tutorial
+          - icon: fab fa-twitter
+            url: https://twitter.com/intent/tweet?text=Check+it+out:&url=https%3A%2F%2Fowencampbell.me.uk%2Fsql_python_tutorial%2F
+
+  contact:
+    enable: true
+    email: owen.campbell@empiria.co.uk
+    btnName: Mail me
+
+  footer:
+    recentPosts: true
+    socialNetworks:
+      github: https://github.com/meatballs
+      linkedin: https://linkedin.com/in/owencampbell
