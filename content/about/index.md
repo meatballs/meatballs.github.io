@@ -13,9 +13,13 @@ I'm a Python enthusiast, one of the [PyCon UK](http://pyconuk.org) organisers an
 
 ## What I Do
 
-I'm a consulting software engineer focused on improving the business world by purging it of spreadsheets.
+I'm a consulting software engineer who specialises in unique business challenges.
 
-I help organizations transition from error-prone spreadsheets to robust, maintainable software solutions using Python and modern web technologies.
+When a company's success comes from doing things differently, off-the-shelf software often can't help. These organisations end up relying on spreadsheets and manual systems that grow increasingly complex and fragile over time.
+
+I build custom software they need - solutions that respect their existing processes while making them reliable, automated, and manageable.
+
+I work with my family at [Empiria](https://empiria.co.uk), a small family development business. [Meet the team](https://empiria.co.uk/team/owen).
 
 ## Links
 

@@ -1,0 +1,23 @@
+{{ define "main" }}
+<h1>{{ .Page.Title }}</h1>
+
+<p><a href="/talks/index.xml">📡 Subscribe via RSS</a></p>
+
+<br/>
+{{ .Content }}
+
+<div class="posts-list">
+{{ range sort .Pages "Date" "desc" }}
+    {{ if not .Params.private }}
+        <div class="post">
+            <p>
+                <div class="date">{{ .PublishDate.Format "Jan. 2, 2006" }}</div>    
+                <h1><a href="{{ .Permalink }}" title="{{ .Title }}">{{ .Title }}</a></h1>
+                {{ .Summary }}
+            </p>
+        </div>
+    {{ end }}
+{{ end }}
+</div>
+
+{{ end }}

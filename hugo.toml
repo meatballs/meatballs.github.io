@@ -6,6 +6,10 @@ languageCode = "en-gb"
 [pagination]
   pagerSize = 10
 
+[outputs]
+  home = ["HTML", "RSS"]
+  section = ["HTML", "RSS"]
+
 [params]
   description = "Freelance Software Engineer & Consultant - Python enthusiast, PyCon UK organiser"
   favicon = "favicon-32x32.png"
