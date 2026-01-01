@@ -9,7 +9,7 @@ image:
 description: ""
 toc:
 ---
-In [Successful Talk Proposals]({{< ref "/blogs/successful_talk_proposals" >}}), I
+In [Successful Talk Proposals]({{< ref "/posts/successful_talk_proposals" >}}), I
 finished by suggesting that a track record of memorable talks goes a long way to
 any future proposal being successful.
 

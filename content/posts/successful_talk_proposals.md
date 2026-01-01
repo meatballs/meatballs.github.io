@@ -68,7 +68,7 @@ you'll have our reviewers hooked. They'll want to know more and, to do that, the
 score the proposal highly.
 
 I'm going to use a lightning talk as an example here. For those, you still have
-to submit a written proposal - you just use an index card and a [bucket]({{< ref "/blogs/lightning_talks" >}}) -
+to submit a written proposal - you just use an index card and a [bucket]({{< ref "/posts/lightning_talks" >}}) -
 and those are reviewed and selected.
 
 Here's a great example of a talk that made it on to the stage by offering to show us
@@ -80,4 +80,4 @@ a world we knew nothing about:
 
 Of course, one way to boost your proposal's chances is for the reviewers to remember
 talks you've given previously and want to hear more from you - but that's the subject of
-a [whole new post]({{< ref "/blogs/memorable_talks" >}}) ...
+a [whole new post]({{< ref "/posts/memorable_talks" >}}) ...
