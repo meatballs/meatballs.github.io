@@ -3,8 +3,6 @@ title: "About"
 date: 2026-01-01
 ---
 
-# About Me
-
 I am a well-established Freelance Software Engineer & Consultant (MIET & CEng) with 30+ years' experience.
 
 I'm UK based with clients around the world - of all sizes and in a wide variety of sectors, both public and private.

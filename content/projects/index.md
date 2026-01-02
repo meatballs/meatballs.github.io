@@ -3,8 +3,6 @@ title: "Projects"
 date: 2026-01-01
 ---
 
-# Projects
-
 Here are some of the open source projects I've worked on:
 
 ## Anvil Extras
