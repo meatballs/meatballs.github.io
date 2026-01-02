@@ -22,9 +22,6 @@ deploy: build
 verify:
     swarm-cli feed print --identity owencampbell-website --topic-string "owencampbell-website-main"
     echo ""
-    echo "Testing local access..."
-    curl -s http://localhost:1633/bzz/$SWARM_FEED_MANIFEST/ | head -20
-    echo ""
     echo "Testing gateway access..."
     curl -s -I https://owencampbell.eth.limo | head -5
 
