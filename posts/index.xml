@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Conferences on Owen Campbell</title><link>https://owencampbell.me.uk/tags/conferences/</link><description>Recent content in Conferences on Owen Campbell</description><generator>Hugo</generator><language>en-gb</language><lastBuildDate>Tue, 30 May 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://owencampbell.me.uk/tags/conferences/index.xml" rel="self" type="application/rss+xml"/><item><title>ETHDam - My First Web3 Event</title><link>https://owencampbell.me.uk/posts/ethdam/</link><pubDate>Tue, 30 May 2023 00:00:00 +0000</pubDate><guid>https://owencampbell.me.uk/posts/ethdam/</guid><description>&lt;p&gt;I&amp;rsquo;ve been looking for a way to get my teeth into the web3 world for a little while. I needed a project - something I could get coding, make it work and learn how this all works along the way.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Owen Campbell</title><link>https://owencampbell.me.uk/posts/</link><description>Recent content in Posts on Owen Campbell</description><generator>Hugo</generator><language>en-gb</language><lastBuildDate>Mon, 06 Nov 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://owencampbell.me.uk/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>Terminals and Shells: A Beginner's Guide</title><link>https://owencampbell.me.uk/posts/terminal_shell/</link><pubDate>Mon, 06 Nov 2023 00:00:00 +0000</pubDate><guid>https://owencampbell.me.uk/posts/terminal_shell/</guid><description>&lt;p&gt;I often find that there is some confusion for beginner programmers when it comes to understanding the difference between a terminal and a shell.&lt;/p&gt;
+&lt;p&gt;Let&amp;rsquo;s take a few moments to look at the history of where those terms arose and how that fits with the world of modern computing.&lt;/p&gt;
+&lt;h2 id="what-is-a-terminal"&gt;What is a Terminal?&lt;/h2&gt; &lt;p&gt;Computers used to be enormous machines, often filling entire rooms. When I was at University in the late 1980s, there was a large &amp;lsquo;mainframe&amp;rsquo; machine somewhere in the Computer Science building and there were workstations around the university campus from where students and staff could use it.&lt;/p&gt;</description></item><item><title>ETHDam - My First Web3 Event</title><link>https://owencampbell.me.uk/posts/ethdam/</link><pubDate>Tue, 30 May 2023 00:00:00 +0000</pubDate><guid>https://owencampbell.me.uk/posts/ethdam/</guid><description>&lt;p&gt;I&amp;rsquo;ve been looking for a way to get my teeth into the web3 world for a little while. I needed a project - something I could get coding, make it work and learn how this all works along the way.&lt;/p&gt;
 &lt;p&gt;And then my son, James, pointed me at &lt;a href="https://www.ethdam.com/" target="_blank" rel="noopener"&gt;ETHDam&lt;/a&gt; - a web3 conference with free tickets for anyone accepted into their hackathon. Given that he also had an idea for something we could work on together, it seemed the perfect opportunity.&lt;/p&gt;</description></item><item><title>Memorable Talks</title><link>https://owencampbell.me.uk/posts/memorable_talks/</link><pubDate>Thu, 22 Sep 2022 00:00:00 +0000</pubDate><guid>https://owencampbell.me.uk/posts/memorable_talks/</guid><description>&lt;p&gt;In &lt;a href="https://owencampbell.me.uk/posts/successful_talk_proposals/"&gt;Successful Talk Proposals&lt;/a&gt; , I
 finished by suggesting that a track record of memorable talks goes a long way to
 any future proposal being successful.&lt;/p&gt;
@@ -40,4 +42,26 @@ reason.&lt;/p&gt;
 that I wish to be part of that community, that I'd like to be one of
 its speakers and, therefore, have my name publicly associated with the
 event and I'm prepared to spend time, effort and money to make that
-happen.&lt;/p&gt;</description></item></channel></rss>
+happen.&lt;/p&gt;</description></item><item><title>Why I use LaTeX</title><link>https://owencampbell.me.uk/posts/why_i_use_latex/</link><pubDate>Fri, 20 Mar 2015 00:00:00 +0000</pubDate><guid>https://owencampbell.me.uk/posts/why_i_use_latex/</guid><description>&lt;p&gt;When I tell people that I don&amp;rsquo;t use Microsoft Word, they are generally somewhat taken aback and then assume that, because I own a Mac rather than a Windows PC, that I just use Apple&amp;rsquo;s Pages instead.&lt;/p&gt;
+&lt;p&gt;I don&amp;rsquo;t!&lt;/p&gt;
+&lt;p&gt;In fact, I don&amp;rsquo;t use any kind of conventional word processor. I also don&amp;rsquo;t use PowerPoint for presentations or Visio for diagrams. Instead, I use what&amp;rsquo;s known as a &amp;rsquo;typesetting system&amp;rsquo; called LaTeX.&lt;/p&gt;</description></item><item><title>Oracle Update Statements</title><link>https://owencampbell.me.uk/posts/oracle_update/</link><pubDate>Thu, 08 Mar 2012 00:00:00 +0000</pubDate><guid>https://owencampbell.me.uk/posts/oracle_update/</guid><description>&lt;p&gt;There are several methods in Oracle SQL to update records in one table based on the content of another table.&lt;/p&gt;
+&lt;p&gt;Here, I give some of those methods and some guidance on where they might be most appropriate.&lt;/p&gt;
+&lt;h2 id="the-basics"&gt;The Basics&lt;/h2&gt; &lt;p&gt;Oracle uses a &amp;lsquo;correlated subquery&amp;rsquo; syntax which looks like this:&lt;/p&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;UPDATE target t
+SET t.column = s.column
+(SELECT
+FROM source s
+WHERE s.join_column = t.join_column)
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;The bracketed subquery joins the source and target tables and the target table is updated with values from the source column. I&amp;rsquo;ve shown a simple join between the two tables using one column from each, but the WHERE clause in the subquery can be as complex as required.&lt;/p&gt;</description></item><item><title>PGP Signatures on Email</title><link>https://owencampbell.me.uk/pgp/</link><pubDate>Thu, 12 Jun 2008 00:00:00 +0000</pubDate><guid>https://owencampbell.me.uk/pgp/</guid><description>&lt;p&gt;You&amp;rsquo;re probably here because you&amp;rsquo;ve received an email from me with an attachment called &amp;lsquo;signature.asc&amp;rsquo; or with lines at the top similar to:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;and a section at the bottom which looks something like:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.9 (MingW32)
+iEYEARECAAYFAkmr2UAACgkQmnCt8c1NQ98pcACdEpZpqJYifkH0NvE6krEjzA9T
+VoMAn1HIKzpRrnveSEizzQBLMANkh648
+=acdx
+-----END PGP SIGNATURE-----
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;The attachment, or these two blocks, form a digital signature for the message which can be used to verify that:&lt;/p&gt;</description></item></channel></rss>

@@ -1,3 +1,13 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>pgp on Owen Campbell</title><link>https://owencampbell.me.uk/tags/pgp/</link><description>Recent content in pgp on Owen Campbell</description><generator>Hugo -- gohugo.io</generator><language>en-gb</language><lastBuildDate>Thu, 12 Jun 2008 00:00:00 +0000</lastBuildDate><atom:link href="https://owencampbell.me.uk/tags/pgp/index.xml" rel="self" type="application/rss+xml"/><item><title>PGP Signatures on Email</title><link>https://owencampbell.me.uk/pgp/</link><pubDate>Thu, 12 Jun 2008 00:00:00 +0000</pubDate><guid>https://owencampbell.me.uk/pgp/</guid><description>You&amp;rsquo;re probably here because you&amp;rsquo;ve received an email from me with an attachment called &amp;lsquo;signature.asc&amp;rsquo; or with lines at the top similar to:
------BEGIN PGP SIGNED MESSAGE----- Hash: SHA512 and a section at the bottom which looks something like:
------BEGIN PGP SIGNATURE----- Version: GnuPG v1.4.9 (MingW32) iEYEARECAAYFAkmr2UAACgkQmnCt8c1NQ98pcACdEpZpqJYifkH0NvE6krEjzA9T VoMAn1HIKzpRrnveSEizzQBLMANkh648 =acdx -----END PGP SIGNATURE----- The attachment, or these two blocks, form a digital signature for the message which can be used to verify that:</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Pgp on Owen Campbell</title><link>https://owencampbell.me.uk/tags/pgp/</link><description>Recent content in Pgp on Owen Campbell</description><generator>Hugo</generator><language>en-gb</language><lastBuildDate>Thu, 12 Jun 2008 00:00:00 +0000</lastBuildDate><atom:link href="https://owencampbell.me.uk/tags/pgp/index.xml" rel="self" type="application/rss+xml"/><item><title>PGP Signatures on Email</title><link>https://owencampbell.me.uk/pgp/</link><pubDate>Thu, 12 Jun 2008 00:00:00 +0000</pubDate><guid>https://owencampbell.me.uk/pgp/</guid><description>&lt;p&gt;You&amp;rsquo;re probably here because you&amp;rsquo;ve received an email from me with an attachment called &amp;lsquo;signature.asc&amp;rsquo; or with lines at the top similar to:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;and a section at the bottom which looks something like:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.9 (MingW32)
+iEYEARECAAYFAkmr2UAACgkQmnCt8c1NQ98pcACdEpZpqJYifkH0NvE6krEjzA9T
+VoMAn1HIKzpRrnveSEizzQBLMANkh648
+=acdx
+-----END PGP SIGNATURE-----
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;The attachment, or these two blocks, form a digital signature for the message which can be used to verify that:&lt;/p&gt;</description></item></channel></rss>

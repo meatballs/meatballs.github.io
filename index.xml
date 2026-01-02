@@ -1,22 +1,103 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Owen Campbell</title><link>https://owencampbell.me.uk/</link><description>Recent content on Owen Campbell</description><generator>Hugo -- gohugo.io</generator><language>en-gb</language><lastBuildDate>Mon, 06 Nov 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://owencampbell.me.uk/index.xml" rel="self" type="application/rss+xml"/><item><title>Terminals and Shells: A Beginner's Guide</title><link>https://owencampbell.me.uk/blogs/terminal_shell/</link><pubDate>Mon, 06 Nov 2023 00:00:00 +0000</pubDate><guid>https://owencampbell.me.uk/blogs/terminal_shell/</guid><description>I often find that there is some confusion for beginner programmers when it comes to understanding the difference between a terminal and a shell.
-Let&amp;rsquo;s take a few moments to look at the history of where those terms arose and how that fits with the world of modern computing.
-What is a Terminal? Computers used to be enormous machines, often filling entire rooms. When I was at University in the late 1980s, there was a large &amp;lsquo;mainframe&amp;rsquo; machine somewhere in the Computer Science building and there were workstations around the university campus from where students and staff could use it.</description></item><item><title>ETHDam - My First Web3 Event</title><link>https://owencampbell.me.uk/blogs/ethdam/</link><pubDate>Tue, 30 May 2023 00:00:00 +0000</pubDate><guid>https://owencampbell.me.uk/blogs/ethdam/</guid><description>I&amp;rsquo;ve been looking for a way to get my teeth into the web3 world for a little while. I needed a project - something I could get coding, make it work and learn how this all works along the way.
-And then my son, James, pointed me at ETHDam - a web3 conference with free tickets for anyone accepted into their hackathon. Given that he also had an idea for something we could work on together, it seemed the perfect opportunity.</description></item><item><title>Memorable Talks</title><link>https://owencampbell.me.uk/blogs/memorable_talks/</link><pubDate>Thu, 22 Sep 2022 00:00:00 +0000</pubDate><guid>https://owencampbell.me.uk/blogs/memorable_talks/</guid><description>In Successful Talk Proposals, I finished by suggesting that a track record of memorable talks goes a long way to any future proposal being successful.
-But what makes a memorable talk?
-For some years, I&amp;rsquo;ve been quietly asking attendees at PyCon UK what talks they remember from previous years and what makes those stand out. I&amp;rsquo;ve noticed some common themes in their responses&amp;hellip;
-Stories, Metaphors and Hidden Worlds Unsurprisingly, perhaps, the things that make a proposal stand out also do the same for the resulting talk.</description></item><item><title>Successful Talk Proposals</title><link>https://owencampbell.me.uk/blogs/successful_talk_proposals/</link><pubDate>Tue, 20 Sep 2022 09:50:01 +0100</pubDate><guid>https://owencampbell.me.uk/blogs/successful_talk_proposals/</guid><description>I&amp;rsquo;ve been part of the PyCon UK organisers team for several years. My job in that team is to look after the programme - the call for proposals, reviewing the submissions and fitting those we accept into the schedule.
-There are many guides online to writing a successful proposal. We normally have one ourselves on the conference website:
-Our 2022 Advice
-Here&amp;rsquo;s another from Hannah Hazi whose 2022 proposal was selected as a keynote (which we&amp;rsquo;ll come back to again in a moment):</description></item><item><title>Everyone Pays to Attend PyCon UK</title><link>https://owencampbell.me.uk/blogs/pyconuk_everyone_pays/</link><pubDate>Wed, 07 Sep 2022 00:00:00 +0000</pubDate><guid>https://owencampbell.me.uk/blogs/pyconuk_everyone_pays/</guid><description>PyCon UK has a long-standing policy that everyone pays to attend - speakers, organisers, everyone. That often causes some consterntation with reactions like &amp;quot;I have to pay to speak at PyCon UK?!!&amp;quot; or &amp;quot;If I volunteer to help, I have to pay the same as someone who has done nothing?&amp;quot;
-I've been party to many discussions on whether the policy should change and these are my thoughts on the subject... (TLDR: it shouldn't).</description></item><item><title>Lightning Talks and Buckets</title><link>https://owencampbell.me.uk/blogs/lightning_talks/</link><pubDate>Tue, 02 Oct 2018 00:00:00 +0000</pubDate><guid>https://owencampbell.me.uk/blogs/lightning_talks/</guid><description>PyCon UK 2016 At PyCon UK 2016, I became annoyed.
-I was fully part of the organising team for the first time and we had spent part of our opening morning's session introducing lightning talks: explaining how they were an ideal way for new speakers to begin their speaking career.
-At the time, the system we used for lightning talks was the same as everyone else. We had a flipchart at reception and, if you wanted to give a talk, you wrote your name and a title on the flipchart, starting at the top.</description></item><item><title>My Conference Attendance Guidelines</title><link>https://owencampbell.me.uk/blogs/conference_guidelines/</link><pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate><guid>https://owencampbell.me.uk/blogs/conference_guidelines/</guid><description>I regularly attend technical conferences in order to learn, make new contacts and generally participate in whatever community that conference represents.
-Over the years, I have found that the best way to increase my chances of making new friends and contacts is to speak at the conference - people are far more likely to approach me to discuss my talk than for any other reason.
-So, for me, attendance at a conference is a big deal.</description></item><item><title>Why I use LaTeX</title><link>https://owencampbell.me.uk/blogs/why_i_use_latex/</link><pubDate>Fri, 20 Mar 2015 00:00:00 +0000</pubDate><guid>https://owencampbell.me.uk/blogs/why_i_use_latex/</guid><description>When I tell people that I don&amp;rsquo;t use Microsoft Word, they are generally somewhat taken aback and then assume that, because I own a Mac rather than a Windows PC, that I just use Apple&amp;rsquo;s Pages instead.
-I don&amp;rsquo;t!
-In fact, I don&amp;rsquo;t use any kind of conventional word processor. I also don&amp;rsquo;t use PowerPoint for presentations or Visio for diagrams. Instead, I use what&amp;rsquo;s known as a &amp;rsquo;typesetting system&amp;rsquo; called LaTeX.</description></item><item><title>Oracle Update Statements</title><link>https://owencampbell.me.uk/blogs/oracle_update/</link><pubDate>Thu, 08 Mar 2012 00:00:00 +0000</pubDate><guid>https://owencampbell.me.uk/blogs/oracle_update/</guid><description>There are several methods in Oracle SQL to update records in one table based on the content of another table.
-Here, I give some of those methods and some guidance on where they might be most appropriate.
-The Basics Oracle uses a &amp;lsquo;correlated subquery&amp;rsquo; syntax which looks like this:
-UPDATE target t SET t.column = s.column (SELECT FROM source s WHERE s.join_column = t.join_column) The bracketed subquery joins the source and target tables and the target table is updated with values from the source column.</description></item><item><title>PGP Signatures on Email</title><link>https://owencampbell.me.uk/pgp/</link><pubDate>Thu, 12 Jun 2008 00:00:00 +0000</pubDate><guid>https://owencampbell.me.uk/pgp/</guid><description>You&amp;rsquo;re probably here because you&amp;rsquo;ve received an email from me with an attachment called &amp;lsquo;signature.asc&amp;rsquo; or with lines at the top similar to:
------BEGIN PGP SIGNED MESSAGE----- Hash: SHA512 and a section at the bottom which looks something like:
------BEGIN PGP SIGNATURE----- Version: GnuPG v1.4.9 (MingW32) iEYEARECAAYFAkmr2UAACgkQmnCt8c1NQ98pcACdEpZpqJYifkH0NvE6krEjzA9T VoMAn1HIKzpRrnveSEizzQBLMANkh648 =acdx -----END PGP SIGNATURE----- The attachment, or these two blocks, form a digital signature for the message which can be used to verify that:</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Owen Campbell</title><link>https://owencampbell.me.uk/</link><description>Recent content on Owen Campbell</description><generator>Hugo</generator><language>en-gb</language><lastBuildDate>Thu, 01 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://owencampbell.me.uk/index.xml" rel="self" type="application/rss+xml"/><item><title>About</title><link>https://owencampbell.me.uk/about/</link><pubDate>Thu, 01 Jan 2026 00:00:00 +0000</pubDate><guid>https://owencampbell.me.uk/about/</guid><description>&lt;h1 id="about-me"&gt;About Me&lt;/h1&gt; &lt;p&gt;I am a well-established Freelance Software Engineer &amp;amp; Consultant (MIET &amp;amp; CEng) with 30+ years&amp;rsquo; experience.&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;m UK based with clients around the world - of all sizes and in a wide variety of sectors, both public and private.&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;m a Python enthusiast, one of the &lt;a href="http://pyconuk.org" target="_blank" rel="noopener"&gt;PyCon UK&lt;/a&gt; organisers and a founding trustee of the &lt;a href="https://uk.python.org" target="_blank" rel="noopener"&gt;UK Python Association&lt;/a&gt; .&lt;/p&gt;
+&lt;h2 id="what-i-do"&gt;What I Do&lt;/h2&gt; &lt;p&gt;I&amp;rsquo;m a consulting software engineer who specialises in unique business challenges.&lt;/p&gt;</description></item><item><title>Contact</title><link>https://owencampbell.me.uk/contact/</link><pubDate>Thu, 01 Jan 2026 00:00:00 +0000</pubDate><guid>https://owencampbell.me.uk/contact/</guid><description>&lt;h1 id="contact-me"&gt;Contact Me&lt;/h1&gt; &lt;p&gt;I&amp;rsquo;d love to hear from you! Here are two ways to get in touch:&lt;/p&gt;
+&lt;h2 id="social"&gt;Social&lt;/h2&gt; &lt;p&gt;Connect with me on Farcaster:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Farcaster&lt;/strong&gt;: &lt;a href="https://farcaster.xyz/meatballs" target="_blank" rel="noopener"&gt;farcaster.xyz/meatballs&lt;/a&gt; &lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="professional-enquiries"&gt;Professional Enquiries&lt;/h2&gt; &lt;p&gt;For consulting or business enquiries, visit my company&amp;rsquo;s contact page.&lt;/p&gt;
+&lt;p&gt;You can access the Empiria website via either:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Traditional domain: &lt;a href="https://www.empiria.co.uk/en/contact" target="_blank" rel="noopener"&gt;empiria.co.uk/en/contact&lt;/a&gt; &lt;/li&gt;
+&lt;li&gt;ENS domain: &lt;a href="https://empiria.eth.limo/contact" target="_blank" rel="noopener"&gt;empiria.eth.limo/contact&lt;/a&gt; &lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="other-links"&gt;Other Links&lt;/h2&gt; &lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;GitHub&lt;/strong&gt;: &lt;a href="https://github.com/meatballs" target="_blank" rel="noopener"&gt;github.com/meatballs&lt;/a&gt; &lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;LinkedIn&lt;/strong&gt;: &lt;a href="https://linkedin.com/in/owencampbell" target="_blank" rel="noopener"&gt;linkedin.com/in/owencampbell&lt;/a&gt; &lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Projects</title><link>https://owencampbell.me.uk/projects/</link><pubDate>Thu, 01 Jan 2026 00:00:00 +0000</pubDate><guid>https://owencampbell.me.uk/projects/</guid><description>&lt;h1 id="projects"&gt;Projects&lt;/h1&gt; &lt;p&gt;Here are some of the open source projects I&amp;rsquo;ve worked on:&lt;/p&gt;
+&lt;h2 id="anvil-extras"&gt;Anvil Extras&lt;/h2&gt; &lt;p&gt;A library of extra components and modules for use in creating an Anvil app.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Demo&lt;/strong&gt;: &lt;a href="https://anvil-extras-demo.anvil.app/" target="_blank" rel="noopener"&gt;anvil-extras-demo.anvil.app&lt;/a&gt; &lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;GitHub&lt;/strong&gt;: &lt;a href="https://github.com/anvilistas/anvil_extras" target="_blank" rel="noopener"&gt;github.com/anvilistas/anvil_extras&lt;/a&gt; &lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Technologies&lt;/strong&gt;: Anvil, Python&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="amoni"&gt;Amoni&lt;/h2&gt; &lt;p&gt;A command line utility for local development of Anvil apps.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Documentation&lt;/strong&gt;: &lt;a href="https://amoni.readthedocs.io/en/latest/" target="_blank" rel="noopener"&gt;amoni.readthedocs.io&lt;/a&gt; &lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;GitHub&lt;/strong&gt;: &lt;a href="https://github.com/anvilistas/amoni" target="_blank" rel="noopener"&gt;github.com/anvilistas/amoni&lt;/a&gt; &lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Technologies&lt;/strong&gt;: Python, CLI&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="axelrod-python"&gt;Axelrod Python&lt;/h2&gt; &lt;p&gt;A Python game theory library for the study of the Iterated Prisoners Dilemma.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Documentation&lt;/strong&gt;: &lt;a href="https://axelrod.readthedocs.io/en/latest/" target="_blank" rel="noopener"&gt;axelrod.readthedocs.io&lt;/a&gt; &lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;GitHub&lt;/strong&gt;: &lt;a href="https://github.com/axelrod-python/axelrod" target="_blank" rel="noopener"&gt;github.com/axelrod-python/axelrod&lt;/a&gt; &lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Technologies&lt;/strong&gt;: Python, Game Theory&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="sql-for-python-programmers"&gt;SQL for Python Programmers&lt;/h2&gt; &lt;p&gt;A tutorial covering basic SQL for those with a background in Python.&lt;/p&gt;</description></item><item><title>Terminals and Shells: A Beginner's Guide</title><link>https://owencampbell.me.uk/posts/terminal_shell/</link><pubDate>Mon, 06 Nov 2023 00:00:00 +0000</pubDate><guid>https://owencampbell.me.uk/posts/terminal_shell/</guid><description>&lt;p&gt;I often find that there is some confusion for beginner programmers when it comes to understanding the difference between a terminal and a shell.&lt;/p&gt;
+&lt;p&gt;Let&amp;rsquo;s take a few moments to look at the history of where those terms arose and how that fits with the world of modern computing.&lt;/p&gt;
+&lt;h2 id="what-is-a-terminal"&gt;What is a Terminal?&lt;/h2&gt; &lt;p&gt;Computers used to be enormous machines, often filling entire rooms. When I was at University in the late 1980s, there was a large &amp;lsquo;mainframe&amp;rsquo; machine somewhere in the Computer Science building and there were workstations around the university campus from where students and staff could use it.&lt;/p&gt;</description></item><item><title>ETHDam - My First Web3 Event</title><link>https://owencampbell.me.uk/posts/ethdam/</link><pubDate>Tue, 30 May 2023 00:00:00 +0000</pubDate><guid>https://owencampbell.me.uk/posts/ethdam/</guid><description>&lt;p&gt;I&amp;rsquo;ve been looking for a way to get my teeth into the web3 world for a little while. I needed a project - something I could get coding, make it work and learn how this all works along the way.&lt;/p&gt;
+&lt;p&gt;And then my son, James, pointed me at &lt;a href="https://www.ethdam.com/" target="_blank" rel="noopener"&gt;ETHDam&lt;/a&gt; - a web3 conference with free tickets for anyone accepted into their hackathon. Given that he also had an idea for something we could work on together, it seemed the perfect opportunity.&lt;/p&gt;</description></item><item><title>Memorable Talks</title><link>https://owencampbell.me.uk/posts/memorable_talks/</link><pubDate>Thu, 22 Sep 2022 00:00:00 +0000</pubDate><guid>https://owencampbell.me.uk/posts/memorable_talks/</guid><description>&lt;p&gt;In &lt;a href="https://owencampbell.me.uk/posts/successful_talk_proposals/"&gt;Successful Talk Proposals&lt;/a&gt; , I
+finished by suggesting that a track record of memorable talks goes a long way to
+any future proposal being successful.&lt;/p&gt;
+&lt;p&gt;But what makes a memorable talk?&lt;/p&gt;
+&lt;p&gt;For some years, I&amp;rsquo;ve been quietly asking attendees at PyCon UK what talks they
+remember from previous years and what makes those stand out. I&amp;rsquo;ve noticed some common
+themes in their responses&amp;hellip;&lt;/p&gt;
+&lt;h2 id="stories-metaphors-and-hidden-worlds"&gt;Stories, Metaphors and Hidden Worlds&lt;/h2&gt; &lt;p&gt;Unsurprisingly, perhaps, the things that make a proposal stand out also do the same for
+the resulting talk. If you can tell a story, find a metaphor or describe a world the
+audience never knew existed, your talk will stick in the mind.&lt;/p&gt;</description></item><item><title>Successful Talk Proposals</title><link>https://owencampbell.me.uk/posts/successful_talk_proposals/</link><pubDate>Tue, 20 Sep 2022 09:50:01 +0100</pubDate><guid>https://owencampbell.me.uk/posts/successful_talk_proposals/</guid><description>&lt;p&gt;I&amp;rsquo;ve been part of the PyCon UK organisers team for several years. My job in that team
+is to look after the programme - the call for proposals, reviewing the submissions and
+fitting those we accept into the schedule.&lt;/p&gt;
+&lt;p&gt;There are many guides online to writing a successful proposal. We normally have one
+ourselves on the conference website:&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://2022.pyconuk.org/call-for-proposals/proposal-submission-advice/" target="_blank" rel="noopener"&gt;Our 2022 Advice&lt;/a&gt; &lt;/p&gt;
+&lt;p&gt;Here&amp;rsquo;s another from Hannah Hazi whose 2022 proposal was selected as a keynote (which
+we&amp;rsquo;ll come back to again in a moment):&lt;/p&gt;</description></item><item><title>Everyone Pays to Attend PyCon UK</title><link>https://owencampbell.me.uk/posts/pyconuk_everyone_pays/</link><pubDate>Wed, 07 Sep 2022 00:00:00 +0000</pubDate><guid>https://owencampbell.me.uk/posts/pyconuk_everyone_pays/</guid><description>&lt;p&gt;PyCon UK has a long-standing policy that everyone pays to attend -
+speakers, organisers, everyone. That often causes some consterntation
+with reactions like &amp;quot;I have to pay to speak at PyCon UK?!!&amp;quot; or &amp;quot;If I
+volunteer to help, I have to pay the same as someone who has done
+nothing?&amp;quot;&lt;/p&gt;
+&lt;p&gt;I've been party to many discussions on whether the policy should change
+and these are my thoughts on the subject... (TLDR: it shouldn't).&lt;/p&gt;</description></item><item><title>Lightning Talks and Buckets</title><link>https://owencampbell.me.uk/posts/lightning_talks/</link><pubDate>Tue, 02 Oct 2018 00:00:00 +0000</pubDate><guid>https://owencampbell.me.uk/posts/lightning_talks/</guid><description>&lt;h2 id="pycon-uk-2016"&gt;PyCon UK 2016&lt;/h2&gt; &lt;p&gt;At &lt;a href="https://2016.pyconuk.org" target="_blank" rel="noopener"&gt;PyCon UK 2016&lt;/a&gt; , I became annoyed.&lt;/p&gt;
+&lt;p&gt;I was fully part of the organising team for the first time and we had
+spent part of our opening morning's session introducing lightning
+talks: explaining how they were an ideal way for new speakers to begin
+their speaking career.&lt;/p&gt;
+&lt;p&gt;At the time, the system we used for lightning talks was the same as
+everyone else. We had a flipchart at reception and, if you wanted to
+give a talk, you wrote your name and a title on the flipchart, starting
+at the top.&lt;/p&gt;</description></item><item><title>My Conference Attendance Guidelines</title><link>https://owencampbell.me.uk/posts/conference_guidelines/</link><pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate><guid>https://owencampbell.me.uk/posts/conference_guidelines/</guid><description>&lt;p&gt;I regularly attend technical conferences in order to learn, make new
+contacts and generally participate in whatever community that conference
+represents.&lt;/p&gt;
+&lt;p&gt;Over the years, I have found that the best way to increase my chances of
+making new friends and contacts is to speak at the conference - people
+are far more likely to approach me to discuss my talk than for any other
+reason.&lt;/p&gt;
+&lt;p&gt;So, for me, attendance at a conference is a big deal. I'm asserting
+that I wish to be part of that community, that I'd like to be one of
+its speakers and, therefore, have my name publicly associated with the
+event and I'm prepared to spend time, effort and money to make that
+happen.&lt;/p&gt;</description></item><item><title>Why I use LaTeX</title><link>https://owencampbell.me.uk/posts/why_i_use_latex/</link><pubDate>Fri, 20 Mar 2015 00:00:00 +0000</pubDate><guid>https://owencampbell.me.uk/posts/why_i_use_latex/</guid><description>&lt;p&gt;When I tell people that I don&amp;rsquo;t use Microsoft Word, they are generally somewhat taken aback and then assume that, because I own a Mac rather than a Windows PC, that I just use Apple&amp;rsquo;s Pages instead.&lt;/p&gt;
+&lt;p&gt;I don&amp;rsquo;t!&lt;/p&gt;
+&lt;p&gt;In fact, I don&amp;rsquo;t use any kind of conventional word processor. I also don&amp;rsquo;t use PowerPoint for presentations or Visio for diagrams. Instead, I use what&amp;rsquo;s known as a &amp;rsquo;typesetting system&amp;rsquo; called LaTeX.&lt;/p&gt;</description></item><item><title>Oracle Update Statements</title><link>https://owencampbell.me.uk/posts/oracle_update/</link><pubDate>Thu, 08 Mar 2012 00:00:00 +0000</pubDate><guid>https://owencampbell.me.uk/posts/oracle_update/</guid><description>&lt;p&gt;There are several methods in Oracle SQL to update records in one table based on the content of another table.&lt;/p&gt;
+&lt;p&gt;Here, I give some of those methods and some guidance on where they might be most appropriate.&lt;/p&gt;
+&lt;h2 id="the-basics"&gt;The Basics&lt;/h2&gt; &lt;p&gt;Oracle uses a &amp;lsquo;correlated subquery&amp;rsquo; syntax which looks like this:&lt;/p&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;UPDATE target t
+SET t.column = s.column
+(SELECT
+FROM source s
+WHERE s.join_column = t.join_column)
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;The bracketed subquery joins the source and target tables and the target table is updated with values from the source column. I&amp;rsquo;ve shown a simple join between the two tables using one column from each, but the WHERE clause in the subquery can be as complex as required.&lt;/p&gt;</description></item><item><title>PGP Signatures on Email</title><link>https://owencampbell.me.uk/pgp/</link><pubDate>Thu, 12 Jun 2008 00:00:00 +0000</pubDate><guid>https://owencampbell.me.uk/pgp/</guid><description>&lt;p&gt;You&amp;rsquo;re probably here because you&amp;rsquo;ve received an email from me with an attachment called &amp;lsquo;signature.asc&amp;rsquo; or with lines at the top similar to:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;and a section at the bottom which looks something like:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.9 (MingW32)
+iEYEARECAAYFAkmr2UAACgkQmnCt8c1NQ98pcACdEpZpqJYifkH0NvE6krEjzA9T
+VoMAn1HIKzpRrnveSEizzQBLMANkh648
+=acdx
+-----END PGP SIGNATURE-----
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;The attachment, or these two blocks, form a digital signature for the message which can be used to verify that:&lt;/p&gt;</description></item></channel></rss>
