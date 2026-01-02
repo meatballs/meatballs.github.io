@@ -6,7 +6,7 @@ Based on my analysis of James's site (theref.eth) and completed work on Owen's s
 
 #### 1. **Add cross-site linking to Empiria**
 - **Footer**: Replace any theme attribution with "Work with me at [Empiria](https://empiria.co.uk)"
-- **About page**: Add to existing text - "I work at [Empiria](https://empiria.co.uk), a small family development business. [Meet the team](https://empiria.co.uk/team/james)"
+- **About page**: Add to existing text - "I work at [Empiria](https://empiria.co.uk), a small family development business. [Meet the team](https://empiria.co.uk/en/team/james)"
 - **Files**: Footer component (likely in layouts/ or theme), `content/about.md`
 
 #### 2. **Create consistent footer with social links**

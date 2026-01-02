@@ -3,9 +3,7 @@ title: "Contact"
 date: 2026-01-01
 ---
 
-# Contact Me
-
-I'd love to hear from you! Here are two ways to get in touch:
+I'd love to hear from you! Here's how to get in touch:
 
 ## Social
 
@@ -15,12 +13,15 @@ Connect with me on Farcaster:
 
 ## Professional Enquiries
 
-For consulting or business enquiries, visit my company's contact page.
+For consulting or business enquiries, visit my company's website:
 
-You can access the Empiria website via either:
+- [empiria.co.uk](https://www.empiria.co.uk)
 
-- Traditional domain: [empiria.co.uk/en/contact](https://www.empiria.co.uk/en/contact)
-- ENS domain: [empiria.eth.limo/contact](https://empiria.eth.limo/contact)
+The Empiria site is also hosted on the [Swarm](https://ethswarm.org) decentralised storage network, which means it's accessible through any one of several gateways:
+
+- [empiria.eth.link](https://empiria.eth.link)
+- [empiria.eth.limo](https://empiria.eth.limo)
+- [empiria.bzz.link](https://empiria.bzz.link)
 
 ## Other Links
 
