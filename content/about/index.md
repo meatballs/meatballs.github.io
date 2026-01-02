@@ -18,8 +18,3 @@ When a company's success comes from doing things differently, off-the-shelf soft
 I build custom software they need - solutions that respect their existing processes while making them reliable, automated, and manageable.
 
 I work with my family at [Empiria](https://empiria.co.uk), a small family development business. [Meet the team](https://empiria.co.uk/team/owen).
-
-## Links
-
-- [GitHub](https://github.com/meatballs)
-- [LinkedIn](https://linkedin.com/in/owencampbell)
