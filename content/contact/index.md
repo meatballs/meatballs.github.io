@@ -13,15 +13,15 @@ Connect with me on Farcaster:
 
 ## Professional Enquiries
 
-For consulting or business enquiries, visit my company's website:
+For consulting or business enquiries, visit my company's website.
 
-- [empiria.co.uk](https://www.empiria.co.uk)
-
-The Empiria site is also hosted on the [Swarm](https://ethswarm.org) decentralised storage network, which means it's accessible through any one of several gateways:
+The Empiria site is hosted on the [Swarm](https://ethswarm.org) decentralised storage network and accessible via any one of several gateways:
 
 - [empiria.eth.link](https://empiria.eth.link)
 - [empiria.eth.limo](https://empiria.eth.limo)
 - [empiria.bzz.link](https://empiria.bzz.link)
+
+Or use the conventional domain: [empiria.co.uk](https://www.empiria.co.uk)
 
 ## Other Links
 
