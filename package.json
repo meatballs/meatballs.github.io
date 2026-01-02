@@ -1,0 +1,19 @@
+{
+  "name": "owencampbell-website",
+  "description": "Owen Campbell's personal website built with Hugo",
+  "version": "1.0.0",
+  "license": "MIT",
+  "author": "Owen Campbell",
+  "scripts": {
+    "dev": "hugo server --buildDrafts",
+    "build": "hugo --gc --minify --templateMetrics --templateMetricsHints --forceSyncStatic",
+    "preview": "hugo server --disableFastRender --navigateToChanged --templateMetrics --templateMetricsHints --watch --forceSyncStatic -e production --minify"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.19",
+    "postcss": "^8.4.38",
+    "postcss-cli": "^11.0.0",
+    "prettier": "^3.2.5",
+    "prettier-plugin-go-template": "0.0.15"
+  }
+}

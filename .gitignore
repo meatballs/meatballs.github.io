@@ -11,3 +11,10 @@ hugo.linux
 
 # Temporary lock file while building
 /.hugo_build.lock
+
+# Environment variables (never commit secrets)
+.env
+
+# Node dependencies
+node_modules/
+package-lock.json

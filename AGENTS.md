@@ -71,3 +71,40 @@ bd create --title "Task" --deps "id1,blocks:id2"
 - If user says "don't push" or "stop", commit locally and stop
 - Only push during session completion if user approves
 
+## Deployment
+
+This site uses dual deployment strategy:
+
+### Primary/Canonical: Swarm (Manual)
+- **Deployment**: `just deploy-all` 
+- **Prerequisites**: Bee node running, environment variables configured
+- **Identity**: owencampbell-website
+- **Gateways**: owencampbell.eth.limo, owencampbell.eth.link, owencampbell.bzz.link
+
+### Secondary/Backup: GitHub Pages (Automated)
+- **Trigger**: Push to main branch
+- **Method**: Artifact-based deployment
+- **Workflow**: .github/workflows/gh-pages.yml
+
+## Environment Setup
+
+Required environment variables (create .env file):
+- `SWARM_BATCH_ID`: Batch ID from your bee node
+- `SWARM_FEED_MANIFEST`: Generated after first upload
+
+## Swarm Deployment Commands
+
+```bash
+just build          # Build Hugo site
+just deploy         # Upload to Swarm
+just verify         # Test deployment
+just status         # Check Swarm status
+just deploy-all     # Full workflow (build + deploy + verify)
+```
+
+## Initial Setup
+
+1. Configure bee node and create batch ID using swarm-cli directly
+2. Copy `.env.example` to `.env` and add Swarm variables
+3. Run `just deploy-all` for initial deployment
+
