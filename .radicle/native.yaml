@@ -1,0 +1,24 @@
+# Radicle Native CI Configuration for owencampbell.me.uk
+#
+# Repository: rad:z4EJ9CpMN4FiQJpks49K2k9nigBgX
+# Trigger: Push to main branch on Radicle
+# Deployment: Hugo build + Swarm upload
+# Target: owencampbell.eth (Swarm feed)
+
+# Environment variables for deployment (secrets injected by CI broker)
+env:
+  SWARM_IDENTITY: "owencampbell-website"
+  SWARM_TOPIC: "owencampbell-website-main"
+
+# The deployment script (/usr/local/bin/deploy-website.sh) handles:
+# 1. Clone repository from radicle-httpd
+# 2. Build with Hugo (hugo --gc --minify)
+# 3. Upload to Swarm feed using swarm-cli
+# 4. Clean up workspace
+#
+# SWARM_BATCH_ID and SWARM_PRIVATE_KEY are provided by radicle-ci configuration
+
+# Commands executed by native-ci adapter
+commands:
+  build:
+    - /usr/local/bin/deploy-website.sh

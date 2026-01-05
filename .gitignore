@@ -20,4 +20,3 @@ node_modules/
 package-lock.json
 
 # Radicle CI configuration (contains Swarm private key)
-.radicle/native.yaml
