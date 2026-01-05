@@ -7,3 +7,4 @@ Testing CI with corrected YAML format
 trigger CI test fix - $(date)
 Testing CI with corrected YAML format - $(date)
 Testing CI with corrected YAML format - $(date)
+Testing CI with corrected YAML format and secret injection - $(date)
