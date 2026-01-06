@@ -6,3 +6,4 @@
 * 17:31
 * 12:55 - Testing custom direct-deploy adapter (ops-j58)
 * 13:06 - Testing with mkdir fix
+* 13:13 - Testing with script logging
