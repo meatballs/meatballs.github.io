@@ -8,3 +8,4 @@ This change tests the Radicle CI deployment pipeline.
 
 * Yet another attempt
 * Test deployment with fixed adapter and script paths
+* Testing with correct RADICLE_HTTPD_URL for host execution
