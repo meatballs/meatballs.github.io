@@ -21,3 +21,7 @@ Second test at $(date -Iseconds)
 ## Third Test
 
 Third test at $(date -Iseconds)
+
+## Final Test
+
+Final test at $(date -Iseconds) - should succeed!
