@@ -7,3 +7,4 @@ Personal website for Owen Campbell.
 This change tests the Radicle CI deployment pipeline.
 
 * Yet another attempt
+* Test deployment with fixed adapter and script paths
