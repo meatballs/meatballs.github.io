@@ -27,3 +27,4 @@ Third test at $(date -Iseconds)
 Final test at $(date -Iseconds) - should succeed!
 Test web UI fix $(date)
 Test info URL fix $(date)
+CI Test: $(date)
