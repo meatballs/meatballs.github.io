@@ -1,0 +1,51 @@
+version: "1"
+project: "owencampbell-website"
+description: "Owen Campbell's personal website built with Hugo and deployed to Swarm"
+
+build:
+  image: "docker.io/klakegg/hugo:latest-ext"
+  cache: true
+
+env:
+  HUGO_ENVIRONMENT: "production"
+
+artifacts:
+  - path: "/src/public"
+    name: "hugo-website"
+    type: "archive"
+
+deploy:
+  enabled: true
+  image: "debian:bookworm-slim"
+  environment:
+    SWARM_IDENTITY: "owencampbell-website"
+    SWARM_TOPIC: "owencampbell-website-main"
+  ports: []
+  volumes:
+    - "/data/.env:/home/deploy/.env:ro"
+  command:
+    - "/bin/sh"
+    - "-c"
+    - |
+      # Install swarm-cli dependencies
+      apt-get update && apt-get install -y nodejs npm ca-certificates curl && \
+      npm install -g @ethersphere/swarm-cli && \
+      # Load environment variables
+      . /home/deploy/.env && \
+      # Deploy to Swarm with artifact
+      swarm-cli feed upload /artifacts/hugo-website \
+        --identity "$SWARM_IDENTITY" \
+        --topic-string "$SWARM_TOPIC" \
+        --stamp "$SWARM_BATCH_ID" \
+        --index-document index.html \
+        --error-document 404.html \
+        --pin
+
+post_deploy:
+  - name: "verify-deployment"
+    script: |
+      swarm-cli feed print --identity "owencampbell-website" --topic-string "owencampbell-website-main"
+    timeout: "30s"
+
+notifications:
+  webhook: "https://api.example.com/ci/webhooks"
