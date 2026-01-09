@@ -1,5 +1,4 @@
-baseURL = "./"
-relativeURLs = true
+baseURL = "/"
 title = "Owen Campbell"
 theme = "hugo-theme-console"
 languageCode = "en-gb"
