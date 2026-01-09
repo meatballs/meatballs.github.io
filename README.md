@@ -2,7 +2,7 @@
 
 Personal website for Owen Campbell.
 
-Viewable at:
+Viewable at any the following:
 
 https://owencampbell.bzz.link
 https://owencampbell.eth.link
