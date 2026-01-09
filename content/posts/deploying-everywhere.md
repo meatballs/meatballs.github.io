@@ -115,6 +115,6 @@ If you're interested in exploring these technologies:
 
 - **Swarm**: [ethswarm.org](https://www.ethswarm.org/) - Decentralised storage and distribution
 - **Radicle**: [radicle.xyz](https://radicle.xyz/) - Peer-to-peer code collaboration
-- **Radicle CI**: [github.com/cytechmobile/radicle-ci](https://github.com/cytechmobile/radicle-ci) - Continuous integration for Radicle
+- **Radicle CI**: [radicle-ci.liw.fi](https://radicle-ci.liw.fi/) - Continuous integration for Radicle
 
 The source code for this website is available on both [GitHub](https://github.com/meatballs/meatballs.github.io) and [Radicle](https://app.radicle.xyz/nodes/seed.radicle.garden/rad%3Az4EJ9CpMN4FiQJpks49K2k9nigBgX). Feel free to explore how it's all set up.
