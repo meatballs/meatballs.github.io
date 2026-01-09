@@ -1,4 +1,5 @@
 baseURL = "/"
+relativeURLs = true
 title = "Owen Campbell"
 theme = "hugo-theme-console"
 languageCode = "en-gb"
