@@ -50,7 +50,7 @@ The website's source code follows the same philosophy. It lives in two places:
 
 [Radicle](https://radicle.xyz) is particularly interesting because it means the code isn't dependent on any single company or server. Any Radicle node can host and serve the repository. Even if GitHub disappeared tomorrow, the code would remain accessible through the Radicle network.
 
-I'm also using [Radicle CI](https://github.com/cytechmobile/radicle-ci), a continuous integration system designed for Radicle repositories, to automatically deploy the site to swarm when changes are pushed to the Radicle network.
+I'm also using [Radicle CI](https://radicle-ci.liw.fi/), a continuous integration system designed for Radicle repositories, to automatically deploy the site to swarm when changes are pushed to the Radicle network.
 
 ## What Does "Decentralised" Actually Mean?
 
@@ -84,7 +84,7 @@ That's fair. But consider:
 
 I won't pretend this approach is zero-effort. Setting up deployment to multiple platforms takes more initial work than choosing one. Maintaining multiple deployment pipelines requires some ongoing attention.
 
-But the actual deployment is automated. Push to the repository at Github, and GitHub Actions handles the GitHub Pages deployment; Push to radicle and  separate process uploads the built site to Swarm. The incremental effort for each update is minimal.
+But the actual deployment is automated. Push to the repository at Github, and GitHub Actions handles the GitHub Pages deployment; Push to radicle and a separate process uploads the built site to Swarm. The incremental effort for each update is minimal.
 
 The Swarm deployment does have a real cost - you need to pay for "postage stamps" to store content on the network. Currently this costs a small amount of BZZ tokens (Swarm's native cryptocurrency). For a personal website, we're talking about the cost of a few cups of coffee per year.
 
