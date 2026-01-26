@@ -1,0 +1,51 @@
+{{- $title := .Title }}
+{{- $description := .Description | default .Site.Params.description }}
+{{- $permalink := .Permalink }}
+
+{{- /* Image selection with fallback */ -}}
+{{- $ogImage := "" }}
+{{- $ogWidth := 0 }}
+{{- $ogHeight := 0 }}
+
+{{- if .Params.image }}
+  {{- /* Page-specific image from front matter */ -}}
+  {{- $img := resources.Get .Params.image }}
+  {{- if $img }}
+    {{- $resized := $img.Fill "1200x630" }}
+    {{- $ogImage = $resized.Permalink }}
+    {{- $ogWidth = $resized.Width }}
+    {{- $ogHeight = $resized.Height }}
+  {{- end }}
+{{- else if .Site.Params.ogImage }}
+  {{- /* Site default image */ -}}
+  {{- $img := resources.Get .Site.Params.ogImage }}
+  {{- if $img }}
+    {{- $resized := $img.Fill "1200x630" }}
+    {{- $ogImage = $resized.Permalink }}
+    {{- $ogWidth = $resized.Width }}
+    {{- $ogHeight = $resized.Height }}
+  {{- end }}
+{{- end }}
+
+<meta property="og:title" content="{{ $title }}" />
+<meta property="og:description" content="{{ $description }}" />
+<meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}" />
+<meta property="og:url" content="{{ $permalink }}" />
+{{- if $ogImage }}
+<meta property="og:image" content="{{ $ogImage }}" />
+<meta property="og:image:width" content="{{ $ogWidth }}" />
+<meta property="og:image:height" content="{{ $ogHeight }}" />
+{{- end }}
+{{- if .Site.Title }}
+<meta property="og:site_name" content="{{ .Site.Title }}" />
+{{- end }}
+{{- if .IsPage }}
+{{- if not .PublishDate.IsZero }}
+<meta property="article:published_time" content="{{ .PublishDate.Format "2006-01-02T15:04:05-07:00" }}" />
+{{- else if not .Date.IsZero }}
+<meta property="article:published_time" content="{{ .Date.Format "2006-01-02T15:04:05-07:00" }}" />
+{{- end }}
+{{- if not .Lastmod.IsZero }}
+<meta property="article:modified_time" content="{{ .Lastmod.Format "2006-01-02T15:04:05-07:00" }}" />
+{{- end }}
+{{- end }}

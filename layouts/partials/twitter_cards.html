@@ -1,0 +1,28 @@
+{{- $title := .Title }}
+{{- $description := .Description | default .Site.Params.description }}
+
+{{- /* Image selection with fallback */ -}}
+{{- $cardImage := "" }}
+
+{{- if .Params.image }}
+  {{- /* Page-specific image from front matter */ -}}
+  {{- $img := resources.Get .Params.image }}
+  {{- if $img }}
+    {{- $resized := $img.Fill "1200x630" }}
+    {{- $cardImage = $resized.Permalink }}
+  {{- end }}
+{{- else if .Site.Params.ogImage }}
+  {{- /* Site default image */ -}}
+  {{- $img := resources.Get .Site.Params.ogImage }}
+  {{- if $img }}
+    {{- $resized := $img.Fill "1200x630" }}
+    {{- $cardImage = $resized.Permalink }}
+  {{- end }}
+{{- end }}
+
+<meta name="twitter:card" content="{{ if $cardImage }}summary_large_image{{ else }}summary{{ end }}" />
+<meta name="twitter:title" content="{{ $title }}" />
+<meta name="twitter:description" content="{{ $description }}" />
+{{- if $cardImage }}
+<meta name="twitter:image" content="{{ $cardImage }}" />
+{{- end }}
